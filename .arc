@@ -5,6 +5,7 @@ begin-app
 folder __sapper__/export
 
 @http
+get /
 
 @tables
 data
