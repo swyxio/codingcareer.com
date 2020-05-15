@@ -10,7 +10,7 @@
     "build": "echo build",
     "old1build": "sapper export --legacy",
     "//": "npm run build:tailwind && sapper export --legacy",
-    "postbuild": "rm -rf public/* && mv __sapper__/export/* public/",
+    "old1postbuild": "rm -rf public/* && mv __sapper__/export/* public/",
     "oldstart": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
