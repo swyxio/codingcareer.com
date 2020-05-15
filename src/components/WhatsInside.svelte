@@ -108,9 +108,7 @@
     <p>You can check out the full table of contents here:</p>
 
     <p>
-      <a href="/book/table-of-contents/">
-        Check out the full table of contents
-      </a>
+      <a href="/table-of-contents/">Check out the full table of contents</a>
     </p>
 
     <p>
