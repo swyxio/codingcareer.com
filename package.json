@@ -6,6 +6,7 @@
     "dev": "sapper dev",
     "oldbuild": "sapper build --legacy",
     "build": "sapper export --legacy",
+    "postbuild": "mv __sapper__/export/* public/",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
