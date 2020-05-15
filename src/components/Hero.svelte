@@ -5,16 +5,14 @@
     <div class="relative container mx-auto px-8">
       <div
         class="text-center md:text-left lg:hidden tracking-wide uppercase
-        text-indigo-faded font-bold text-lg mb-4 opacity-75">
-        Now available
+        text-indigo-500 font-bold text-lg mb-4 opacity-75">
+        Coming on June 1st
       </div>
       <h1
         class="relative lg:hidden font-semibold text-center md:text-left
         text-3xl md:text-4xl font-display leading-none mb-8">
-        <span class="md:block">Make your ideas look awesome,</span>
-        <span class="md:block text-indigo-700">
-          without relying on a designer.
-        </span>
+        <span class="md:block">You cracked the coding interview</span>
+        <span class="md:block text-indigo-700">Now what?</span>
       </h1>
       <div
         class="relative flex flex-wrap flex-col md:flex-row lg:items-center
@@ -22,102 +20,134 @@
         <div class="md:w-3/5 px-8">
           <div class="mb-12">
             <div
-              class="hidden lg:block tracking-wide uppercase text-indigo-faded
+              class="hidden lg:block tracking-wide uppercase text-indigo-500
               font-bold text-lg xl:text-xl mb-4 opacity-75">
-              Now available
+              Coming on June 1st
             </div>
             <h1
               class="hidden lg:block font-semibold text-left md:text-left
               text-3xl md:text-2xl lg:text-3xl xl:text-5xl font-display
               leading-none mb-6 xl:mb-8">
-              <span class="sm:block">Make your ideas look awesome,</span>
-              <span class="sm:block text-indigo-700">
-                without relying on a designer.
-              </span>
+              <span class="sm:block">You cracked the coding interview</span>
+              <span class="sm:block text-indigo-700">Now what?</span>
             </h1>
             <p
               class="text-xl text-center md:text-left md:text-lg lg:text-xl
               xl:text-2xl text-grey-700 leading-normal">
-              Learn how to design beautiful user interfaces by yourself using
-              specific tactics explained from a developer's point-of-view.
+              Get
+              <span class="font-semibold text-black">
+                Career Guides, Principles, Strategies and Tactics
+              </span>
+              to build an exceptional dev career!
             </p>
           </div>
           <div class="md:hidden px-8 pt-2 pb-4">
-            <img
-              src="https://refactoring-ui.nyc3.cdn.digitaloceanspaces.com/landing/book-cover-sm.png"
-              alt="" />
+            <img src="/CTCC-cover-1.png" alt="book cover" />
           </div>
 
-          <form
-            class="relative max-w-sm"
-            id="ck_subscribe_form"
-            action="https://app.convertkit.com/landing_pages/439908/subscribe"
-            data-remote="true">
-            <input
-              type="hidden"
-              name="id"
-              value="439908"
-              id="landing_page_id" />
-            <input
-              type="hidden"
-              name="ck_form_recaptcha"
-              value=""
-              id="ck_form_recaptcha" />
+          <div class="mt-8 overflow-hidden pb-8">
+            <dl class="-mx-8 -mt-8 flex flex-wrap justify-center">
+              <div class="flex flex-col px-8 pt-8">
+                <dt
+                  class="order-2 text-base leading-6 font-medium text-gray-600
+                  hover:text-indigo-600">
+                  Pages
+                </dt>
+                <dd
+                  class="order-1 text-2xl leading-8 font-extrabold
+                  text-indigo-600 sm:text-3xl sm:leading-9">
+                  200
+                </dd>
+              </div>
+              <div class="flex flex-col px-8 pt-8">
+                <dt
+                  class="order-2 text-base leading-6 font-medium text-gray-600
+                  hover:text-indigo-600">
+                  Chapters
+                </dt>
+                <dd
+                  class="order-1 text-2xl leading-8 font-extrabold
+                  text-indigo-600 sm:text-3xl sm:leading-9">
+                  38
+                </dd>
+              </div>
+              <div class="flex flex-col px-8 pt-8">
+                <dt
+                  class="order-2 text-base leading-6 font-medium text-gray-600
+                  hover:text-yellow-600">
+                  Complete
+                </dt>
+                <dd
+                  class="order-1 text-2xl leading-8 font-extrabold
+                  text-indigo-600 sm:text-3xl sm:leading-9">
+                  80%
+                </dd>
+              </div>
+            </dl>
+          </div>
+          <div class="relative max-w-md text-center md:text-left ">
             <span
               class="block text-grey-700 leading-normal text-center md:text-left
-              text-base xl:text-lg font-semibold mb-6">
-              Sign up for our newsletter to get
+              text-base xl:text-lg font-semibold mb-6 pb-6">
+              Sign up for my newsletter to get
               <span class="text-black font-bold">
-                two free chapter previews
+                exclusive prelaunch discounts
               </span>
-              on building color palettes and designing without labels.
+              before June 1!
             </span>
 
             <div class="sm:focus-within:shadow-outline rounded-lg">
-              <div
-                class="max-w-sm sm:flex sm:shadow sm:rounded-lg
-                sm:overflow-hidden">
-                <input
-                  type="email"
-                  id="ck_emailField"
-                  name="email"
-                  required=""
-                  placeholder="Enter your email"
-                  class="shadow sm:shadow-none block w-full rounded-lg
-                  focus:border-indigo border border-transparent
-                  sm:rounded-r-none mb-4 sm:mb-0 text-black sm:flex-1 px-6 py-4
-                  lg:py-5 focus:outline-none" />
-                <button
-                  id="ck_subscribe_button"
-                  class="text-sm shadow sm:shadow-none block w-full sm:w-auto
-                  rounded-lg sm:rounded-none focus:outline-none bg-indigo-500
-                  hover:bg-indigo-700 focus:bg-indigo-700 text-white text-shadow
-                  uppercase tracking-wide font-semibold px-6 py-4 lg:py-5">
-                  Get the previews
-                </button>
-              </div>
+              <a
+                href="https://gum.co/bAZJq"
+                class="text-sm shadow sm:shadow-none sm:w-auto rounded-lg
+                sm:rounded-none focus:outline-none bg-indigo-500
+                hover:bg-indigo-700 focus:bg-indigo-700 text-white text-shadow
+                uppercase tracking-wide font-semibold px-6 py-4 lg:py-5">
+                Sign up for newsletter
+              </a>
             </div>
-
             <div
-              id="ck_error_msg"
-              class="sm:absolute pin-x text-center md:text-left text-indigo-700
-              font-semibold mt-6 text-lg"
-              style="display: none;">
-              <p>Something went wrong, please try again.</p>
+              class="sm:focus-within:shadow-outline pt-12 hover:text-teal-700">
+              <a
+                href="https://twitter.com/coding_career"
+                class="text-sm shadow sm:shadow-none sm:w-auto rounded-lg
+                sm:rounded-none hover:text-teal-700 uppercase tracking-wide
+                font-semibold py-8 lg:py-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 400 400"
+                  class="h-6 w-6 inline pl-1">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #1da1f2;
+                      }
+                      .cls-2 {
+                        fill: currentColor;
+                      }
+                      .cls-3 {
+                        fill: none;
+                      }
+                    </style>
+                  </defs>
+                  <title>Twitter_Logo_White-on-Blue</title>
+                  <g id="Dark_Blue" data-name="Dark Blue">
+                    <rect class="cls-1" width="400" height="400" />
+                  </g>
+                  <g id="Logo_FIXED" data-name="Logo — FIXED">
+                    <path
+                      class="cls-2"
+                      d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23" />
+                    <rect class="cls-3" width="400" height="400" />
+                  </g>
+                </svg>
+                Follow #BehindtheScenes
+              </a>
             </div>
-          </form>
-          <div class="markdown text-lg mt-6 text-center md:text-left">
-            <p>
-              Or
-              <a href="#get-refactoring-ui">buy now</a>
-              if you're already convinced!
-            </p>
           </div>
         </div>
         <div class="hidden md:block md:w-2/5 px-8 pt-2 lg:pt-16">
-          <img
-            src="https://refactoring-ui.nyc3.cdn.digitaloceanspaces.com/landing/book-cover-sm.png"
-            alt="" />
+          <img src="/CTCC-cover-1.png" alt="book cover" />
         </div>
       </div>
     </div>

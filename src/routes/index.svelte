@@ -13,10 +13,10 @@
 </svelte:head>
 
 <Hero />
-<Why />
+<!-- <Why />
 <PullQuote />
 <WhatsInside />
 <PullQuote />
 <BuyNow />
 <PullQuote2 />
-<FAQ />
+<FAQ /> -->
