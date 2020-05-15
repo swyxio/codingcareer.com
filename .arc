@@ -2,6 +2,7 @@
 begin-app
 
 @static
+folder __sapper__/export
 
 @http
 
