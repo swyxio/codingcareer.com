@@ -116,7 +116,7 @@
               class="sm:focus-within:shadow-outline pt-12 hover:text-teal-700">
               <a
                 href="https://twitter.com/coding_career"
-                class="text-sm shadow sm:w-auto rounded-lg sm:rounded-none
+                class="text-sm sm:w-auto rounded-lg sm:rounded-none
                 hover:text-teal-700 uppercase tracking-wide font-semibold py-8
                 lg:py-5">
                 <svg
