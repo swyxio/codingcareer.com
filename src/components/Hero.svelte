@@ -11,8 +11,8 @@
       <h1
         class="relative lg:hidden font-semibold text-center md:text-left
         text-3xl md:text-4xl font-display leading-none mb-8">
-        <span class="md:block">You cracked the coding interview.</span>
-        <span class="md:block text-indigo-700">Now what?</span>
+        <span class="md:block text-indigo-700">The Missing Manual</span>
+        <span class="md:block">For Early Career Devs</span>
       </h1>
       <div
         class="relative flex flex-wrap flex-col md:flex-row lg:items-center
@@ -28,14 +28,21 @@
               class="hidden lg:block font-semibold text-left md:text-left
               text-3xl md:text-2xl lg:text-3xl xl:text-5xl font-display
               leading-none mb-6 xl:mb-8">
-              <span class="sm:block">You cracked the coding interview.</span>
-              <span class="sm:block text-indigo-700">Now what?</span>
+              <span class="md:block text-indigo-700">The Missing Manual</span>
+              <span class="md:block">For Early Career Devs</span>
             </h1>
             <p
               class="text-xl text-center md:text-left md:text-lg lg:text-xl
               xl:text-2xl text-grey-700 leading-normal">
+              You cracked the coding interview.
+              <span class="text-indigo-700">Now what?</span>
+            </p>
+
+            <p
+              class="text-xl text-center md:text-left md:text-lg lg:text-xl
+              xl:text-2xl text-grey-700 leading-normal">
               Get
-              <span class="font-semibold text-black">
+              <span class="font-semibold text-indigo-700">
                 Career Guides, Principles, Strategies & Tactics
               </span>
               to build an exceptional dev career!
