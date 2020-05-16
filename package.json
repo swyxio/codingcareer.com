@@ -7,8 +7,9 @@
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "oldbuild": "sapper build --legacy",
-    "build": "echo build",
-    "disabledbuild": "npm run build:tailwind && sapper export --legacy",
+    "silentbuild": "echo build",
+    "build": "npm run build:tailwind && sapper export --legacy",
+    "postbuild": "rm -rf public/* && mkdir public && mv __sapper__/export public",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "oldtest": "run-p --race dev cy:run"
