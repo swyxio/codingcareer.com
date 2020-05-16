@@ -1162,6 +1162,12 @@ video {
   color: rgba(129, 230, 217, var(--text-opacity));
 }
 
+.text-blue-700 {
+  --text-opacity: 1;
+  color: #2b6cb0;
+  color: rgba(43, 108, 176, var(--text-opacity));
+}
+
 .text-indigo-500 {
   --text-opacity: 1;
   color: #667eea;
@@ -1196,6 +1202,12 @@ video {
   --text-opacity: 1;
   color: #5a67d8;
   color: rgba(90, 103, 216, var(--text-opacity));
+}
+
+.hover\:text-indigo-900:hover {
+  --text-opacity: 1;
+  color: #3c366b;
+  color: rgba(60, 54, 107, var(--text-opacity));
 }
 
 .italic {
@@ -1365,6 +1377,10 @@ video {
 
   .md\:text-6xl {
     font-size: 4rem;
+  }
+
+  .md\:max-w-sm {
+    max-width: 24rem;
   }
 
   .md\:text-left {

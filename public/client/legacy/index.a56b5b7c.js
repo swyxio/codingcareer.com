@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as svg_element, j as claim_element, k as children, l as detach_dev, m as claim_space, n as claim_text, o as attr_dev, p as add_location, q as insert_dev, r as append_dev, u as noop, w as create_component, x as query_selector_all, y as claim_component, z as mount_component, A as transition_in, B as transition_out, C as destroy_component } from './client.bbfe3300.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as svg_element, j as claim_element, k as children, l as detach_dev, m as claim_space, n as claim_text, o as attr_dev, p as add_location, q as insert_dev, r as append_dev, u as noop, w as create_component, x as query_selector_all, y as claim_component, z as mount_component, A as transition_in, B as transition_out, C as destroy_component } from './client.b88d3a63.js';
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -69,30 +69,32 @@ function create_fragment(ctx) {
   var t29;
   var div11;
   var span6;
+  var a0;
   var t30;
-  var span5;
   var t31;
+  var span5;
   var t32;
   var t33;
-  var div9;
-  var a0;
   var t34;
-  var t35;
-  var div10;
+  var div9;
   var a1;
+  var t35;
+  var t36;
+  var div10;
+  var a2;
   var svg;
   var defs;
   var style;
-  var t36;
-  var title;
   var t37;
+  var title;
+  var t38;
   var g0;
   var rect0;
   var g1;
   var path;
   var rect1;
-  var t38;
   var t39;
+  var t40;
   var div13;
   var img1;
   var img1_src_value;
@@ -160,30 +162,32 @@ function create_fragment(ctx) {
       t29 = space();
       div11 = element("div");
       span6 = element("span");
-      t30 = text("Sign up for my newsletter to get\n              ");
-      span5 = element("span");
-      t31 = text("exclusive prelaunch discounts");
-      t32 = text("\n              before June 1!");
-      t33 = space();
-      div9 = element("div");
       a0 = element("a");
-      t34 = text("Sign up for newsletter");
-      t35 = space();
-      div10 = element("div");
+      t30 = text("Get on my mailing list");
+      t31 = text("\n              to get\n              ");
+      span5 = element("span");
+      t32 = text("exclusive prelaunch discounts");
+      t33 = text("\n              before June 1!");
+      t34 = space();
+      div9 = element("div");
       a1 = element("a");
+      t35 = text("See Table of Contents");
+      t36 = space();
+      div10 = element("div");
+      a2 = element("a");
       svg = svg_element("svg");
       defs = svg_element("defs");
       style = svg_element("style");
-      t36 = text(".cls-1 {\n                        fill: #1da1f2;\n                      }\n                      .cls-2 {\n                        fill: currentColor;\n                      }\n                      .cls-3 {\n                        fill: none;\n                      }\n                    ");
+      t37 = text(".cls-1 {\n                        fill: #1da1f2;\n                      }\n                      .cls-2 {\n                        fill: currentColor;\n                      }\n                      .cls-3 {\n                        fill: none;\n                      }\n                    ");
       title = svg_element("title");
-      t37 = text("Twitter_Logo_White-on-Blue");
+      t38 = text("Twitter_Logo_White-on-Blue");
       g0 = svg_element("g");
       rect0 = svg_element("rect");
       g1 = svg_element("g");
       path = svg_element("path");
       rect1 = svg_element("rect");
-      t38 = text("\n                Follow #BehindtheScenes");
-      t39 = space();
+      t39 = text("\n                Follow #BehindtheScenes");
+      t40 = space();
       div13 = element("div");
       img1 = element("img");
       this.h();
@@ -369,39 +373,46 @@ function create_fragment(ctx) {
         class: true
       });
       var span6_nodes = children(span6);
-      t30 = claim_text(span6_nodes, "Sign up for my newsletter to get\n              ");
-      span5 = claim_element(span6_nodes, "SPAN", {
-        class: true
-      });
-      var span5_nodes = children(span5);
-      t31 = claim_text(span5_nodes, "exclusive prelaunch discounts");
-      span5_nodes.forEach(detach_dev);
-      t32 = claim_text(span6_nodes, "\n              before June 1!");
-      span6_nodes.forEach(detach_dev);
-      t33 = claim_space(div11_nodes);
-      div9 = claim_element(div11_nodes, "DIV", {
-        class: true
-      });
-      var div9_nodes = children(div9);
-      a0 = claim_element(div9_nodes, "A", {
+      a0 = claim_element(span6_nodes, "A", {
         href: true,
         class: true
       });
       var a0_nodes = children(a0);
-      t34 = claim_text(a0_nodes, "Sign up for newsletter");
+      t30 = claim_text(a0_nodes, "Get on my mailing list");
       a0_nodes.forEach(detach_dev);
-      div9_nodes.forEach(detach_dev);
-      t35 = claim_space(div11_nodes);
-      div10 = claim_element(div11_nodes, "DIV", {
+      t31 = claim_text(span6_nodes, "\n              to get\n              ");
+      span5 = claim_element(span6_nodes, "SPAN", {
         class: true
       });
-      var div10_nodes = children(div10);
-      a1 = claim_element(div10_nodes, "A", {
+      var span5_nodes = children(span5);
+      t32 = claim_text(span5_nodes, "exclusive prelaunch discounts");
+      span5_nodes.forEach(detach_dev);
+      t33 = claim_text(span6_nodes, "\n              before June 1!");
+      span6_nodes.forEach(detach_dev);
+      t34 = claim_space(div11_nodes);
+      div9 = claim_element(div11_nodes, "DIV", {
+        class: true
+      });
+      var div9_nodes = children(div9);
+      a1 = claim_element(div9_nodes, "A", {
         href: true,
         class: true
       });
       var a1_nodes = children(a1);
-      svg = claim_element(a1_nodes, "svg", {
+      t35 = claim_text(a1_nodes, "See Table of Contents");
+      a1_nodes.forEach(detach_dev);
+      div9_nodes.forEach(detach_dev);
+      t36 = claim_space(div11_nodes);
+      div10 = claim_element(div11_nodes, "DIV", {
+        class: true
+      });
+      var div10_nodes = children(div10);
+      a2 = claim_element(div10_nodes, "A", {
+        href: true,
+        class: true
+      });
+      var a2_nodes = children(a2);
+      svg = claim_element(a2_nodes, "svg", {
         xmlns: true,
         viewBox: true,
         class: true
@@ -411,12 +422,12 @@ function create_fragment(ctx) {
       var defs_nodes = children(defs);
       style = claim_element(defs_nodes, "style", {}, 1);
       var style_nodes = children(style);
-      t36 = claim_text(style_nodes, ".cls-1 {\n                        fill: #1da1f2;\n                      }\n                      .cls-2 {\n                        fill: currentColor;\n                      }\n                      .cls-3 {\n                        fill: none;\n                      }\n                    ");
+      t37 = claim_text(style_nodes, ".cls-1 {\n                        fill: #1da1f2;\n                      }\n                      .cls-2 {\n                        fill: currentColor;\n                      }\n                      .cls-3 {\n                        fill: none;\n                      }\n                    ");
       style_nodes.forEach(detach_dev);
       defs_nodes.forEach(detach_dev);
       title = claim_element(svg_nodes, "title", {}, 1);
       var title_nodes = children(title);
-      t37 = claim_text(title_nodes, "Twitter_Logo_White-on-Blue");
+      t38 = claim_text(title_nodes, "Twitter_Logo_White-on-Blue");
       title_nodes.forEach(detach_dev);
       g0 = claim_element(svg_nodes, "g", {
         id: true,
@@ -448,12 +459,12 @@ function create_fragment(ctx) {
       children(rect1).forEach(detach_dev);
       g1_nodes.forEach(detach_dev);
       svg_nodes.forEach(detach_dev);
-      t38 = claim_text(a1_nodes, "\n                Follow #BehindtheScenes");
-      a1_nodes.forEach(detach_dev);
+      t39 = claim_text(a2_nodes, "\n                Follow #BehindtheScenes");
+      a2_nodes.forEach(detach_dev);
       div10_nodes.forEach(detach_dev);
       div11_nodes.forEach(detach_dev);
       div12_nodes.forEach(detach_dev);
-      t39 = claim_space(div14_nodes);
+      t40 = claim_space(div14_nodes);
       div13 = claim_element(div14_nodes, "DIV", {
         class: true
       });
@@ -501,74 +512,77 @@ function create_fragment(ctx) {
       attr_dev(div4, "class", "md:hidden px-8 pt-2 pb-4");
       add_location(div4, file, 43, 10, 1872);
       attr_dev(dt0, "class", "order-2 text-base leading-6 font-medium text-gray-600\n                  hover:text-indigo-600");
-      add_location(dt0, file, 50, 16, 2175);
+      add_location(dt0, file, 50, 16, 2187);
       attr_dev(dd0, "class", "order-1 text-2xl leading-8 font-extrabold\n                  text-indigo-600 sm:text-3xl sm:leading-9");
-      add_location(dd0, file, 55, 16, 2362);
+      add_location(dd0, file, 55, 16, 2374);
       attr_dev(div5, "class", "flex flex-col px-8 pt-8");
-      add_location(div5, file, 49, 14, 2121);
+      add_location(div5, file, 49, 14, 2133);
       attr_dev(dt1, "class", "order-2 text-base leading-6 font-medium text-gray-600\n                  hover:text-indigo-600");
-      add_location(dt1, file, 62, 16, 2627);
+      add_location(dt1, file, 62, 16, 2639);
       attr_dev(dd1, "class", "order-1 text-2xl leading-8 font-extrabold\n                  text-indigo-600 sm:text-3xl sm:leading-9");
-      add_location(dd1, file, 67, 16, 2817);
+      add_location(dd1, file, 67, 16, 2829);
       attr_dev(div6, "class", "flex flex-col px-8 pt-8");
-      add_location(div6, file, 61, 14, 2573);
+      add_location(div6, file, 61, 14, 2585);
       attr_dev(dt2, "class", "order-2 text-base leading-6 font-medium text-gray-600\n                  hover:text-yellow-600");
-      add_location(dt2, file, 74, 16, 3081);
+      add_location(dt2, file, 74, 16, 3093);
       attr_dev(dd2, "class", "order-1 text-2xl leading-8 font-extrabold\n                  text-indigo-600 sm:text-3xl sm:leading-9");
-      add_location(dd2, file, 79, 16, 3271);
+      add_location(dd2, file, 79, 16, 3283);
       attr_dev(div7, "class", "flex flex-col px-8 pt-8");
-      add_location(div7, file, 73, 14, 3027);
+      add_location(div7, file, 73, 14, 3039);
       attr_dev(dl, "class", "-mx-8 -mt-8 flex flex-wrap justify-center");
-      add_location(dl, file, 48, 12, 2052);
-      attr_dev(div8, "class", "mt-8 overflow-hidden pb-8");
+      add_location(dl, file, 48, 12, 2064);
+      attr_dev(div8, "class", "mt-8 overflow-hidden pb-8 text-center");
       add_location(div8, file, 47, 10, 2000);
+      attr_dev(a0, "href", "https://tinyletter.com/swyx");
+      attr_dev(a0, "class", "underline font-semibold text-blue-700\n                hover:text-indigo-900");
+      add_location(a0, file, 91, 14, 3760);
       attr_dev(span5, "class", "text-black font-bold");
-      add_location(span5, file, 92, 14, 3792);
+      add_location(span5, file, 98, 14, 4008);
       attr_dev(span6, "class", "block text-grey-700 leading-normal text-center md:text-left\n              text-base xl:text-lg font-semibold mb-6 pb-6");
-      add_location(span6, file, 88, 12, 3583);
-      attr_dev(a0, "href", "https://gum.co/bAZJq");
-      attr_dev(a0, "class", "text-sm shadow sm:shadow-none sm:w-auto rounded-lg\n                sm:rounded-none focus:outline-none bg-indigo-500\n                hover:bg-indigo-700 focus:bg-indigo-700 text-white text-shadow\n                uppercase tracking-wide font-semibold px-6 py-4 lg:py-5");
-      add_location(a0, file, 99, 14, 4028);
+      add_location(span6, file, 88, 12, 3598);
+      attr_dev(a1, "href", "https://gum.co/bAZJq");
+      attr_dev(a1, "class", "text-sm shadow sm:shadow-none sm:w-auto rounded-lg\n                sm:rounded-none focus:outline-none bg-indigo-500\n                hover:bg-indigo-700 focus:bg-indigo-700 text-white text-shadow\n                uppercase tracking-wide font-semibold px-6 py-4 lg:py-5");
+      add_location(a1, file, 105, 14, 4244);
       attr_dev(div9, "class", "sm:focus-within:shadow-outline rounded-lg");
-      add_location(div9, file, 98, 12, 3958);
-      add_location(style, file, 120, 20, 5016);
-      add_location(defs, file, 119, 18, 4989);
-      add_location(title, file, 132, 18, 5381);
+      add_location(div9, file, 104, 12, 4174);
+      add_location(style, file, 126, 20, 5231);
+      add_location(defs, file, 125, 18, 5204);
+      add_location(title, file, 138, 18, 5596);
       attr_dev(rect0, "class", "cls-1");
       attr_dev(rect0, "width", "400");
       attr_dev(rect0, "height", "400");
-      add_location(rect0, file, 134, 20, 5502);
+      add_location(rect0, file, 140, 20, 5717);
       attr_dev(g0, "id", "Dark_Blue");
       attr_dev(g0, "data-name", "Dark Blue");
-      add_location(g0, file, 133, 18, 5441);
+      add_location(g0, file, 139, 18, 5656);
       attr_dev(path, "class", "cls-2");
       attr_dev(path, "d", "M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23");
-      add_location(path, file, 137, 20, 5656);
+      add_location(path, file, 143, 20, 5871);
       attr_dev(rect1, "class", "cls-3");
       attr_dev(rect1, "width", "400");
       attr_dev(rect1, "height", "400");
-      add_location(rect1, file, 140, 20, 6256);
+      add_location(rect1, file, 146, 20, 6471);
       attr_dev(g1, "id", "Logo_FIXED");
       attr_dev(g1, "data-name", "Logo — FIXED");
-      add_location(g1, file, 136, 18, 5591);
+      add_location(g1, file, 142, 18, 5806);
       attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
       attr_dev(svg, "viewBox", "0 0 400 400");
       attr_dev(svg, "class", "h-6 w-6 inline pl-1");
-      add_location(svg, file, 115, 16, 4826);
-      attr_dev(a1, "href", "https://twitter.com/coding_career");
-      attr_dev(a1, "class", "text-sm shadow sm:shadow-none sm:w-auto rounded-lg\n                sm:rounded-none hover:text-teal-700 uppercase tracking-wide\n                font-semibold py-8 lg:py-5");
-      add_location(a1, file, 110, 14, 4555);
+      add_location(svg, file, 121, 16, 5041);
+      attr_dev(a2, "href", "https://twitter.com/coding_career");
+      attr_dev(a2, "class", "text-sm shadow sm:shadow-none sm:w-auto rounded-lg\n                sm:rounded-none hover:text-teal-700 uppercase tracking-wide\n                font-semibold py-8 lg:py-5");
+      add_location(a2, file, 116, 14, 4770);
       attr_dev(div10, "class", "sm:focus-within:shadow-outline pt-12 hover:text-teal-700");
-      add_location(div10, file, 108, 12, 4456);
-      attr_dev(div11, "class", "relative max-w-md text-center md:text-left ");
-      add_location(div11, file, 87, 10, 3513);
+      add_location(div10, file, 114, 12, 4671);
+      attr_dev(div11, "class", "relative md:max-w-sm text-center md:text-left ");
+      add_location(div11, file, 87, 10, 3525);
       attr_dev(div12, "class", "md:w-3/5 px-8");
       add_location(div12, file, 19, 8, 838);
       if (img1.src !== (img1_src_value = "/CTCC-cover-1.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "book cover");
-      add_location(img1, file, 149, 10, 6536);
+      add_location(img1, file, 155, 10, 6751);
       attr_dev(div13, "class", "hidden md:block md:w-2/5 px-8 pt-2 lg:pt-16");
-      add_location(div13, file, 148, 8, 6468);
+      add_location(div13, file, 154, 8, 6683);
       attr_dev(div14, "class", "relative flex flex-wrap flex-col md:flex-row lg:items-center\n        -mx-8");
       add_location(div14, file, 16, 6, 733);
       attr_dev(div15, "class", "relative container mx-auto px-8");
@@ -640,30 +654,32 @@ function create_fragment(ctx) {
       append_dev(div12, t29);
       append_dev(div12, div11);
       append_dev(div11, span6);
-      append_dev(span6, t30);
+      append_dev(span6, a0);
+      append_dev(a0, t30);
+      append_dev(span6, t31);
       append_dev(span6, span5);
-      append_dev(span5, t31);
-      append_dev(span6, t32);
-      append_dev(div11, t33);
+      append_dev(span5, t32);
+      append_dev(span6, t33);
+      append_dev(div11, t34);
       append_dev(div11, div9);
-      append_dev(div9, a0);
-      append_dev(a0, t34);
-      append_dev(div11, t35);
+      append_dev(div9, a1);
+      append_dev(a1, t35);
+      append_dev(div11, t36);
       append_dev(div11, div10);
-      append_dev(div10, a1);
-      append_dev(a1, svg);
+      append_dev(div10, a2);
+      append_dev(a2, svg);
       append_dev(svg, defs);
       append_dev(defs, style);
-      append_dev(style, t36);
+      append_dev(style, t37);
       append_dev(svg, title);
-      append_dev(title, t37);
+      append_dev(title, t38);
       append_dev(svg, g0);
       append_dev(g0, rect0);
       append_dev(svg, g1);
       append_dev(g1, path);
       append_dev(g1, rect1);
-      append_dev(a1, t38);
-      append_dev(div14, t39);
+      append_dev(a2, t39);
+      append_dev(div14, t40);
       append_dev(div14, div13);
       append_dev(div13, img1);
     },

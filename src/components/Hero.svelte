@@ -45,7 +45,7 @@
             <img src="/CTCC-cover-1.png" alt="book cover" />
           </div>
 
-          <div class="mt-8 overflow-hidden pb-8">
+          <div class="mt-8 overflow-hidden pb-8 text-center">
             <dl class="-mx-8 -mt-8 flex flex-wrap justify-center">
               <div class="flex flex-col px-8 pt-8">
                 <dt
@@ -85,11 +85,17 @@
               </div>
             </dl>
           </div>
-          <div class="relative max-w-md text-center md:text-left ">
+          <div class="relative md:max-w-sm text-center md:text-left ">
             <span
               class="block text-grey-700 leading-normal text-center md:text-left
               text-base xl:text-lg font-semibold mb-6 pb-6">
-              Sign up for my newsletter to get
+              <a
+                href="https://tinyletter.com/swyx"
+                class="underline font-semibold text-blue-700
+                hover:text-indigo-900">
+                Get on my mailing list
+              </a>
+              to get
               <span class="text-black font-bold">
                 exclusive prelaunch discounts
               </span>
@@ -103,7 +109,7 @@
                 sm:rounded-none focus:outline-none bg-indigo-500
                 hover:bg-indigo-700 focus:bg-indigo-700 text-white text-shadow
                 uppercase tracking-wide font-semibold px-6 py-4 lg:py-5">
-                Sign up for newsletter
+                See Table of Contents
               </a>
             </div>
             <div
