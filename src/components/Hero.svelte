@@ -36,7 +36,7 @@
               xl:text-2xl text-grey-700 leading-normal">
               Get
               <span class="font-semibold text-black">
-                Career Guides, Principles, Strategies and Tactics
+                Career Guides, Principles, Strategies & Tactics
               </span>
               to build an exceptional dev career!
             </p>
