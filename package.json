@@ -9,7 +9,7 @@
     "oldbuild": "sapper build --legacy",
     "echobuild": "echo build",
     "build": "npm run build:tailwind && sapper export --legacy",
-    "postbuild": "rm -rf public && mkdir public && mv __sapper__/export/* public/",
+    "//postbuild": "rm -rf public && mkdir public && mv __sapper__/export/* public/",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "oldtest": "run-p --race dev cy:run"
@@ -20,7 +20,7 @@
     "sirv": "^0.4.0"
   },
   "devDependencies": {
-    "@architect/sandbox": "^1.9.6",
+    "@architect/sandbox": "^1.10.0",
     "@babel/core": "^7.0.0",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/plugin-transform-runtime": "^7.0.0",

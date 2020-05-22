@@ -2,10 +2,7 @@
 begin-app
 
 @static
-folder public
-
-@http
-get /
+folder __sapper__/export
 
 @tables
 data
