@@ -19,7 +19,7 @@
 
   </script>
   <a
-    href="https://www.crackingthecodingcareer.com/cracking-the-coding-career"
+    href="https://swyx.podia.com/cracking-the-coding-career"
     data-podia-embed="card">
     Cracking the Coding Career
   </a>
