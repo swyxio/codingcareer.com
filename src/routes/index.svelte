@@ -13,6 +13,17 @@
 </svelte:head>
 
 <Hero />
+<div>
+  <h1>potato</h1>
+  <script src="https://cdn.podia.com/embeds.js" async="async">
+
+  </script>
+  <a
+    href="https://www.crackingthecodingcareer.com/cracking-the-coding-career"
+    data-podia-embed="card">
+    Cracking the Coding Career
+  </a>
+</div>
 <!-- <Why />
 <PullQuote />
 <WhatsInside />
