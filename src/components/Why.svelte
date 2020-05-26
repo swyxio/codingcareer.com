@@ -6,30 +6,25 @@
     <div class="relative">
 
       <h2
-        class="max-w-sm mx-auto text-center text-black text-4xl font-display
+        class="max-w-sm mx-auto text-center text-black text-4xl font-semibold
         font-semibold leading-tight mb-10">
-        “I know this looks terrible, but I have no idea why.”
+        The code will always be the easiest part of a coding career.
       </h2>
 
-      <p class="mb-6">
+      <!-- <p class="mb-6">
         Hi! I'm
         <a
           class="text-black font-semibold underline"
           href="https://twitter.com/swyx">
-          My Name
+          swyx
         </a>
-        , a full stack developer who used to suck at design.
-      </p>
+        , a senior developer who changed careers at age 30.
+      </p> -->
 
-      <p class="mb-6">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-        modi. Dolore dolor blanditiis exercitationem ullam, eum explicabo
-        voluptatum eaque suscipit minus qui aspernatur incidunt molestias minima
-        ducimus veritatis asperiores modi.
-      </p>
+      <p class="mb-6">If you look at the career advice books out there</p>
 
       <h2
-        class="text-black text-3xl font-display font-semibold leading-tight
+        class="text-black text-3xl font-semibold font-semibold leading-tight
         mt-12 mb-6">
         Design with tactics, not talent.
       </h2>
@@ -65,7 +60,7 @@
       </p>
 
       <h2
-        class="text-black text-3xl font-display font-semibold leading-tight
+        class="text-black text-3xl font-semibold font-semibold leading-tight
         mt-12 mb-6">
         Most design courses are missing the mark.
       </h2>
@@ -104,7 +99,7 @@
       </p>
 
       <div class="relative text-center my-16 lg:-mx-4">
-        <figure class="font-display">
+        <figure class="font-semibold">
           <blockquote class="text-black relative text-2xl mx-auto italic mb-4">
             “Please tell me you’re going to write a book with all your tips
             someday? I’d give you my money in a heartbeat.”

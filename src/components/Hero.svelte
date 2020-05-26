@@ -10,7 +10,7 @@
       </div>
       <h1
         class="relative lg:hidden font-semibold text-center md:text-left
-        text-3xl md:text-4xl font-display leading-none mb-8">
+        text-3xl md:text-4xl font-semibold leading-none mb-8">
         <span class="md:block text-indigo-700">The Missing Manual</span>
         <span class="md:block">For Early Career Devs</span>
       </h1>
@@ -26,7 +26,7 @@
             </div>
             <h1
               class="hidden lg:block font-semibold text-left md:text-left
-              text-3xl md:text-2xl lg:text-3xl xl:text-5xl font-display
+              text-3xl md:text-2xl lg:text-3xl xl:text-5xl font-semibold
               leading-none mb-6 xl:mb-8">
               <span class="md:block text-indigo-700">The Missing Manual</span>
               <span class="md:block">For Early Career Devs</span>
@@ -63,7 +63,7 @@
                 <dd
                   class="order-1 text-2xl leading-8 font-extrabold
                   text-indigo-600 sm:text-3xl sm:leading-9">
-                  200
+                  450
                 </dd>
               </div>
               <div class="flex flex-col px-8 pt-8">
@@ -75,7 +75,7 @@
                 <dd
                   class="order-1 text-2xl leading-8 font-extrabold
                   text-indigo-600 sm:text-3xl sm:leading-9">
-                  38
+                  40
                 </dd>
               </div>
               <div class="flex flex-col px-8 pt-8">
@@ -85,9 +85,9 @@
                   Complete
                 </dt>
                 <dd
-                  class="order-1 text-2xl leading-8 font-extrabold
-                  text-indigo-600 sm:text-3xl sm:leading-9">
-                  80%
+                  class="order-1 text-2xl leading-8 font-extrabold text-red-600
+                  sm:text-3xl sm:leading-9">
+                  100%
                 </dd>
               </div>
             </dl>

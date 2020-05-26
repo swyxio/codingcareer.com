@@ -4,12 +4,12 @@
       <div class="rounded-full p-1.5 border-2">
         <img
           class="rounded-full block"
-          src="https://refactoring-ui.nyc3.cdn.digitaloceanspaces.com/landing/erik-kennedy.jpg"
+          src="https://pbs.twimg.com/profile_images/1258093828898086913/NFjDtBFj_400x400.jpg"
           alt="" />
       </div>
     </div>
     <div class="relative text-center">
-      <figure class="font-display">
+      <figure class="font-semibold">
         <blockquote
           class="relative text-2xl sm:text-3xl mx-auto italic mb-4 px-12
           sm:px-16">
@@ -28,7 +28,9 @@
                 fill-rule="evenodd" />
             </svg>
           </div>
-          I’d put money on it: will be the best UI design book ever written.
+          It’s definitely the book that I would have loved to have when I
+          started out and anyone from a newbie to senior would get a ton of
+          value from it.
           <div class="absolute bottom-0 right-0 mb-5 pr-2">
             <svg
               class="h-8 w-8 sm:h-12 sm:w-12"
@@ -48,9 +50,9 @@
         <figcaption
           class="uppercase text-indigo-700 tracking-wide font-bold text-lg">
           <a
-            href="https://twitter.com/erikdkennedy/status/1001836296501805056"
+            href="https://twitter.com/RandallKanna"
             class="text-indigo-700 hover:text-indigo no-underline">
-            Erik Kennedy
+            Randall Kanna
           </a>
         </figcaption>
       </figure>

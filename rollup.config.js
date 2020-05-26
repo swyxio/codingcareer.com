@@ -35,7 +35,10 @@ export default {
         dev,
         hydratable: true,
         emitCss: true,
-        preprocess: mdsvex(),
+        extensions: [".svelte", ".svx"],
+        preprocess: mdsvex({
+          layout: "./src/layoutcomponents/_layout.svelte",
+        }),
         // preprocess: autoPreprocess({
         //   /** https://github.com/kaisermann/svelte-preprocess/#user-content-options */
         //   postcss: {},
@@ -93,7 +96,10 @@ export default {
       }),
       svelte({
         generate: "ssr",
-        preprocess: mdsvex(),
+        extensions: [".svelte", ".svx"],
+        preprocess: mdsvex({
+          layout: "./src/layoutcomponents/_layout.svelte",
+        }),
         dev,
       }),
       resolve({
