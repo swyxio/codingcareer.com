@@ -1,14 +1,13 @@
 <script>
   import Hero from "../components/Hero.svelte";
-  import Why from "../components/Why.svelte";
-  import Test from "../components/Test.svx";
+  import Why from "../components/Why.svx";
   import PullQuote from "../components/PullQuote.svelte";
   import WhatsInside from "../components/WhatsInside.svelte";
   import PullQuote2 from "../components/PullQuote2.svelte";
   import BuyNow from "../components/BuyNow.svelte";
   import FAQ from "../components/FAQ.svelte";
 
-  let showdeal = true;
+  let showdeal = false;
   const flipdeal = () => (showdeal = !showdeal);
 </script>
 
@@ -17,15 +16,15 @@
 </svelte:head>
 
 <Hero />
-<Test />
 <Why />
 <PullQuote />
-<!-- <WhatsInside /> -->
-<!-- <PullQuote /> -->
+<WhatsInside />
+<PullQuote />
 <BuyNow />
 <PullQuote2 />
 <FAQ />
 
+<!-- floater -->
 <div class="fixed bottom-0 inset-x-0 pb-2 sm:pb-5">
   <div class="max-w-screen-xl mx-auto px-2 sm:px-6 lg:px-8">
     <div

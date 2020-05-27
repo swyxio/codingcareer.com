@@ -1,0 +1,14 @@
+<h2
+  class="max-w-sm mx-auto text-center text-black text-4xl font-semibold
+  font-semibold leading-tight mb-10">
+  The code will always be the easiest part of a coding career.
+</h2>
+
+If you survey career advice books for developers, you will see a lot of books in four major categories:
+
+- Learning to Code
+- Acing your Technical Interview
+- Becoming an Engineering Manager
+- Quitting your job to start a startup
+
+But there is **so much else** to building a great dev career!
