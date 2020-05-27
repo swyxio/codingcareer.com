@@ -3,8 +3,9 @@
   import h2 from "./H2.svelte";
   import p from "./P.svelte";
   import a from "./A.svelte";
+  import ul from "./UL.svelte";
   import strong from "./Strong.svelte";
-  export { h1, h2, p, a, strong };
+  export { h1, h2, p, a, strong, ul };
 </script>
 
 <!-- <div class="relative container mx-auto px-8"> -->
