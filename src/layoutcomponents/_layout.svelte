@@ -9,10 +9,10 @@
 </script>
 
 <!-- <div class="relative container mx-auto px-8"> -->
-<div
+<!-- <div
   class="relative max-w-screen-md mx-auto px-8 pt-16 text-xl text-gray-700
-  leading-normal">
-  <slot>
-    <!-- the mdsvex content will be slotted in here -->
-  </slot>
-</div>
+  leading-normal"> -->
+<slot>
+  <!-- the mdsvex content will be slotted in here -->
+</slot>
+<!-- </div> -->

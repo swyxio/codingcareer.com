@@ -21,3 +21,26 @@ b,
 strong {
   font-weight: bolder;
 }
+
+body {
+  background: linear-gradient(270deg, #4228aa, #aa5d28);
+  background-size: 400% 400%;
+
+  -webkit-animation: bganimation 24s ease infinite;
+  -moz-animation: bganimation 24s ease infinite;
+  animation: bganimation 24s ease infinite;
+
+  transition: all 0.5s ease;
+}
+
+@keyframes bganimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

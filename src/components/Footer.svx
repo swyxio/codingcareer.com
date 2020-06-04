@@ -1,0 +1,18 @@
+<style>
+  footer {
+    color: #eee;
+    padding: 1em;
+  }
+  :global(footer a:visited, footer a) {
+    color: cyan;
+  }
+
+</style>
+
+<footer class="row flex-center">
+
+Powered by [Podia (affiliate link)](https://www.podia.com/?via=shawn-wang). Built with
+[Svelte](https://svelte.dev/), [Begin](https://begin.com/), and
+[PaperCSS](http://getpapercss.com/).
+
+</footer>

@@ -1,5 +1,6 @@
 <script>
   import Hero from "../components/Hero.svelte";
+  import Footer from "../components/Footer.svx";
   // import Why from "../components/Why.svx";
   // import PullQuote from "../components/PullQuote.svelte";
   // import WhatsInside from "../components/WhatsInside.svelte";
@@ -28,6 +29,8 @@
 <BuyNow />
 <PullQuote2 />
 <FAQ /> -->
+
+<Footer />
 
 <!-- floater -->
 <!-- <div class="fixed bottom-0 inset-x-0 pb-2 sm:pb-5">
