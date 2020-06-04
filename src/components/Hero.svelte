@@ -1,6 +1,8 @@
 <style>
   img {
-    background-color: aquamarine;
+    background-color: var(--highlight-color);
+    transition: background-color 1s ease;
+    border-color: var(--text-color);
   }
   svg {
     height: 32px;
