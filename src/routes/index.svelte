@@ -12,6 +12,12 @@
   const flipdeal = () => (showdeal = !showdeal);
 </script>
 
+<style>
+  .paper {
+    border-radius: 10px;
+  }
+</style>
+
 <svelte:head>
   <title>Cracking the Coding Career</title>
 </svelte:head>

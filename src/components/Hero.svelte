@@ -43,7 +43,7 @@
         href="https://swyx.podia.com/cracking-the-coding-career"
         data-podia-embed="link"
         class="paper-btn">
-        Buy Pre-Launch Draft
+        Buy Pre-Launch
         <span class="btn-aside">
           <s>$59</s>
           <strong class="mar-l-sm">$39</strong>

@@ -4,7 +4,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "sapper dev",
+    "start": "run-p start:svelte start:sandbox",
+    "start:svelte": "sapper dev",
+    "start:sandbox": "sandbox",
     "build": "sapper export --legacy",
     "oldstart": "npm run watch:tailwind & sapper dev",
     "oldwatch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
@@ -18,7 +20,7 @@
     "sirv": "^0.4.0"
   },
   "devDependencies": {
-    "@architect/sandbox": "^1.10.0",
+    "@architect/sandbox": "^1.12.1",
     "@babel/core": "^7.0.0",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/plugin-transform-runtime": "^7.0.0",

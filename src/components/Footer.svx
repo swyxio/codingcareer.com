@@ -8,10 +8,26 @@
   }
 
 </style>
+<script>
+  let visits = 'loading'
+  import {onMount} from 'svelte'
+  onMount(() => {
+    let prefix = ''
+    if (window.location.hostname === "localhost") prefix = "http://localhost:3333"
+    fetch(prefix + '/visits').then(x =>x.json()).then(x => {
+      visits = x.visits
+    })
+  })
+  // setTimeout(() => {
+
+  // })
+  let message = ''
+  $: message = `You are visitor number ${visits}!`
+</script>
 
 <footer class="row flex-center">
 
-Powered by [Podia (affiliate link)](https://www.podia.com/?via=shawn-wang). Built with
+{message} Powered by [Podia (affiliate link)](https://www.podia.com/?via=shawn-wang). Built with
 [Svelte](https://svelte.dev/), [Begin](https://begin.com/), and
 [PaperCSS](http://getpapercss.com/).
 
