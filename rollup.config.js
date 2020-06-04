@@ -7,7 +7,6 @@ import babel from "rollup-plugin-babel";
 import { terser } from "rollup-plugin-terser";
 import config from "sapper/config/rollup.js";
 import pkg from "./package.json";
-import postcss from "rollup-plugin-postcss";
 import { mdsvex } from "mdsvex";
 
 const mode = process.env.NODE_ENV;
@@ -28,9 +27,6 @@ export default {
         "process.browser": true,
         "process.env.NODE_ENV": JSON.stringify(mode),
       }),
-      postcss({
-        extract: "static/utils.css",
-      }),
       svelte({
         dev,
         hydratable: true,
@@ -39,10 +35,6 @@ export default {
         preprocess: mdsvex({
           layout: "./src/layoutcomponents/_layout.svelte",
         }),
-        // preprocess: autoPreprocess({
-        //   /** https://github.com/kaisermann/svelte-preprocess/#user-content-options */
-        //   postcss: {},
-        // }),
       }),
       resolve({
         browser: true,
@@ -90,9 +82,6 @@ export default {
       replace({
         "process.browser": false,
         "process.env.NODE_ENV": JSON.stringify(mode),
-      }),
-      postcss({
-        extract: "static/utils.css",
       }),
       svelte({
         generate: "ssr",

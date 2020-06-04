@@ -13,8 +13,6 @@
 	}
 </style><Nav {segment}/> -->
 
-<main
-  class="font-sans text-black antialiased leading-tight bg-gray-200
-  vsc-initialized">
+<main class="row site">
   <slot />
 </main>

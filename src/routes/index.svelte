@@ -1,11 +1,11 @@
 <script>
   import Hero from "../components/Hero.svelte";
-  import Why from "../components/Why.svx";
-  import PullQuote from "../components/PullQuote.svelte";
-  import WhatsInside from "../components/WhatsInside.svelte";
-  import PullQuote2 from "../components/PullQuote2.svelte";
-  import BuyNow from "../components/BuyNow.svelte";
-  import FAQ from "../components/FAQ.svelte";
+  // import Why from "../components/Why.svx";
+  // import PullQuote from "../components/PullQuote.svelte";
+  // import WhatsInside from "../components/WhatsInside.svelte";
+  // import PullQuote2 from "../components/PullQuote2.svelte";
+  // import BuyNow from "../components/BuyNow.svelte";
+  // import FAQ from "../components/FAQ.svelte";
 
   let showdeal = false;
   const flipdeal = () => (showdeal = !showdeal);
@@ -15,17 +15,22 @@
   <title>Cracking the Coding Career</title>
 </svelte:head>
 
-<Hero />
-<Why />
+<div class="sm-0 md-2 col" />
+<div class="sm-12 md-8 col">
+  <div class="paper">
+    <Hero />
+  </div>
+</div>
+<!-- <Why />
 <PullQuote />
 <WhatsInside />
 <PullQuote />
 <BuyNow />
 <PullQuote2 />
-<FAQ />
+<FAQ /> -->
 
 <!-- floater -->
-<div class="fixed bottom-0 inset-x-0 pb-2 sm:pb-5">
+<!-- <div class="fixed bottom-0 inset-x-0 pb-2 sm:pb-5">
   <div class="max-w-screen-xl mx-auto px-2 sm:px-6 lg:px-8">
     <div
       class={'p-2 rounded-lg bg-indigo-600 shadow-lg sm:p-3 ' + (showdeal ? '' : 'inline-flex w-14 md:w-16')}>
@@ -105,4 +110,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
