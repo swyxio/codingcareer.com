@@ -12,7 +12,7 @@
   const flipdeal = () => (showdeal = !showdeal);
 
   let siteTheme = "light";
-  const toggleTheme = () => siteTheme = siteTheme === "light" ? "dark" : "light"
+  const toggleTheme = () => siteTheme = siteTheme === "light" ? "🦆" : "light"
 </script>
 
 <style>
@@ -37,16 +37,19 @@
     color: var(--text-color);
     border-color: var(--text-color);
   }
+  :global(.no-border) {
+    border: 0
+  } 
 </style>
 
 <svelte:head>
   <title>Cracking the Coding Career</title>
 </svelte:head>
 
-<main class="row site" class:darkMode={siteTheme === 'dark'}>
+<main class="row site" class:darkMode={siteTheme === '🦆'}>
   <div class="sm-0 md-2 col" />
   <div class="sm-12 md-8 col">
-    <div class="paper  border border-3 border-primary">
+    <div class="paper shadow border border-3 border-primary">
       <Hero />
     </div>
   </div>
