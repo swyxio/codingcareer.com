@@ -1,29 +1,142 @@
 <style>
-  img {
-    background-color: var(--highlight-color);
-    transition: background-color 1s ease;
-    border-color: var(--text-color);
+  @media (min-width: 992px) {
+    .promo {
+      padding-right: 3rem !important;
+    }
   }
-  svg {
-    height: 16px;
+  @media (min-width: 768px) {
+    .promo {
+      padding-right: 1rem !important;
+    }
   }
-  h1 {
-    font-size: 3.5rem;
+  @media (max-width: 992px) {
+    .headline {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+  @media (max-width: 992px) {
+    .subheadline {
+      font-size: 1.125rem;
+    }
+  }
+  .headline {
+    font-size: 2.5rem;
+    font-weight: bold;
   }
 
-  @media (max-width: 400px) {
-    h1 {
-      line-height: 0.75em;
-    }
+  .book-cover-holder {
+    position: relative;
   }
-  @media only screen and (max-width: 768px) {
-    .res-text-center {
-      text-align: center;
-    }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+  .quote {
+    position: relative;
+    border-left: 4px solid #f5a782;
+    font-style: italic;
+  }
+  .theme-bg-light {
+    background: #f6f8fc;
+  }
+  .p-4 {
+    padding: 1.5rem !important;
+  }
+  blockquote {
+    margin: 0 0 1rem;
   }
 </style>
 
-<div class="demo-title">
+<section>
+  <div class="container">
+    <div class=" row">
+      <div class="col-12 col-md-7 pt-5 mb-5 align-self-center">
+        <div class="promo pr-md-3 pr-lg-5">
+          <h1 class="headline mb-3">
+            Free Book &amp; eBook
+            <br />
+            Landing Page Template
+          </h1>
+          <!--//headline-->
+          <div class="subheadline mb-4">
+            A free Bootstrap 4 template for developers and programmers who want
+            to self-publish books. Download now and start selling your book
+            right away!
+          </div>
+          <!--//subheading-->
+
+          <div class="cta-holder">
+            <a
+              class="btn btn-primary mr-lg-2"
+              href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devbook-free-bootstrap-4-book-ebook-landing-page-template-for-developers/">
+              Buy for $20
+            </a>
+            <a class="btn btn-secondary scrollto" href="#benefits-section">
+              Learn More
+            </a>
+
+          </div>
+
+          <div class="hero-quotes mt-5">
+            <div
+              id="quotes-carousel"
+              class="quotes-carousel carousel slide carousel-fade mb-5"
+              data-ride="carousel"
+              data-interval="8000">
+
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <blockquote class="quote p-4 theme-bg-light">
+                    "Excellent Book! Add your book reviews here consectetur
+                    adipiscing elit. Aliquam euismod nunc porta urna facilisis
+                    tempor. Praesent mauris neque, viverra quis erat vitae,
+                    auctor imperdiet nisi."
+                  </blockquote>
+                  <!--//item-->
+                  <div
+                    class="source media flex-column flex-md-row
+                    align-items-center">
+                    <img
+                      class="source-profile mr-md-3"
+                      src="assets/images/profiles/profile-1.png"
+                      alt="" />
+                    <div
+                      class="source-info media-body text-center text-md-left">
+                      <div class="source-name">James Doe</div>
+                      <div class="soure-title">Co-Founder, Startup Week</div>
+                    </div>
+                  </div>
+                  <!--//source-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-5 mb-5 align-self-center">
+        <div class="book-cover-holder">
+          <img
+            class="img-fluid book-cover"
+            src="https://demos.onepagelove.com/html/devbook/assets/images/devbook-cover.png"
+            alt="book cover" />
+          <div class="book-badge d-inline-block shadow">
+            New
+            <br />
+            Release
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <div class="demo-title">
   <div class="row">
     <div class="sm-6 md-8 col row flex-center">
       <div class="res-text-center">
@@ -83,8 +196,7 @@
                 .cls-3 {
                   fill: none;
                 }
-              </style>
-            </defs>
+              </style>            </defs>
             <title>Twitter_Logo_White-on-Blue</title>
             <g id="Dark_Blue" data-name="Dark Blue">
               <rect class="cls-1" width="400" height="400" />
@@ -101,4 +213,4 @@
       </span>
     </li>
   </ul>
-</div>
+</div> -->
