@@ -24,7 +24,9 @@
     font-size: 2.5rem;
     font-weight: bold;
   }
-
+  .subheadline {
+    font-size: 1.25rem;
+  }
   .book-cover-holder {
     position: relative;
   }
@@ -32,6 +34,15 @@
     max-width: 100%;
     height: auto;
   }
+.hero-quotes .source {
+    vertical-align: middle;
+    color: #6f75a7;
+    font-size: 0.875rem;
+}
+.hero-quotes .source-profile {
+    width: 60px;
+    height: 60px;
+}
 
   img {
     vertical-align: middle;
@@ -104,7 +115,7 @@
                     align-items-center">
                     <img
                       class="source-profile mr-md-3"
-                      src="assets/images/profiles/profile-1.png"
+                      src="https://demos.onepagelove.com/html/devbook/assets/images/profiles/profile-3.png"
                       alt="" />
                     <div
                       class="source-info media-body text-center text-md-left">
@@ -125,10 +136,10 @@
             class="img-fluid book-cover"
             src="https://demos.onepagelove.com/html/devbook/assets/images/devbook-cover.png"
             alt="book cover" />
-          <div class="book-badge d-inline-block shadow">
-            New
-            <br />
-            Release
+          <div class="text-center">
+            <a class="theme-link scrollto" href="#reviews-section">
+              See all book reviews
+            </a>
           </div>
         </div>
       </div>

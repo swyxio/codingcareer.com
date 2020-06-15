@@ -1,6 +1,11 @@
 <script>
   import Hero from "../components/Hero.svelte";
+  import WhatsInside from "../components/WhatsInside.svelte";
+  import WhoFor from "../components/WhoFor.svelte";
   import Footer from "../components/Footer.svx";
+  import FreePreview from "../components/FreePreview.svelte";
+  import Reviews from "../components/Reviews.svelte";
+  import AboutMe from "../components/AboutMe.svelte";
   // import Why from "../components/Why.svx";
   // import PullQuote from "../components/PullQuote.svelte";
   // import WhatsInside from "../components/WhatsInside.svelte";
@@ -12,7 +17,8 @@
   const flipdeal = () => (showdeal = !showdeal);
 
   let siteTheme = "light";
-  const toggleTheme = () => siteTheme = siteTheme === "light" ? "🦆" : "light"
+  const toggleTheme = () =>
+    (siteTheme = siteTheme === "light" ? "🦆" : "light");
 </script>
 
 <style>
@@ -46,10 +52,14 @@
   <title>Cracking the Coding Career</title>
 </svelte:head>
 
- <!-- class="row site" -->
-<main
- class:darkMode={siteTheme === '🦆'}>
+<!-- class="row site" -->
+<main class:darkMode={siteTheme === '🦆'}>
   <Hero />
+  <WhatsInside />
+  <WhoFor />
+  <FreePreview />
+  <Reviews />
+  <AboutMe />
 </main>
 
 <!-- <Why />
@@ -60,4 +70,4 @@
 <PullQuote2 />
 <FAQ /> -->
 
-<!-- <Footer {siteTheme} {toggleTheme} /> -->
+<Footer {siteTheme} {toggleTheme} />
