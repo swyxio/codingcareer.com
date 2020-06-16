@@ -46,6 +46,24 @@
   :global(.no-border) {
     border: 0
   }  */
+  main {
+    /* background-color: #0078d4; */
+    /* background-image: url(http://www.transparenttextures.com/patterns/foggy-birds.png); */
+    /* background-image: url(/duck-bg-pattern.png); */
+    position: relative;
+  }
+  main::after {
+    content: "";
+    background-image: url(/duck-bg-pattern.png);
+    background-repeat: round;
+    opacity: 0.05;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
 </style>
 
 <svelte:head>

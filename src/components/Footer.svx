@@ -1,7 +1,8 @@
 <style>
   footer {
     color: #eee;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
   :global(footer a:visited, footer a) {
     color: cyan;

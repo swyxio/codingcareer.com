@@ -1,6 +1,6 @@
 <style>
   .theme-bg-primary {
-    background: #ed6524;
+    background: #b7791f;
   }
   .author-section {
     color: #fff;
