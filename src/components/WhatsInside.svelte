@@ -9,18 +9,23 @@
   .content-section .key-points-list li {
     margin-bottom: 1rem;
   }
+  @media (min-width: 576px) {
+    .img-big {
+      max-width: 140%;
+    }
+  }
 </style>
 
 <section class="content-section">
   <div class="container">
-    <div class="single-col-max mx-auto">
+    <div class="mx-auto">
       <h2 class="section-heading text-center mb-5">What's Included</h2>
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="figure-holder mb-5">
             <img
-              class="img-fluid"
-              src="https://demos.onepagelove.com/html/devbook/assets/images/devbook-devices.png"
+              class="img-fluid img-big"
+              src="/book-mock-3.png"
               alt="book demo" />
           </div>
           <!--//figure-holder-->
