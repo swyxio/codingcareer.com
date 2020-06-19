@@ -20,7 +20,7 @@
       class="lg:flex lg:flex-wrap lg:items-start border-t border-gray-300 py-8
       text-xl">
       <div class="lg:w-1/3 lg:pr-6 font-bold text-white mb-4 lg:mb-0">
-        Can I get Cracking the Coding Career for my entire team?
+        Can I get The Coding Career Handbook for my entire team?
       </div>
       <div class="lg:w-2/3 lg:pl-6 text-teal-300 leading-normal text-lg">
         <p>

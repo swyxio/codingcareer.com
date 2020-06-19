@@ -64,15 +64,51 @@
     position: absolute;
     z-index: -1;
   }
+  nav {
+    border-top: 1px solid gold;
+    border-bottom: 1px solid gold;
+    padding: 1em;
+    top: 0;
+    position: sticky;
+    z-index: 999;
+    background: papayawhip;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 70ch;
+    margin: 0 auto;
+    padding: 0;
+  }
 </style>
 
 <svelte:head>
-  <title>Cracking the Coding Career</title>
+  <title>The Coding Career Handbook</title>
 </svelte:head>
 
 <!-- class="row site" -->
-<main class:darkMode={siteTheme === '🦆'}>
+<main class:darkMode={siteTheme === '🦆'} id="top">
   <Hero />
+  <nav class="mb-5">
+    <ul>
+      <li>
+        <a href="#top">Back to Top</a>
+      </li>
+      <li>
+        <a href="#whatsinside">What's Inside</a>
+      </li>
+      <li>
+        <a href="#whatsinside">What's Inside</a>
+      </li>
+      <li>
+        <a href="#whatsinside">What's Inside</a>
+      </li>
+      <li>
+        <a href="#whatsinside">What's Inside</a>
+      </li>
+    </ul>
+  </nav>
   <WhatsInside />
   <WhoFor />
   <FreePreview />
