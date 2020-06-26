@@ -1,4 +1,5 @@
 <script>
+
 </script>
 
 <style>
@@ -151,11 +152,11 @@
             class="img-fluid book-cover"
             src="/CTCC-cover-1.png"
             alt="book cover" />
-          <div class="text-center">
+          <!-- <div class="text-center">
             <a class="theme-link scrollto" href="#reviews-section">
               See all book reviews
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

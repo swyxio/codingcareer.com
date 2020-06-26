@@ -273,6 +273,9 @@ WIDTH/SPACING UTILITIES
 .py-5 {
   padding-bottom: 3rem !important;
 }
+.p-3 {
+  padding: 1rem !important;
+}
 .p-4 {
   padding: 1.5rem !important;
 }
@@ -450,6 +453,9 @@ WIDTH/SPACING UTILITIES
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+  }
+  .p-lg-4 {
+    padding: 1.5rem !important;
   }
   .col-lg-4 {
     -webkit-box-flex: 0;

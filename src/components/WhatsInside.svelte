@@ -19,7 +19,7 @@
 <section class="content-section">
   <div class="container">
     <div class="mx-auto">
-      <h2 class="section-heading text-center mb-5">What's Included</h2>
+      <h2 class="section-heading text-center mb-5">The Complete Package</h2>
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="figure-holder mb-5">
@@ -38,15 +38,11 @@
               text-left">
               <li>
                 <Check />
-                List your book's content here.
+                450+ pages of concentrated career advice
               </li>
               <li>
                 <Check />
-                PDF fermentum tincidunt erat.
-              </li>
-              <li>
-                <Check />
-                EPUB curabitur fermentum.
+                PDF, EPUB, MOBI versions for all readers
               </li>
               <li>
                 <Check />

@@ -1,5 +1,6 @@
 <script>
   import Hero from "../components/Hero.svelte";
+  import Intro from "../components/Intro.svx";
   import WhatsInside from "../components/WhatsInside.svelte";
   import WhoFor from "../components/WhoFor.svelte";
   import Footer from "../components/Footer.svx";
@@ -109,6 +110,7 @@
       </li>
     </ul>
   </nav>
+  <Intro />
   <WhatsInside />
   <WhoFor />
   <FreePreview />

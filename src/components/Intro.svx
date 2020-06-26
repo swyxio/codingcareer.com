@@ -1,0 +1,120 @@
+<style>
+  .missing-manual :global(.item-icon) {
+    font-size: 3rem;
+    color: #ed6524;
+  }
+</style>
+<script>
+  import Guides from './Intro/_Guides.svx'
+  import Principles from './Intro/_Principles.svx'
+  import Strategies from './Intro/_Strategies.svx'
+  import Tactics from './Intro/_Tactics.svx'
+</script>
+<section
+  id="benefits-section"
+  class="benefits-section theme-bg-light-gradient py-5">
+  <div class="container py-5">
+    <h2 class="section-heading text-center mb-3">
+      Real Talk about Coding Careers
+    </h2>
+    <div class="section-intro single-col-max mx-auto mb-5">
+      <p>
+        Embarking on a new Coding Career is a scary proposition. There are
+        thousands of tutorials helping you learn to code and get that first job.
+        But nothing on how to take that technical skill and make a great career
+        out of it!
+      </p>
+      <p>
+        This stuff
+        <em>matters.</em>
+        When you're learning to code, you have to decide what to learn, how to
+        learn it, and eventually
+        <b>marketing yourself</b>
+        as a developer convincingly enough to land that first job.
+      </p>
+      <p>
+        And that's just the beginning! Then you still have to learn on the job,
+        build strong working relationships with your colleagues, network outside
+        your company, and earn the expertise and reputation to
+        <b>succeed as a Senior Developer!</b>
+        😱
+      </p>
+      <p>
+        Your ability to manage your career has direct financial results. Even
+        for early career devs, it is common for top quintile developers to make
+        >2x more than the average dev. This disparity
+        <em>increases</em>
+        from there - That's
+        <em>tens of thousands of dollars per year,</em>
+        and
+        <b>millions</b>
+        over a career. Not pocket change.
+      </p>
+      <p>
+        Money isn't everything. Maybe you want to have an impact in Open Source.
+        Maybe you want to have influence at work. Maybe you just want an easier
+        time
+        <em>finding</em>
+        work - not just spammy recruiter emails, but great employers and clients
+        <b>
+          <em>reaching out to you</em>
+        </b>
+        instead of vice versa. It's all the same skillset.
+      </p>
+      <p>
+        <b>And nobody talks about it!!!</b>
+      </p>
+      <p>
+        Deconstructing career success is a passion of mine. Throughout my own
+        career change journey, I have been looking for common traits among top
+        performers and trying to reverse engineer their formulas for success.
+      </p>
+      <p>
+        I've applied them to my own career with great results. I went from going
+        through FreeCodeCamp in 2017, starting my first dev job in 2018, to
+        getting hired as a Senior Dev Advocate at AWS in 2020! 🎉
+      </p>
+      <p>
+        Although my situation will be different from yours, I think there are
+        some Good Ideas that are simply universal. I think it's time we wrote
+        them down. I think it's time our industry had a real conversation about
+        how to build an exceptional Coding Career. I'd like to tell you all I
+        know.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section
+  id="missing-manual"
+  class="missing-manual theme-bg-light-gradient py-5">
+  <div class="container py-5">
+    <h2 class="section-heading text-center mb-3">
+      The Missing Manual for Early Career Devs
+    </h2>
+    <div class="section-intro single-col-max mx-auto mb-5">
+      <p>
+        <em>Don't read this book in one sitting!</em>
+        <b>The Coding Career Handbook</b>
+        is specifically designed to be a nonlinear reference you can constantly
+        revisit over the 4-8 years of your journey from Code Newbie to Senior
+        Dev. That's why it comes in 4 parts:
+      </p>
+    </div>
+    <div class="row text-center">
+      <Guides />
+      <Principles />
+      <Strategies />
+      <Tactics />
+    </div>
+
+    This makes this book a much more ambitious undertaking than any other focused book:
+
+
+    <img
+            class="img-fluid book-cover"
+            src="thisbookotherbooks3.png" alt="this book vs other books" />
+
+  </div>
+  <!--//container-->
+</section>
