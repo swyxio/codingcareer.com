@@ -35,7 +35,7 @@
       <h3 class="item-heading">Tactics</h3>
     </div>
     <div class="item-desc">
-      
+
       Important, self-contained skills that you can repeatedly call on throughout your career, from **Negotiating** to **Side Projects** to **Twitter** to **Writing**.
 
     </div>
