@@ -1,4 +1,4 @@
-<div class="item col-12 col-md-6 col-lg-4">
+<div class="item col-12 col-md-6">
   <div class="item-inner p-3 p-lg-4">
     <div class="item-header mb-3">
       <div class="item-icon">

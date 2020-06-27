@@ -3,6 +3,52 @@
     font-size: 3rem;
     color: #ed6524;
   }
+  .scrollycover {
+    overflow: scroll hidden;
+  }
+  .scrollywrapper {
+    margin-left: -15px;
+    position: relative;
+  }
+  .scrollycover::-webkit-scrollbar {
+    width: 1em;
+  }
+  .scrollycover::-webkit-scrollbar-thumb {
+    /* background: linear-gradient(45deg, 
+              #fb3 25%, #58a 0, #58a 50%,
+              #fb3 0, #fb3 75%, #58a 0);
+    background-size: 42.4px 42.4px; */
+    background: #b7791f;
+    border-radius: 1em;
+  }
+  .scrollycover::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+    background: rgba(0,0,0,0.05);
+  }
+  .scrollywrapper:after {
+    content: '';
+    pointer-events: none;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 2em;
+    position: absolute;
+    background: linear-gradient(to right, transparent, rgba(0,0,0,0.1));
+  }
+  @media(min-width: 992px) {
+    .scrollycover img {
+      max-width:100%;
+      height: auto;
+    }
+    .scrollywrapper:after {
+      width: 0;
+    }
+    .scrollycover {
+      overflow: initial;
+      margin: 0 auto;
+      max-width: 900px;
+    }
+  }
 </style>
 <script>
   import Guides from './Intro/_Guides.svx'
@@ -87,7 +133,7 @@
 
 <section
   id="missing-manual"
-  class="missing-manual theme-bg-light-gradient py-5">
+  class="menuitem missing-manual theme-bg-light-gradient py-5">
   <div class="container py-5">
     <h2 class="section-heading text-center mb-3">
       The Missing Manual for Early Career Devs
@@ -100,21 +146,79 @@
         revisit over the 4-8 years of your journey from Code Newbie to Senior
         Dev. That's why it comes in 4 parts:
       </p>
+      <div class="row text-center">
+        <Guides />
+        <Principles />
+        <Strategies />
+        <Tactics />
+      </div>
+
+      That makes this book a very different kind of experience than most others:
+
     </div>
-    <div class="row text-center">
-      <Guides />
-      <Principles />
-      <Strategies />
-      <Tactics />
-    </div>
 
-    This makes this book a much more ambitious undertaking than any other focused book:
-
-
-    <img
-            class="img-fluid book-cover"
-            src="thisbookotherbooks3.png" alt="this book vs other books" />
+  <div class="scrollywrapper">
+  <div class="scrollycover">
+    <img src="thisbookotherbooks3.png" alt="this book vs other books" />
+  </div>
+  </div>
 
   </div>
   <!--//container-->
+</section>
+
+<section
+  id="community"
+  class="menuitem community theme-bg-light-gradient py-5">
+  <div class="container py-5">
+    <h2 class="section-heading text-center mb-3">
+      Continue the Conversation
+    </h2>
+    <div class="section-intro single-col-max mx-auto mb-5">
+
+        The book is a conversation *starter* - it is far from the final word
+        on how to build a successful coding career! **The Coding Career Community**
+        is a moderated Discord chat where you can talk with other readers about
+        the ideas from the book, ask questions, give criticism, find collaborators,
+        and generally use as a friendly resource as you build your coding career.
+
+        <img src="/codingcommunity-960.jpg" alt="screenshot of Community Discord" class="img-fluid" />
+
+        Ever feel like you didn't have anyone outside work to talk to about your career?
+        Here's a dedicated space where you can do exactly that, with like minds who
+        have gone down the same road you have.
+
+        *Note: Participating in the Discord is subject to a Code of Conduct,
+        and your questions are not guaranteed to be answered. This is a new community
+        and therefore there is a lot left to figure out!*
+
+    </div>
+
+  </div>
+</section>
+
+<section
+  id="workshops"
+  class="menuitem workshop theme-bg-light-gradient py-5">
+  <div class="container py-5">
+    <h2 class="section-heading text-center mb-3">
+      Live & Recorded Workshops
+    </h2>
+    <div class="section-intro single-col-max mx-auto mb-5">
+
+        **Get the most** out of your Coding Career journey with monthly live workshops.
+        Dive deeper into selected topics from the book and others that didn't make the cut (yet!).
+        Ask questions and get answers live, with the option to remain anonymous.
+
+        <img src="/mocktalks_960.jpg" alt="screenshot of Workshops" class="img-fluid" />
+
+        All workshops will be recorded, so this becomes an ever-growing library of career content.
+        **If you are interested in being a guest speaker, please get in touch!**
+
+        *Note: At least 4 sessions are planned but none are scheduled yet. Scheduling will take
+        place over Discord chat and email. Standalone workshops are available for bootcamps and small teams.*
+
+    </div>
+
+  </div>
 </section>

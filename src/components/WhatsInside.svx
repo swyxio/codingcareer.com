@@ -1,0 +1,191 @@
+<script>
+  import Check from "./_Check.svelte";
+</script>
+
+<style>
+  .content-section .key-points-list {
+    font-size: 1.125rem;
+  }
+  .content-section .key-points-list li {
+    margin-bottom: 1rem;
+  }
+  @media (min-width: 768px) {
+    .img-big {
+      max-width: 140%;
+      margin-left: -20%;
+    }
+    .img-small {
+      max-width: 80%;
+    }
+    .text-shifty {
+      text-align: left
+    }
+  }
+  .figure-holder {
+    text-align: right;
+  }
+  .btn:hover, .btn:focus {
+    text-decoration: none;
+    background: #97571a;
+  }
+  .btn.btn-secondary:hover, .btn.btn-secondary:focus {
+    color: white;
+  }
+  .btn-small {
+    padding: 0.5rem;
+    border-radius: 0;
+  }
+  .text-shifty {
+    text-align: center
+  }
+
+</style>
+
+<section class="menuitem content-section" id="packages">
+  <div class="container">
+    <h2 class="section-heading text-center mb-3 btn-primary">
+      Pick your Coding Career style!
+    </h2>
+    <div class="mx-auto">
+      <h2 class="section-heading text-center mb-5">The Complete Package</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="figure-holder mb-5">
+            <img
+              class="img-fluid img-big"
+              src="/book-mock-3.png"
+              alt="book demo" />
+          </div>
+          <!--//figure-holder-->
+        </div>
+        <!--//col-->
+        <div class="col-12 col-md-6 mb-5">
+          <div class="key-points mb-4 text-center">
+            <ul
+              class="key-points-list list-unstyled mb-4 mx-auto d-inline-block
+              text-left">
+              <li>
+                <Check />
+                450+ pages of Career Guides, Principles, Strategies, and Tactics
+              </li>
+              <li>
+                <Check />
+                PDF, EPUB, MOBI versions + Audio book with Author Commentary
+              </li>
+              <li>
+                <Check />
+                Lifetime access to book updates
+              </li>
+              <li>
+                <Check />
+                Lifetime access to exclusive Coding Career Community Discord
+              </li>
+              <li>
+                <Check />
+                Lifetime access to <b>Live and Recorded Workshops</b>
+              </li>
+            </ul>
+            <div class="text-shifty">
+              <a
+                class="btn btn-primary"
+                href="https://swyx.podia.com/coding-career-complete-package" data-podia-embed="link">
+                Buy The Complete Package <br /> <s>$249</s> $199
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <div class="mx-auto">
+      <h2 class="section-heading text-center mb-5">The Community Package</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="figure-holder mb-5">
+            <img
+              class="img-fluid"
+              src="/book-mock-2.png"
+              alt="book demo" />
+          </div>
+          <!--//figure-holder-->
+        </div>
+        <!--//col-->
+        <div class="col-12 col-md-6 mb-5">
+          <div class="key-points mb-4 text-center">
+            <ul
+              class="key-points-list list-unstyled mb-4 mx-auto d-inline-block
+              text-left">
+              <li>
+                <Check />
+                450+ pages of Career Guides, Principles, Strategies, and Tactics
+              </li>
+              <li>
+                <Check />
+                PDF, EPUB, MOBI versions + <b>Audio book with Author Commentary</b>
+              </li>
+              <li>
+                <Check />
+                Lifetime access to book updates
+              </li>
+              <li>
+                <Check />
+                Lifetime access to exclusive <b>Coding Career Community Discord</b>
+              </li>
+            </ul>
+            <div class="text-shifty">
+              <a
+                class="btn btn-secondary"
+                href="https://swyx.podia.com/coding-career-community-package" data-podia-embed="link">
+                Buy The Community Package <br /> <s>$99</s> $79
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <div class="mx-auto">
+      <h2 class="section-heading text-center mb-5">Just The Book</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="figure-holder mb-5">
+            <img
+              class="img-fluid img-small"
+              src="/book-mock-1.png"
+              alt="book demo" />
+          </div>
+          <!--//figure-holder-->
+        </div>
+        <!--//col-->
+        <div class="col-12 col-md-6 mb-5">
+          <div class="key-points mb-4 text-center">
+            <ul
+              class="key-points-list list-unstyled mb-4 mx-auto d-inline-block
+              text-left">
+              <li>
+                <Check />
+                450+ pages of Career Guides, Principles, Strategies, and Tactics
+              </li>
+              <li>
+                <Check />
+                PDF, EPUB, MOBI versions
+              </li>
+              <li>
+                <Check />
+                Lifetime access to book updates
+              </li>
+            </ul>
+            <div class="text-shifty">
+              <a
+                class="btn btn-secondary btn-small"
+                 href="https://swyx.podia.com/coding-career-handbook" data-podia-embed="link">
+                Buy The Book | <s>$59</s> $39
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>

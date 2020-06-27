@@ -1,7 +1,7 @@
 <script>
   import Hero from "../components/Hero.svelte";
   import Intro from "../components/Intro.svx";
-  import WhatsInside from "../components/WhatsInside.svelte";
+  import WhatsInside from "../components/WhatsInside.svx";
   import WhoFor from "../components/WhoFor.svelte";
   import Footer from "../components/Footer.svx";
   import FreePreview from "../components/FreePreview.svelte";
@@ -20,6 +20,32 @@
   let siteTheme = "light";
   const toggleTheme = () =>
     (siteTheme = siteTheme === "light" ? "🦆" : "light");
+
+  let y = 0;
+  let activeNav = "Home";
+
+  import { onMount } from "svelte";
+  onMount(() => {
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.55,
+    };
+    let callback = (entries, observer) => {
+      document
+        .querySelectorAll(".menulink")
+        .forEach((x) => x.classList.remove("menuactive"));
+      entries.forEach((entry) => {
+        // Are we in viewport?
+        if (entry.intersectionRatio > 0) {
+          let tgt = document.getElementById(`menu-${entry.target.id}`);
+          tgt.classList.add("menuactive");
+        }
+      });
+    };
+    let observer = new IntersectionObserver(callback, options);
+    document.querySelectorAll(".menuitem").forEach((x) => observer.observe(x));
+  });
 </script>
 
 <style>
@@ -82,8 +108,13 @@
     margin: 0 auto;
     padding: 0;
   }
+  :global(.menuactive) {
+    border-bottom: 2px solid gold;
+    font-weight: bold;
+  }
 </style>
 
+<svelte:window bind:scrollY={y} />
 <svelte:head>
   <title>The Coding Career Handbook</title>
 </svelte:head>
@@ -96,17 +127,17 @@
       <li>
         <a href="#top">Back to Top</a>
       </li>
-      <li>
-        <a href="#whatsinside">What's Inside</a>
+      <li class="menulink" id="menu-missing-manual">
+        <a href="#missing-manual">Handbook</a>
       </li>
-      <li>
-        <a href="#whatsinside">What's Inside</a>
+      <li class="menulink" id="menu-community">
+        <a href="#community">Community</a>
       </li>
-      <li>
-        <a href="#whatsinside">What's Inside</a>
+      <li class="menulink" id="menu-workshops">
+        <a href="#workshops">Workshops</a>
       </li>
-      <li>
-        <a href="#whatsinside">What's Inside</a>
+      <li class="menulink" id="menu-packages">
+        <a href="#packages">Packages</a>
       </li>
     </ul>
   </nav>
