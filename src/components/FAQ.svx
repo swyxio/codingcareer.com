@@ -1,0 +1,108 @@
+<style>
+
+  .audience :global(h4) {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .imgFAQ {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .reversi {
+    flex-direction: column-reverse;
+  }
+  .imgFAQ img {
+    max-width: 100%
+  }
+  @media (min-width: 480px) {
+    .imgFAQ {
+      flex-direction: row;
+      align-items: center;
+    }
+    .imgFAQ img {
+      width: 20vw;
+      height: 15vw;
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
+  }
+</style>
+
+<section class="audience-section py-5 menuitem" id="FAQ">
+  <div class="container">
+    <h2 class="section-heading text-center mb-4">Frequently Asked Questions</h2>
+  <!-- <div class="section-intro text-left mb-5">
+
+    If there are any questions that are not answered here, you can email me at `swyx@hey.com` or tweet me [@swyx](https://twitter.com/swyx)
+
+  </div> -->
+  <div class="audience mx-auto">
+
+<div class="imgFAQ" id="community">
+
+<img src="/discord-chat.png" alt="screenshot of Community Discord" />
+<div>
+
+#### Tell me more about the Coding Career Community?
+
+Ever feel like you didn't have anyone outside work to talk to about your career?
+Here's a dedicated space where you can do exactly that, with like minds who
+have gone down the same road you have. **The Coding Career Community**
+is a moderated Discord chat where you can talk with other readers about
+the ideas from the book, ask questions, give criticism, find collaborators,
+and generally use as a friendly resource as you build your coding career.
+
+_Note: Participation in the Community is subject to a Code of Conduct,
+and your questions are not guaranteed to be answered. **This is a new community**
+and therefore there is a lot left to figure out!_
+
+</div>
+</div>
+
+<div class="imgFAQ reversi" id="workshops">
+
+<div>
+
+#### Tell me more about the Coding Career Workshops?
+
+**Get the most** out of your Coding Career journey with monthly live workshops.
+Dive deeper into selected topics from the book and others that didn't make the cut (yet!).
+Ask questions and get answers live, with the option to remain anonymous.
+
+All workshops will be recorded, so this becomes an ever-growing library of career content.
+**If you are interested in being a guest speaker, please get in touch!**
+
+_Note: At least 4 sessions are planned but none are scheduled yet. Scheduling will take
+place over Discord chat and email. Standalone workshops are available for bootcamps and small teams._
+
+</div>
+<img src="/workshop-screens.png" alt="screenshot of Workshops" />
+</div>
+
+#### Is the book available in EPUB or MOBI or audio formats?
+
+- The book is available in PDF, EPUB and MOBI at all 3 tiers.
+- The audio book is available with **the Community Package**.
+- **The Complete Package** comes with extra Author's commentary!
+
+#### Do you do Purchasing Power Parity?
+
+We use Podia to process payments, and unfortunately PPP is not supported at this time. However the Launch Sale discount will be the lowest price offered for the book!
+
+#### Can I purchase multiple copies for my team?
+
+Yes! You can click here to check out the team packages. You can buy licenses of **the Community Package** for teams of up to 5 and 10. Please email me `swyx@hey.com` if you are a bootcamp and want to set up something for an entire cohort.xw
+
+#### How can I get future updates?
+
+Upon purchase, you will have a Podia account tied to your email. You can use this to login and download your purchases any time. We will email you every time a new edition of the book comes out!
+
+#### I have another question!
+
+Shoot me an email at `swyx@hey.com` or tweet me [@swyx](https://twitter.com/swyx)!
+
+  </div>
+
+  </div>
+</section>

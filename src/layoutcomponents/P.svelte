@@ -1,3 +1,3 @@
-<p class="mb-6">
-  <slot />
-</p>
+<!-- <p class="mb-6"> -->
+<slot />
+<!-- </p> -->

@@ -24,6 +24,10 @@
   .figure-holder {
     text-align: right;
   }
+  .nicebtn {
+    border: 3px solid white;
+    box-shadow: 0 0 0 1px #b7791f;
+  }
   .btn:hover, .btn:focus {
     text-decoration: none;
     background: #97571a;
@@ -43,9 +47,12 @@
 
 <section class="menuitem content-section" id="packages">
   <div class="container">
-    <h2 class="section-heading text-center mb-3 btn-primary">
-      Pick your Coding Career style!
+    <div class="btn-primary">
+    <h2 class="section-heading text-center mb-3">
+      Launch Special
     </h2>
+    <p class="text-center">25% of Book Sales will be donated to FreeCodeCamp</p>
+    </div>
     <div class="mx-auto">
       <h2 class="section-heading text-center mb-5">The Complete Package</h2>
       <div class="row">
@@ -53,10 +60,11 @@
           <div class="figure-holder mb-5">
             <img
               class="img-fluid img-big"
-              src="/book-mock-3.png"
+              src="/mocktalks_960.jpg"
               alt="book demo" />
           </div>
           <!--//figure-holder-->
+              <!-- src="/book-mock-3.png" -->
         </div>
         <!--//col-->
         <div class="col-12 col-md-6 mb-5">
@@ -70,7 +78,11 @@
               </li>
               <li>
                 <Check />
-                PDF, EPUB, MOBI versions + Audio book with Author Commentary
+                PDF, EPUB, MOBI versions + Audio book <b>with Author Commentary</b>
+              </li>
+              <li>
+                <Check />
+                <b>Behind The Scenes</b> Recorded Livestreams of Writing Process
               </li>
               <li>
                 <Check />
@@ -78,16 +90,16 @@
               </li>
               <li>
                 <Check />
-                Lifetime access to exclusive Coding Career Community Discord
+                Lifetime access to exclusive Coding Career Community
               </li>
               <li>
                 <Check />
-                Lifetime access to <b>Live and Recorded Workshops</b>
+                Lifetime access to <b>Live and Recorded Workshops</b> (<a href="#workshops">Learn more</a>)
               </li>
             </ul>
             <div class="text-shifty">
               <a
-                class="btn btn-primary"
+                class="btn btn-primary nicebtn"
                 href="https://swyx.podia.com/coding-career-complete-package" data-podia-embed="link">
                 Buy The Complete Package <br /> <s>$249</s> $199
               </a>
@@ -104,7 +116,7 @@
           <div class="figure-holder mb-5">
             <img
               class="img-fluid"
-              src="/book-mock-2.png"
+              src="/codingcommunity-960.jpg"
               alt="book demo" />
           </div>
           <!--//figure-holder-->
@@ -121,7 +133,7 @@
               </li>
               <li>
                 <Check />
-                PDF, EPUB, MOBI versions + <b>Audio book with Author Commentary</b>
+                PDF, EPUB, MOBI versions + <b>Audio book</b>
               </li>
               <li>
                 <Check />
@@ -129,7 +141,7 @@
               </li>
               <li>
                 <Check />
-                Lifetime access to exclusive <b>Coding Career Community Discord</b>
+                Lifetime access to exclusive <b>Coding Career Community</b> (<a href="#community">Learn more</a>)
               </li>
             </ul>
             <div class="text-shifty">

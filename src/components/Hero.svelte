@@ -150,7 +150,7 @@
         <div class="book-cover-holder">
           <img
             class="img-fluid book-cover"
-            src="/CTCC-cover-1.png"
+            src="/book-mock-1.png"
             alt="book cover" />
           <!-- <div class="text-center">
             <a class="theme-link scrollto" href="#reviews-section">

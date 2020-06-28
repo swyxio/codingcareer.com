@@ -14,8 +14,8 @@
   }
 </style>
 <script>
-  export let siteTheme
-  export let toggleTheme
+  // export let siteTheme
+  // export let toggleTheme
   let visits = 'loading'
   import {onMount} from 'svelte'
   onMount(() => {
@@ -31,10 +31,12 @@
   $: message = visits === 'loading' ? '' : `You are visitor number ${visits}!`
 </script>
 
-<footer class="row flex-center">
+<footer class="flex-center">
 
 {message} Powered by [Podia (affiliate link)](https://www.podia.com/?via=shawn-wang). Built with
 [Svelte](https://svelte.dev/), [Begin](https://begin.com/), and
-[PaperCSS](http://getpapercss.com/). <button on:click={toggleTheme}>Theme: {siteTheme}</button>
+[PaperCSS](http://getpapercss.com/).
+
+<!-- <button on:click={toggleTheme}>Theme: {siteTheme}</button> -->
 
 </footer>
