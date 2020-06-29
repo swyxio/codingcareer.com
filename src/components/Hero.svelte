@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <style>
   @media (min-width: 992px) {
     .promo {
@@ -18,8 +14,12 @@
       padding-right: 1rem !important;
     }
     .img-fluid {
-      max-width: 200%;
-      margin-left: -50%;
+      /* max-width: 200%;
+      margin-left: -50%; */
+      max-width: -webkit-fill-available;
+      margin-left: 0;
+      height: 60vh;
+      object-fit: cover;
     }
   }
   @media (max-width: 992px) {

@@ -58,8 +58,9 @@
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="figure-holder mb-5">
+              <!-- class="img-fluid img-big" -->
             <img
-              class="img-fluid img-big"
+              class="img-fluid"
               src="/mocktalks_960.jpg"
               alt="book demo" />
           </div>

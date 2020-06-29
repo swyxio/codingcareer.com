@@ -1,5 +1,6 @@
 <script>
   import Quotes from "./_Quotes.svelte";
+  import Tweet from "./_Tweet.svelte";
 
   let data = [
     {
@@ -105,11 +106,14 @@
     width: 60px;
     border-radius: 50%;
   }
-  .align-items-center {
-    align-items: center;
+  .source-name {
+    font-weight: bold;
+  }
+  .source-title {
+    font-style: italic;
   }
   .reviews-section .source-info {
-    font-style: italic;
+    color: #b7791f;
   }
   .reviews-section .icon-holder {
     position: absolute;
@@ -132,6 +136,12 @@
   .theme-bg-light {
     background: rgba(246, 248, 252, 0.4); /* #f6f8fc */
   }
+  .tweetHover:focus,
+  .tweetHover:hover {
+    background: #f5c782;
+    box-shadow: 0 0 0 2px #2daae1;
+    color: #2daae1 !important;
+  }
 </style>
 
 <section id="reviews-section" class="reviews-section py-5">
@@ -141,8 +151,10 @@
       See what our early readers are saying!
     </div>
     <div class="row justify-content-center">
-      {#each data as item}
-        <div class="item col-12 col-lg-4 p-3 mb-4">
+      {#each data as item, i}
+        <div
+          class:col-lg-4={i !== data.length - 1}
+          class="item col-12 p-3 mb-4">
           <div class="item-inner theme-bg-light rounded p-4">
 
             <blockquote class="quote">{item.quote}</blockquote>
@@ -153,7 +165,7 @@
                 <img class="source-profile mr-md-3" src={item.img} alt="" />
                 <div class="source-info media-body text-center text-md-left">
                   <div class="source-name">{item.name}</div>
-                  <div class="soure-title">{item.title}</div>
+                  <div class="source-title">{item.title}</div>
                 </div>
               </a>
             {:else}
@@ -162,14 +174,19 @@
                 <img class="source-profile mr-md-3" src={item.img} alt="" />
                 <div class="source-info media-body text-center text-md-left">
                   <div class="source-name">{item.name}</div>
-                  <div class="soure-title">{item.title}</div>
+                  <div class="source-title">{item.title}</div>
                 </div>
               </div>
             {/if}
-            <!--//source-->
-            <div class="icon-holder">
-              <Quotes />
-            </div>
+            {#if item.link}
+              <a class="icon-holder tweetHover" href={item.link}>
+                <Tweet />
+              </a>
+            {:else}
+              <div class="icon-holder">
+                <Quotes />
+              </div>
+            {/if}
           </div>
           <!--//inner-->
         </div>
