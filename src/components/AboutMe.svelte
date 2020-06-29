@@ -191,11 +191,13 @@
           at AWS in 2020.
         </p>
         <p>
-          In my other pursuits I blog at
-          <a href="https://www.swyx.io/writing/">swyx.io</a>
-          and teach React, TypeScript, Storybook and Node.js CLI's at
+          In my other pursuits, I
+          <a href="https://www.swyx.io/writing/">write</a>
+          and
+          <a href="https://www.swyx.io/speaking/">speak</a>
+          and teach React, TypeScript, Storybook and Node.js (including as an
           <a href="https://egghead.io/s/26zf5">Egghead.io</a>
-          . I am a cofounder of
+          instructor). I am a cofounder of
           <a href="https://twitter.com/SvelteSociety">the Svelte Society</a>
           global meetup community and up til recently served as a moderator for
           the 200k-strong

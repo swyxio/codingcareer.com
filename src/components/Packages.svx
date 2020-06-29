@@ -42,16 +42,18 @@
   .text-shifty {
     text-align: center
   }
-
+  ul {
+    margin: 0
+  }
 </style>
 
 <section class="menuitem content-section" id="packages">
   <div class="container">
-    <div class="btn-primary">
-    <h2 class="section-heading text-center mb-3">
-      Launch Special
-    </h2>
-    <p class="text-center">25% of Book Sales will be donated to FreeCodeCamp</p>
+    <div class="btn-primary mb-3">
+      <h2 class="section-heading text-center">
+        Launch Sale Starting July 1!
+      </h2>
+      <p class="text-center">Also: 25% of Book Sales will be donated to FreeCodeCamp</p>
     </div>
     <div class="mx-auto">
       <h2 class="section-heading text-center mb-5">The Complete Package</h2>
@@ -188,7 +190,7 @@
                 Lifetime access to book updates
               </li>
             </ul>
-            <div class="text-shifty">
+            <div class="text-left">
               <a
                 class="btn btn-secondary btn-small"
                  href="https://swyx.podia.com/coding-career-handbook" data-podia-embed="link">

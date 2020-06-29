@@ -91,10 +91,10 @@
   <Nav />
   <TOC />
   <Packages />
-  <FAQ />
-  <FreePreview />
+  <!-- <FreePreview /> -->
   <Reviews />
   <AboutMe />
+  <FAQ />
 </main>
 
 <!-- <Why />

@@ -104,9 +104,7 @@
 
             <a class="btn btn-primary mr-lg-2" href="#packages">Buy Now</a>
 
-            <a class="btn btn-secondary scrollto" href="#benefits-section">
-              Learn More
-            </a>
+            <a class="btn btn-secondary scrollto" href="#TOC">Learn More</a>
 
           </div>
 
@@ -120,10 +118,11 @@
               <div class="carousel-inner">
                 <div class="carousel-item">
                   <blockquote class="quote p-4 theme-bg-light">
-                    "Excellent Book! Add your book reviews here consectetur
-                    adipiscing elit. Aliquam euismod nunc porta urna facilisis
-                    tempor. Praesent mauris neque, viverra quis erat vitae,
-                    auctor imperdiet nisi."
+                    "I recommend this book for anyone who is thinking of getting
+                    into the field of software development. And I also recommend
+                    it as a reference for experienced developers. Shawn has
+                    structured this book in a way that you can easily come back
+                    to it and fill in the gaps in your knowledge."
                   </blockquote>
                   <!--//item-->
                   <div
@@ -131,12 +130,12 @@
                     align-items-center">
                     <img
                       class="source-profile mr-md-3"
-                      src="https://demos.onepagelove.com/html/devbook/assets/images/profiles/profile-3.png"
+                      src="https://pbs.twimg.com/profile_images/1267896118991519744/wFIkpxuq_400x400.jpg"
                       alt="" />
                     <div
                       class="source-info media-body text-center text-md-left">
-                      <div class="source-name">James Doe</div>
-                      <div class="soure-title">Co-Founder, Startup Week</div>
+                      <div class="source-name">Quincy Larson</div>
+                      <div class="soure-title">Teacher, freeCodeCamp</div>
                     </div>
                   </div>
                   <!--//source-->

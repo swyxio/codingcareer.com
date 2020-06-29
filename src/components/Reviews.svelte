@@ -102,19 +102,6 @@
 </script>
 
 <style>
-  .reviews-section .source-profile {
-    width: 60px;
-    border-radius: 50%;
-  }
-  .source-name {
-    font-weight: bold;
-  }
-  .source-title {
-    font-style: italic;
-  }
-  .reviews-section .source-info {
-    color: #b7791f;
-  }
   .reviews-section .icon-holder {
     position: absolute;
     left: 50%;
@@ -144,7 +131,7 @@
   }
 </style>
 
-<section id="reviews-section" class="reviews-section py-5">
+<section id="reviews-section" class="menuitem reviews-section py-5">
   <div class="container">
     <h2 class="section-heading text-center">Book Reviews</h2>
     <div class="section-intro text-center single-col-max mx-auto mb-5">

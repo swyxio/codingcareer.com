@@ -551,10 +551,19 @@ button:not(:disabled),
   color: #b7791f;
 }
 
-/* b,
-strong {
-  font-weight: bolder;
-} */
+.source-profile {
+  width: 60px;
+  border-radius: 50%;
+}
+.source-name {
+  font-weight: bold;
+}
+.source-title {
+  font-style: italic;
+}
+.source-info {
+  color: #b7791f;
+}
 
 body {
   background: linear-gradient(270deg, #e6fffa, #feebc8);

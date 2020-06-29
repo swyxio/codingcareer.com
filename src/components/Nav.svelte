@@ -63,8 +63,8 @@
   {#if isMobile}
     {#if isMobileAndNavActive}
       <ul>
-        <li class="menulink" id="menu-missing-manual">
-          <a href="#missing-manual">Handbook</a>
+        <li class="menulink" id="menu-TOC">
+          <a href="#TOC">ToC</a>
         </li>
         <li class="menulink" id="menu-community">
           <a href="#community">Community</a>
@@ -75,6 +75,9 @@
         <li class="menulink" id="menu-packages">
           <a href="#packages">Packages</a>
         </li>
+        <li class="menulink" id="menu-FAQ">
+          <a href="#FAQ">FAQ</a>
+        </li>
       </ul>
     {/if}
     <button on:click={() => (isMobileAndNavActive = !isMobileAndNavActive)}>
@@ -82,8 +85,8 @@
     </button>
   {:else}
     <ul>
-      <li class="menulink" id="menu-missing-manual">
-        <a href="#missing-manual">Handbook</a>
+      <li class="menulink" id="menu-TOC">
+        <a href="#TOC">ToC</a>
       </li>
       <li class="menulink" id="menu-community">
         <a href="#community">Community</a>
@@ -93,6 +96,9 @@
       </li>
       <li class="menulink" id="menu-packages">
         <a href="#packages">Packages</a>
+      </li>
+      <li class="menulink" id="menu-FAQ">
+        <a href="#FAQ">FAQ</a>
       </li>
     </ul>
   {/if}
