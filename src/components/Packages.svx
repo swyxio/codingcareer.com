@@ -53,7 +53,7 @@
       <h2 class="section-heading text-center">
         Launch Sale Starting July 1!
       </h2>
-      <p class="text-center">Also: 25% of Book Sales will be donated to FreeCodeCamp</p>
+      <p class="text-center">25% of Book Sales will be donated to FreeCodeCamp</p>
     </div>
     <div class="mx-auto">
       <h2 class="section-heading text-center mb-5">The Complete Package</h2>
@@ -62,12 +62,10 @@
           <div class="figure-holder mb-5">
               <!-- class="img-fluid img-big" -->
             <img
-              class="img-fluid"
-              src="/mocktalks_960.jpg"
+              class="lazyload img-fluid"
+              data-src="/mocktalks_960.jpg"
               alt="book demo" />
           </div>
-          <!--//figure-holder-->
-              <!-- src="/book-mock-3.png" -->
         </div>
         <!--//col-->
         <div class="col-12 col-md-6 mb-5">
@@ -104,7 +102,7 @@
               <a
                 class="btn btn-primary nicebtn"
                 href="https://swyx.podia.com/coding-career-complete-package" data-podia-embed="link">
-                Buy The Complete Package <br /> <s>$249</s> $199
+                Buy The Complete Package <br /> Launch Price: <s>$249</s> $199
               </a>
             </div>
           </div>
@@ -118,8 +116,8 @@
         <div class="col-12 col-md-6">
           <div class="figure-holder mb-5">
             <img
-              class="img-fluid"
-              src="/codingcommunity-960.jpg"
+              class="lazyload img-fluid"
+              data-src="/codingcommunity-960.jpg"
               alt="book demo" />
           </div>
           <!--//figure-holder-->
@@ -151,7 +149,7 @@
               <a
                 class="btn btn-secondary"
                 href="https://swyx.podia.com/coding-career-community-package" data-podia-embed="link">
-                Buy The Community Package <br /> <s>$99</s> $79
+                Buy The Community Package <br /> Launch Price: <s>$99</s> $79
               </a>
             </div>
           </div>
@@ -165,8 +163,8 @@
         <div class="col-12 col-md-6">
           <div class="figure-holder mb-5">
             <img
-              class="img-fluid img-small"
-              src="/book-mock-1.png"
+              class="lazyload img-fluid img-small"
+              data-src="/book-mock-1.png"
               alt="book demo" />
           </div>
           <!--//figure-holder-->
@@ -194,7 +192,7 @@
               <a
                 class="btn btn-secondary btn-small"
                  href="https://swyx.podia.com/coding-career-handbook" data-podia-embed="link">
-                Buy The Book | <s>$59</s> $39
+                Buy The Book | Launch Price: <s>$59</s> $39
               </a>
             </div>
           </div>

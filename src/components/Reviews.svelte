@@ -149,7 +149,10 @@
               <a
                 href={item.link}
                 class="source media flex-column flex-md-row align-items-center">
-                <img class="source-profile mr-md-3" src={item.img} alt="" />
+                <img
+                  class="lazyload source-profile mr-md-3"
+                  data-src={item.img}
+                  alt="" />
                 <div class="source-info media-body text-center text-md-left">
                   <div class="source-name">{item.name}</div>
                   <div class="source-title">{item.title}</div>
@@ -158,7 +161,10 @@
             {:else}
               <div
                 class="source media flex-column flex-md-row align-items-center">
-                <img class="source-profile mr-md-3" src={item.img} alt="" />
+                <img
+                  class="lazyload source-profile mr-md-3"
+                  data-src={item.img}
+                  alt="" />
                 <div class="source-info media-body text-center text-md-left">
                   <div class="source-name">{item.name}</div>
                   <div class="source-title">{item.title}</div>
@@ -166,7 +172,10 @@
               </div>
             {/if}
             {#if item.link}
-              <a class="icon-holder tweetHover" href={item.link}>
+              <a
+                class="icon-holder tweetHover"
+                aria-label="Link to Tweet"
+                href={item.link}>
                 <Tweet />
               </a>
             {:else}

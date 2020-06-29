@@ -59,7 +59,7 @@
         <div class="author-links text-center pt-4">
           <ul class="social-list list-unstyled">
             <li class="list-inline-item">
-              <a href="https://twitter.com/swyx">
+              <a href="https://twitter.com/swyx" aria-label="swyx Twitter">
                 <svg
                   class="svg-inline--fa fa-twitter fa-w-16"
                   aria-hidden="true"
@@ -93,7 +93,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://github.com/sw-yx">
+              <a href="https://github.com/sw-yx" aria-label="swyx GitHub">
                 <svg
                   class="svg-inline--fa fa-github-alt fa-w-15"
                   aria-hidden="true"
@@ -126,7 +126,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://swyx.io">
+              <a href="https://swyx.io" aria-label="swyx website">
                 <svg
                   class="svg-inline--fa fa-globe-europe fa-w-16"
                   aria-hidden="true"
