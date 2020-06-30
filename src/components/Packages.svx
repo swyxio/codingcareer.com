@@ -10,10 +10,10 @@
     margin-bottom: 1rem;
   }
   @media (min-width: 768px) {
-    .img-big {
+    /* .img-big {
       max-width: 140%;
       margin-left: -20%;
-    }
+    } */
     .img-small {
       max-width: 80%;
     }
