@@ -98,6 +98,12 @@ Yes! You can click here to check out the team packages. You can buy licenses of 
 
 Upon purchase, you will have a [Podia](http://www.podia.com/?via=shawn-wang) account tied to your email. You can use this to login and download your purchases any time. We will email you every time a new edition of the book comes out!
 
+#### Your site is broken!
+
+I use [Podia](http://www.podia.com/?via=shawn-wang) for purchasing and its embedded JavaScript can fail in two ways: Either it is blocked by an overzealous [Privacy Badger](https://privacybadger.org/), or you have "_Block third-party cookies_" turned on in desktop Chrome (<chrome://settings/cookies>). Either way, there should be a not-very-graceful fallback to send you to the Podia purchase page.
+
+If the site is broken in some other way, please contact me and I'll fix it right away! Contact info below 👇
+
 #### I have another question!
 
 Shoot me an email at `swyx@hey.com` or tweet me [@swyx](https://twitter.com/swyx)!
