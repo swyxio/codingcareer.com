@@ -101,7 +101,7 @@
             <div class="text-shifty">
               <a
                 class="btn btn-primary nicebtn"
-                href=" swyx.podia.com/coding-career-creator-package" data-podia-embed="link">
+                href="https://swyx.podia.com/coding-career-creator-package?coupon=LAUNCHSALE50&via=shawn-wang" data-podia-embed="link" data-coupon="LAUNCHSALE50">
                 Buy The Creator Package <br /> Launch Price: <s>$249</s> $199
               </a>
             </div>
@@ -148,7 +148,7 @@
             <div class="text-shifty">
               <a
                 class="btn btn-secondary"
-                href="https://swyx.podia.com/coding-career-community-package" data-podia-embed="link">
+                href="https://swyx.podia.com/coding-career-community-package?coupon=LAUNCHSALE20&via=shawn-wang" data-podia-embed="link" data-coupon="LAUNCHSALE20">
                 Buy The Community Package <br /> Launch Price: <s>$99</s> $79
               </a>
             </div>
@@ -191,7 +191,7 @@
             <div class="text-left">
               <a
                 class="btn btn-secondary btn-small"
-                 href="https://swyx.podia.com/coding-career-handbook" data-podia-embed="link">
+                 href="https://swyx.podia.com/coding-career-handbook?coupon=LAUNCHSALE20&via=shawn-wang" data-podia-embed="link" data-coupon="LAUNCHSALE20">
                 Buy The Book | Launch Price: <s>$59</s> $39
               </a>
             </div>
