@@ -4,9 +4,8 @@
   let activeNav = "Home";
   let isMobile;
   let isMobileAndNavActive = false;
-  $: console.log({ isMobile, isMobileAndNavActive });
+  // $: console.log({ isMobile, isMobileAndNavActive });
   function handleClickOutside() {
-    console.log("clickoutside");
     if (isMobile && isMobileAndNavActive) {
       isMobileAndNavActive = !isMobileAndNavActive;
     }
