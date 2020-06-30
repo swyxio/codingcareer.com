@@ -1,6 +1,6 @@
 <style>
   #TOC {
-    font-family: serif;
+    font-family: "PT Serif", serif;
   }
   h2,
   h3 {

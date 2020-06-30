@@ -10,6 +10,9 @@
     margin: 0;
   }
   @media (min-width: 768px) {
+    .cta-holder .btn {
+      font-size: 18px;
+    }
     .promo {
       padding-right: 1rem !important;
     }
@@ -60,7 +63,7 @@
   .quote {
     position: relative;
     border-left: 4px solid #f5a782;
-    font-style: italic;
+    /* font-style: italic; */
   }
   .theme-bg-light {
     background: #f6f8fc;
@@ -101,11 +104,8 @@
           </div>
 
           <div class="cta-holder">
-
             <a class="btn btn-primary mr-lg-2" href="#packages">Buy Now</a>
-
             <a class="btn btn-secondary scrollto" href="#TOC">Learn More</a>
-
           </div>
 
           <div class="hero-quotes mt-5">

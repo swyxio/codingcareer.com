@@ -89,7 +89,7 @@
       img:
         "https://pbs.twimg.com/profile_images/1133122333290291200/xV9gO-D6_400x400.jpg",
       link: null,
-      quote: `What should I do? Just tell me what to do! There's no One Right Answer for how to become a coder, much less a happy and "successful" one. What there is, however, are thousands of stories of how folks have cracked the coding career themselves! Shawn has put together his story, with a ton of practical and pragmatic real world advice! The great thing about advice? You don't have to take it.  Cracking the Coding Career is a wonderful collection of what's worked and what may not work for you! These are guidelines and tactics that you can incorporate into your coding life and career whether you're a code newbie or a code oldie like me - it's never too late to learn how to be a great programmer!`,
+      quote: `What should I do? Just tell me what to do! There's no One Right Answer for how to become a coder, much less a happy and "successful" one. What there is, however, are thousands of stories of how folks have cracked the coding career themselves! Shawn has put together his story, with a ton of practical and pragmatic real world advice! The great thing about advice? You don't have to take it.  The Coding Career Handbook is a wonderful collection of what's worked and what may not work for you! These are guidelines and tactics that you can incorporate into your coding life and career whether you're a code newbie or a code oldie like me - it's never too late to learn how to be a great programmer!`,
     },
     // {
     //   name: "",

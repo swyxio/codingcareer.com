@@ -1,6 +1,6 @@
 <style>
   .theme-bg-primary {
-    background: #b7791f;
+    background: #5e3e0f;
   }
   .author-section {
     color: #fff;
@@ -33,28 +33,50 @@
   .author-section .social-list a:hover {
     color: #2daae1;
   }
-  .media {
-    justify-content: space-between;
-  }
   ul {
     margin: 0;
   }
   a {
-    color: #97f9ca;
+    color: #edf518;
     /* color: var(--yellow); */
+  }
+  .about-me {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: start;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  .titlegroup {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: 760px) {
+    .about-me {
+      flex-direction: row;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 760px;
+    }
+    .titlegroup {
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
 </style>
 
 <section class="author-section section theme-bg-primary py-5">
-  <div class="single-col-max mx-auto py-3 media align-items-center">
+  <div class="about-me">
     <div class="author-profile text-center mr-3">
       <img
-        class="author-pic"
-        src="https://pbs.twimg.com/profile_images/1201029434054041606/efWs7Lr9_400x400.jpg"
+        class="lazyload author-pic"
+        data-src="https://pbs.twimg.com/profile_images/1201029434054041606/efWs7Lr9_400x400.jpg"
         alt="meee" />
     </div>
     <div>
-      <div class="media mb-3">
+      <div class="titlegroup">
         <h2 class="section-heading text-center text-white">About The Author</h2>
         <div class="author-links text-center pt-4">
           <ul class="social-list list-unstyled">
