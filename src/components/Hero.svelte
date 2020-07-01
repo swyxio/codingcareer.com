@@ -31,16 +31,16 @@
           bg-yellow-500 px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:bg-yellow-600 focus:outline-none focus:shadow-outline
           transition ease-in-out duration-150"
-          href="/#buy">
-          Buy Now
+          href="/learn-in-public-2020.pdf">
+          Read Free Chapter
         </a>
         <a
           class="shadow-md w-full sm:w-1/3 my-5 text-center rounded-lg
           bg-transparent px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:bg-yellow-500 focus:outline-none focus:shadow-outline
           transition ease-in-out duration-150 border-black border-2"
-          href="/#learn-more">
-          Learn More
+          href="/#buy">
+          Buy Now
         </a>
       </div>
       <p

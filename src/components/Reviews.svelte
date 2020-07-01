@@ -87,7 +87,7 @@
               src="/profiles/randall.jpg"
               alt="Randall Kanna" />
             <div class="flex flex-col ml-2">
-              <p class="text-xl font-bold">Randall kanna</p>
+              <p class="text-xl font-bold">Randall Kanna</p>
               <p class="">Engineer, Author: the Standout Developer</p>
             </div>
           </div>
