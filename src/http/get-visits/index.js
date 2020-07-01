@@ -10,7 +10,7 @@ exports.handler = async function http(request) {
     prop: "visits", // : 0,
   });
   let sources;
-  if (request.queryStringParameters.from) {
+  if (request.queryStringParameters && request.queryStringParameters.from) {
     sources = await data.incr({
       table: "visits",
       key: "sources",
