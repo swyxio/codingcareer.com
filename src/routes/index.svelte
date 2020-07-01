@@ -106,6 +106,19 @@
 
 <main id="top">
   <Hero />
+  <div>
+    <a
+      href="https://www.producthunt.com/posts/the-coding-career-handbook?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-the-coding-career-handbook"
+      target="_blank">
+      <img
+        src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=211610&theme=light"
+        alt="The Coding Career Handbook - Guides, Principles, Strategies and
+        Tactics for Jr to Sr Devs | Product Hunt Embed"
+        style="width: 250px; height: 54px;"
+        width="250px"
+        height="54px" />
+    </a>
+  </div>
   <Nav />
   <TOC />
   <Packages />

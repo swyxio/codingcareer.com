@@ -107,6 +107,9 @@
           href="https://www.freecodecamp.org/news/freecodecamp-servers-update-october-2019/">
           support FreeCodeCamp!
         </a>
+        <br />
+        <label for="FCC">Progress toward $10,000 in Donations:</label>
+        <progress id="FCC" max="10000" value="2085"> 21% </progress>
       </div>
     </div>
     <div class="mx-auto">
