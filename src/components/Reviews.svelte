@@ -4,17 +4,8 @@
 
   let data = [
     {
-      name: "Samantha Bretous",
-      title: "Computer magic maker, Software Engineer at Mailchimp",
-      img:
-        "https://pbs.twimg.com/profile_images/1087122573803048960/RrxlAjkv_400x400.jpg",
-      link: null,
-      quote:
-        "I wish I had this book when I was switching jobs. It helps you understand what skills you should leverage and really encourages you not underleveled yourself.",
-    },
-    {
       name: "Randall Kanna",
-      title: "Engineer, O'Reilly Author",
+      title: "Engineer, Author: the Standout Developer",
       img:
         "https://pbs.twimg.com/profile_images/1276691437711552512/n6VxRfyG_400x400.jpg",
       link: "https://twitter.com/RandallKanna/status/1265506271039496192",
@@ -22,17 +13,28 @@
         "I was also lucky enough to read @Coding_Career early and I was thoroughly blown away! It’s the book I wish I had when I started my dev career.",
     },
     {
-      name: "Emma Bostian",
-      title: "LadyBug.fm, Software Engineer at Spotify",
+      name: "Samantha Bretous",
+      highlight: true,
+      title: "Computer magic maker, Software Engineer at Mailchimp",
       img:
-        "https://pbs.twimg.com/profile_images/1262289899786559489/wxFM6Q30_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1087122573803048960/RrxlAjkv_400x400.jpg",
       link: null,
       quote:
-        "I love that he included information about burnout as this is one of the biggest hurdles new developer encounter early in their career. Shawn has included links to many wonderful resources and graphs from other content creators. The section on negotiation is one I could have used early on in my career.",
+        "I wish I had this book when I was switching jobs. It helps you understand what skills you should leverage and really encourages you not underlevel yourself!",
+    },
+    {
+      name: "Aryan Jabbari",
+      title: "The WebDev Coach",
+      img:
+        "https://pbs.twimg.com/profile_images/1063915108668182529/KAq8G4TX_400x400.jpg",
+      link: "https://twitter.com/AryanJabbari/status/1263597781286961159",
+      quote:
+        "The links to high-value blog posts already make the book worth it, never mind the amazing insight and context provided by Shawn. Must buy for #CodeNewbies looking to break in or senior engineers looking to grow!",
     },
     {
       name: "Kent C. Dodds",
       title: "KentCDodds.com",
+      highlight: true,
       img:
         "https://pbs.twimg.com/profile_images/759557613445001216/6M2E1l4q_400x400.jpg",
       link: null,
@@ -45,38 +47,32 @@
         "https://pbs.twimg.com/profile_images/1138414735500595200/MfOU2-0K_400x400.png",
       link: null,
       quote:
-        "For anyone looking for career advice as a coder but is tired of being told they have to do X or never do Y. Shawn is sharing his personal experiences and knowledge of navigating these sometimes overwhelming waters in the hopes you might find something useful. It's like having a caring big brother in your pocket (if you read on your phone)!",
+        "For anyone looking for career advice as a coder but is tired of being told they have to do X or never do Y. Shawn is sharing his personal experiences and knowledge of navigating these sometimes overwhelming waters in the hopes you might find something useful. It's like having a caring big brother in your pocket! (if you read on your phone)",
     },
     {
-      name: "Aryan Jabbari",
-      title: "The WebDev Coach",
+      name: "Emma Bostian",
+      title: "LadyBug.fm, Software Engineer at Spotify",
       img:
-        "https://pbs.twimg.com/profile_images/1063915108668182529/KAq8G4TX_400x400.jpg",
-      link: "https://twitter.com/AryanJabbari/status/1263597781286961159",
+        "https://pbs.twimg.com/profile_images/1262289899786559489/wxFM6Q30_400x400.jpg",
+      link: null,
+      highlight: true,
       quote:
-        "The links to high-value blog posts already make the book worth it, never mind the amazing insight and context provided by Shawn. Must buy for #CodeNewbies looking to break in or senior engineers looking to grow.",
+        "I love that he included information about burnout as this is one of the biggest hurdles new developer encounter early in their career. Shawn has included links to many wonderful resources and graphs from other content creators. The section on negotiation is one I could have used early on in my career.",
     },
     {
       name: "Carlos Roso",
       title: "Full Stack Developer, Toptal",
       img:
         "https://pbs.twimg.com/profile_images/1242455630666969088/XTvufboM_400x400.jpg",
-      link: "https://twitter.com/caroso1222/status/1266421037689962497?s=20",
+      // link: "https://twitter.com/caroso1222/status/1266421037689962497?s=20",
+      link: null,
       quote:
         "I wish I had this book when I started my career! Every single chapter is like a growth hack but for developers. I'd say this book is worth 1000x long term!",
     },
     {
-      name: "Adam Rackis",
-      title: "JS / C++ Engineer, React/MobX/GraphQL enthusiast",
-      img:
-        "https://pbs.twimg.com/profile_images/1183169082243375104/FwXKVe5H_400x400.jpg",
-      link: null,
-      quote:
-        "The Coding Career Handbook is a superb guide to the software engineering career field. I wish I'd had this available to me when I was just starting out 15 years ago!",
-    },
-    {
       name: "Dan Abramov",
       title: "JustJavaScript.com",
+      highlight: true,
       img:
         "https://avatars1.githubusercontent.com/u/810438?s=460&u=35ccd184f97ba62d6332c91d39168cae69602322&v=4",
       link: "https://twitter.com/dan_abramov/status/1265463366694440960",
@@ -84,8 +80,18 @@
         "I’m reading through swyx’s @Coding_Career and I’m genuinely impressed. It’s very dense but reads very lightly. Lots of useful context for someone coming into the industry.",
     },
     {
+      name: "Adam Rackis",
+      title: "JS / C++ Engineer",
+      img:
+        "https://pbs.twimg.com/profile_images/1183169082243375104/FwXKVe5H_400x400.jpg",
+      link: null,
+      quote:
+        "The Coding Career Handbook is a superb guide to the software engineering career field. I wish I'd had this available to me when I was just starting out 15 years ago!",
+    },
+    {
       name: "Scott Hanselman",
       title: "Programmer",
+      highlight: true,
       img:
         "https://pbs.twimg.com/profile_images/1133122333290291200/xV9gO-D6_400x400.jpg",
       link: null,
@@ -110,7 +116,7 @@
     display: inline-block;
     width: 36px;
     height: 36px;
-    background: #f5a782;
+    background: #b7791f;
     color: #fff;
     text-align: center;
     border-radius: 50%;
@@ -129,6 +135,9 @@
     box-shadow: 0 0 0 2px #2daae1;
     color: #2daae1 !important;
   }
+  .highlight {
+    border: 1px solid #b7791f;
+  }
 </style>
 
 <section id="reviews-section" class="menuitem reviews-section py-5">
@@ -142,7 +151,9 @@
         <div
           class:col-lg-4={i !== data.length - 1}
           class="item col-12 p-3 mb-4">
-          <div class="item-inner theme-bg-light rounded p-4">
+          <div
+            class="item-inner theme-bg-light rounded p-4"
+            class:highlight={item.highlight}>
 
             <blockquote class="quote">{item.quote}</blockquote>
             {#if item.link}

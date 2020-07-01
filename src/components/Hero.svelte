@@ -1,3 +1,19 @@
+<script>
+  import { onMount } from "svelte";
+  import { tweened } from "svelte/motion";
+import { cubicIn } from 'svelte/easing';
+
+	
+  const numPeeps = tweened(1, {
+    duration: 2000,
+    delay: 500,
+		easing: cubicIn
+  });
+  onMount(() => {
+    $numPeeps = 400; // todo: get this from live endpoint!!!
+  });
+</script>
+
 <style>
   @media (min-width: 992px) {
     .promo {
@@ -62,7 +78,7 @@
   }
   .quote {
     position: relative;
-    border-left: 4px solid #f5a782;
+    border-left: 4px solid #b7791f;
     /* font-style: italic; */
   }
   .theme-bg-light {
@@ -77,8 +93,32 @@
   .purple {
     color: darkgoldenrod;
   }
+  section {
+    min-height: calc(100vh - 2em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner {
+    background-color: #5e3e0f;
+    color: #fff;
+    padding: 1em;
+    width: 100%;
+  }
+  .banner a {
+    color: #edf518;
+  }
 </style>
 
+<!-- Banner -->
+<div class="banner text-center">
+  🎉<b>Celebrating our Launch!</b> <a href="https://twitter.com/swyx/status/1263841899225350144?s=20">25%</a> of Book Sales will go to
+  <a
+    href="https://www.freecodecamp.org/news/freecodecamp-servers-update-october-2019/">
+    support FreeCodeCamp.
+  </a>
+</div>
 <section>
   <div class="container">
     <div class="row mb-5">
@@ -97,10 +137,17 @@
             <span class="purple">Coding Career</span>
           </h1>
           <div class="subheadline mb-4">
-            Embarking on a new Dev Career is a scary proposition. There are
-            thousands of tutorials helping you learn to code and get that first
-            job. But nothing on how to take that technical skill and make a
-            great career out of it!
+            Join a supportive community of
+            {#if $numPeeps < 400}
+            <b>{Math.round($numPeeps)}</b>
+            {:else}
+            <b class="purple">400+</b>
+            {/if}
+            readers having a real conversation about the
+            <b>Principles, Strategies and Tactics</b>
+            developers can use to
+            <b>build an exceptional career</b>
+            !
           </div>
 
           <div class="cta-holder">
@@ -149,7 +196,7 @@
         <div class="book-cover-holder">
           <img
             class="img-fluid book-cover"
-            src="/book-mock-1.png"
+            src="/ebook-mock-1.png"
             alt="book cover" />
           <!-- <div class="text-center">
             <a class="theme-link scrollto" href="#reviews-section">

@@ -1,104 +1,54 @@
 <script>
-  import { clickOutside } from "./actions.js";
-
-  let activeNav = "Home";
-  let isMobile;
-  let isMobileAndNavActive = false;
-  // $: console.log({ isMobile, isMobileAndNavActive });
-  function handleClickOutside() {
-    if (isMobile && isMobileAndNavActive) {
-      isMobileAndNavActive = !isMobileAndNavActive;
-    }
-  }
   import { onMount } from "svelte";
-  $: isMobile =
-    typeof window !== "undefined" &&
-    !window.matchMedia("(min-width: 480px)").matches;
+  let from = null;
   onMount(() => {
-    isMobile = !window.matchMedia("(min-width: 480px)").matches;
+    const searchParams = new URLSearchParams(window.location.search).get(
+      "from"
+    );
+    if (searchParams) {
+      from = searchParams;
+      console.log({ from });
+    }
   });
 </script>
 
 <style>
-  nav {
-    border-top: 1px solid gold;
-    border-bottom: 1px solid gold;
-    padding: 1em;
+  .FAB {
+    padding: 0.875rem 2.5rem;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border-radius: 2rem;
+    border: none;
     position: fixed;
-    bottom: 2em;
-    z-index: 999;
-    background: papayawhip;
+    bottom: 1em;
+    background: linear-gradient(to right, #ff335f, #9198e5);
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    text-align: center;
+    z-index: 3;
+    width: 80vw;
+    max-width: 200px;
   }
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    max-width: 70ch;
-    margin: 0 auto;
-    padding: 0;
-
-    /* mobile stuff */
-    flex-direction: column;
+  .FAB:hover {
+    /* https://www.w3schools.com/howto/howto_css_shake_image.asp */
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
   }
-  nav ul li {
-    margin-bottom: 1em;
-  }
-  @media (min-width: 480px) {
-    nav {
-      top: 0;
-      position: sticky;
-      margin-bottom: 1.5rem;
-    }
-    nav ul {
-      flex-direction: row;
-    }
-    nav ul li {
-      margin-bottom: 0;
+  @media (min-width: 768px) {
+    .FAB {
+      left: 2em;
+      bottom: 2em;
+      transform: initial;
     }
   }
 </style>
 
-<nav use:clickOutside={handleClickOutside}>
-  {#if isMobile}
-    {#if isMobileAndNavActive}
-      <ul>
-        <li class="menulink" id="menu-TOC">
-          <a href="#TOC">ToC</a>
-        </li>
-        <li class="menulink" id="menu-community">
-          <a href="#community">Community</a>
-        </li>
-        <li class="menulink" id="menu-workshops">
-          <a href="#workshops">Workshops</a>
-        </li>
-        <li class="menulink" id="menu-packages">
-          <a href="#packages">Packages</a>
-        </li>
-        <li class="menulink" id="menu-FAQ">
-          <a href="#FAQ">FAQ</a>
-        </li>
-      </ul>
-    {/if}
-    <button on:click={() => (isMobileAndNavActive = !isMobileAndNavActive)}>
-      {#if isMobileAndNavActive}close{:else}open{/if}
-    </button>
+<a class="FAB btn-primary" href={`${from ? '?from=' + from : ''}#packages`}>
+  {#if from}
+    <b>Hello {from}!</b>
+    <br />
+    Get the right package for you
   {:else}
-    <ul>
-      <li class="menulink" id="menu-TOC">
-        <a href="#TOC">ToC</a>
-      </li>
-      <li class="menulink" id="menu-community">
-        <a href="#community">Community</a>
-      </li>
-      <li class="menulink" id="menu-workshops">
-        <a href="#workshops">Workshops</a>
-      </li>
-      <li class="menulink" id="menu-packages">
-        <a href="#packages">Packages</a>
-      </li>
-      <li class="menulink" id="menu-FAQ">
-        <a href="#FAQ">FAQ</a>
-      </li>
-    </ul>
+    <b>Buy Now!</b>
   {/if}
-</nav>
+</a>

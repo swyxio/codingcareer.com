@@ -32,6 +32,12 @@
     text-decoration: none;
     background: #97571a;
   }
+  .btn:hover {
+    /* https://animista.net/play/attention/pulsate/pulsate-fwd */
+    -webkit-animation: pulsate-fwd 0.5s ease-in-out 2 both;
+            animation: pulsate-fwd 0.5s ease-in-out 2 both;
+
+  }
   .btn.btn-secondary:hover, .btn.btn-secondary:focus {
     color: white;
   }
@@ -45,18 +51,26 @@
   ul {
     margin: 0
   }
+  .packages-header {
+    background: #5e3e0f;
+    color: white;
+  }
+  .teamlicense {
+    transition:transform 0.5s;
+  }
+  .teamlicense:hover {
+    font-weight: bold;
+    transform: scale(1.2)
+  }
 </style>
 
 <section class="menuitem content-section" id="packages">
   <div class="container">
-    <div class="btn-primary mb-3">
-      <h2 class="section-heading text-center">
-        Launch Sale Starting July 1!
-      </h2>
-      <p class="text-center">25% of Book Sales will be donated to FreeCodeCamp</p>
-    </div>
+    <h2 class="text-center packages-header py-5">
+      Get your Coding Career fix!
+    </h2>
     <div class="mx-auto">
-      <h2 class="section-heading text-center mb-5">The Creator Package</h2>
+      <h2 class="section-heading text-center my-5">The Creator Package</h2>
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="figure-holder mb-5">
@@ -83,7 +97,7 @@
               </li>
               <li>
                 <Check />
-                <b>10 Hours of Behind The Scenes Recorded Livestreams</b> of Writing Process
+                <b>10 Hours of Behind The Scenes Recorded Livestreams</b> 
               </li>
               <li>
                 <Check />
@@ -95,7 +109,7 @@
               </li>
               <li>
                 <Check />
-                Lifetime access to <b>Live and Recorded Workshops</b> (<a href="#workshops">Learn more</a>)
+                Upcoming <b>Live and Recorded Workshops</b> <br /> (<a href="#workshops">Learn more</a>)
               </li>
             </ul>
             <div class="text-shifty">
@@ -111,7 +125,7 @@
     </div>
     <hr/>
     <div class="mx-auto">
-      <h2 class="section-heading text-center mb-5">The Community Package</h2>
+      <h2 class="section-heading text-center my-5">The Community Package</h2>
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="figure-holder mb-5">
@@ -151,6 +165,8 @@
                 href="https://swyx.podia.com/coding-career-community-package?coupon=LAUNCHSALE20&via=shawn-wang" data-podia-embed="link" data-coupon="LAUNCHSALE20">
                 Buy The Community Package <br /> Launch Price: <s>$99</s> $79
               </a>
+              <p class="teamlicense"> <a href="https://swyx.podia.com/coding-career-community-team" data-podia-embed="link">Team License: $249</a>
+              </p>
             </div>
           </div>
         </div>
@@ -158,7 +174,7 @@
     </div>
     <hr/>
     <div class="mx-auto">
-      <h2 class="section-heading text-center mb-5">Just The Book</h2>
+      <h2 class="section-heading text-center my-5">Just The Book</h2>
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="figure-holder mb-5">
@@ -181,19 +197,17 @@
               </li>
               <li>
                 <Check />
-                PDF, EPUB, MOBI versions
-              </li>
-              <li>
-                <Check />
-                Lifetime access to book updates
+                PDF, EPUB, MOBI versions (<a href="#versions">Learn more</a>)
               </li>
             </ul>
             <div class="text-left">
               <a
                 class="btn btn-secondary btn-small"
                  href="https://swyx.podia.com/coding-career-handbook?coupon=LAUNCHSALE20&via=shawn-wang" data-podia-embed="link" data-coupon="LAUNCHSALE20">
-                Buy The Book | Launch Price: <s>$59</s> $39
+                Launch Price: <s>$59</s> $39
               </a>
+              <p class="teamlicense"> <a href="https://swyx.podia.com/coding-career-handbook-team" data-podia-embed="link">Team License: $149</a>
+              </p>
             </div>
           </div>
         </div>

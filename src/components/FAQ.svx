@@ -66,25 +66,40 @@ and therefore there is a lot left to figure out!_
 
 #### Tell me more about the Coding Career Workshops?
 
-**Get the most** out of your Coding Career journey with monthly live workshops.
-Dive deeper into selected topics from the book and others that didn't make the cut (yet!).
-Ask questions and get answers live, with the option to remain anonymous.
+**Get the most** out of your Coding Career journey with monthly live workshops. Dive deeper into selected topics from the book and others that didn't make the cut (yet!). Planned sessions in July are Sundays at 12pm EST (9am PDT):
+
+- **July 12**: Learning in Public
+- **July 19**: The Business of Software
+- **July 26**: Writing & Speaking
 
 All workshops will be recorded, so this becomes an ever-growing library of career content.
-**If you are interested in being a guest speaker, please get in touch!**
 
-_Note: At least 4 sessions are planned but none are scheduled yet. Scheduling will take
-place over Discord chat and email. Standalone workshops are available for bootcamps and small teams._
+_Note: Invites will come via email, all recordings will be available via your Podia purchase. Standalone workshops are available for bootcamps and small teams._
 
 </div>
 <img class="lazyload" data-src="/workshop-screens.png" alt="screenshot of Workshops" />
 </div>
 
-#### Is the book available in EPUB or MOBI or audio formats?
+<div id="versions">
+
+#### What format are the files?
 
 - The book is available in PDF, EPUB and MOBI at all 3 tiers.
-- The audio book is available with **the Community Package**.
-- **The Creator Package** comes with 2 hours of extra author commentary and 10 hours of livestreamed writing process!
+- The audio book is available with **the Community Package** as a zip of `mp3` files.
+- **The Creator Package** comes with 2 hours of extra author commentary and 10 hours of livestreamed writing process (`mp4` files)!
+
+</div>
+
+#### Is there any DRM? Can I share this book with my team?
+
+No DRM, you should enjoy a hassle-free experience! If you purchase an individual license, please respect the license terms and do not distribute any copies. **Team licenses are available for up to 5 team members**:
+
+<ul>
+<li><a href="https://swyx.podia.com/coding-career-handbook-team" data-podia-embed="link">Team License for The Coding Career Handbook ($149)</a></li>
+<li><a href="https://swyx.podia.com/coding-career-community-team" data-podia-embed="link">Team License for The Coding Career Community Package ($249)</a></li>
+</ul>
+
+Academic and nonprofit organizations can contact me for fifty percent off a team license.
 
 #### Do you do Purchasing Power Parity?
 

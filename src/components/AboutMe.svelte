@@ -53,7 +53,7 @@
     display: flex;
     flex-direction: column;
   }
-  @media (min-width: 760px) {
+  @media (min-width: 768px) {
     .about-me {
       flex-direction: row;
       margin-right: auto;

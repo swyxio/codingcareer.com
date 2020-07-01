@@ -32,6 +32,13 @@
       justify-content: center;
     }
   }
+
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 </style>
 
 <section class="menuitem content-section mb-5" id="TOC">
@@ -57,7 +64,7 @@
           : Real Talk
         </div>
         <!-- <hr /> -->
-        <h3>Career Guides</h3>
+        <h3 class="mt-5">Career Guides</h3>
         <ul>
           <li>Code Newbies</li>
           <li>Job Hunt</li>
@@ -112,7 +119,9 @@
         </ul>
       </div>
     </div>
+    <hr />
     <h3 class="text-shifty">Finale: The Operating System of You</h3>
+    <hr />
 
   </div>
 </section>
