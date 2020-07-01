@@ -56,10 +56,11 @@
           target="_blank"
           rel="noreferrer">
           <img
+          class="max-w-none"
             alt="The Coding Career Handbook - Guides, Principles, Strategies and
             Tactics for Jr to Sr Devs | Product Hunt Embed"
             data-src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=211610&amp;theme=light"
-            width="375px"
+            width="200px"
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=211610&amp;theme=light" />
         </a>
         <a
