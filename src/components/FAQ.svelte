@@ -39,9 +39,9 @@
             Sundays at 12pm EST (9am PDT):
           </p>
           <ul class="list-inside text-gray-600 mt-4 ml-3">
-            <li class="list-disc">July 12: Learning in Public</li>
-            <li class="list-disc">July 19: The Business of Software</li>
-            <li class="list-disc">July 26: Writing and Speaking</li>
+            <li class="list-disc"><span class="font-bold">July 12</span>: Learning in Public</li>
+            <li class="list-disc"><span class="font-bold">July 19</span>: The Business of Software</li>
+            <li class="list-disc"><span class="font-bold">July 26</span>: Writing and Speaking</li>
           </ul>
           <p class="mt-2 text-base leading-6 text-gray-600">
             All workshops will be recorded, so this becomes an ever-growing
@@ -60,25 +60,35 @@
           <p class="text-base leading-6 text-gray-600 mt-2">
             No DRM, you should enjoy a hassle-free experience! If you purchase
             an individual license, please respect the license terms and do not
-            distribute any copies. Team licenses are available for up to 5 team
-            members:
+            distribute any copies. Team licenses are available:
           </p>
           <ul class="list-inside text-gray-600 mt-4 ml-3">
             <li class="list-disc">
-              <a
-                href="https://swyx.podia.com/coding-career-handbook-team"
-                target="_blank"
-                rel="noreferrer">
-                Team License for The Coding Career Handbook ($149)
-              </a>
+              The Coding Career Handbook (
+                <a
+                  class="underline" href="https://swyx.podia.com/coding-career-handbook-team-5"
+                  data-podia-embed="link">
+                  5 People - $149
+                </a>, 
+                <a
+                  class="underline" href="https://swyx.podia.com/coding-career-handbook-team-10"
+                  data-podia-embed="link">
+                  10 People - $279
+                </a>) 
             </li>
             <li class="list-disc">
+              The Coding Career Community Package (
               <a
-                href="https://swyx.podia.com/coding-career-handbook-team"
-                target="_blank"
-                rel="noreferrer">
-                Team License for The Coding Career Community Package ($249)
+                class="underline" href="https://swyx.podia.com/coding-career-community-team-5"
+                data-podia-embed="link">
+                5 People - $249
+              </a>, 
+              <a
+                class="underline" href="https://swyx.podia.com/coding-career-community-team-5"
+                data-podia-embed="link">
+                10 People - $479
               </a>
+              )
             </li>
           </ul>
           <p class="text-base leading-6 text-gray-600 mt-2">
@@ -98,15 +108,12 @@
         </div>
       </div>
       <div class="mt-12 sm:mt-0">
-        <div>
+        <div class="">
           <p class="text-lg leading-6 font-medium text-gray-900">
-            Can I purchase multiple copies for my team?
+            Refund Policy?
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-600">
-            Yes! You can click here to check out the team packages. You can buy
-            licenses of the Community Package for teams of up to 5 and 10.
-            Please email me swyx@hey.com if you are a bootcamp and want to set
-            up something for an entire cohort.xw:
+            Yes, 30 days, no questions asked (but if you have criticisms and feedback, I will gladly hear them!)
           </p>
         </div>
         <div class="mt-12">
@@ -135,12 +142,12 @@
               all 3 tiers.
             </li>
             <li class="list-disc mt-2">
-              The Bibliography extracts the 1400+ external links referenced in
+              The <span class="font-bold">Bibliography</span> extracts the 1400+ external links referenced in
               the book as a convenience for those using e-readers on separate
               devices.
             </li>
             <li class="list-disc mt-2">
-              The Audiobook version is available with the Community Package as a
+              The <span class="font-bold">Audiobook</span> version is available with the Community Package as a
               zip of mp3 files.
               <p class="mt-2">
                 Note: due to a recording snafu, only half the chapters are
@@ -148,8 +155,8 @@
               </p>
             </li>
             <li class="list-disc mt-2">
-              The Creator Package comes with 2 hours of extra author commentary
-              and 10 hours of livestreamed writing process (mp4 files)!
+              The Creator Package comes with <span class="font-bold">2 hours of extra author commentary</span>
+              and <span class="font-bold">10 hours of livestreamed writing process</span> (mp4 files)!
             </li>
           </ul>
         </div>
@@ -167,7 +174,10 @@
             Chrome (
             <a href="chrome://settings/cookies">chrome://settings/cookies</a>
             ). Either way, there should be a not-very-graceful fallback to send
-            you to the Podia purchase page. If the site is broken in some other
+            you to the Podia purchase page.
+            <br />
+            <br />
+            If the site is broken in some other
             way, please contact me and I’ll fix it right away! Contact info
             below 👇
           </p>

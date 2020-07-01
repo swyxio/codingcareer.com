@@ -4,7 +4,9 @@
   import WhatsInside from "../components/WhatsInside.svelte";
   import Reviews from "../components/Reviews.svelte";
   import AboutAuthor from "../components/AboutAuthor.svelte";
+  import Pricing from "../components/Pricing.svelte";
   import FAQ from "../components/FAQ.svelte";
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <div class="flex flex-col min-h-screen font-sans text-gray-900">
@@ -14,8 +16,10 @@
       <Hero />
       <WhatsInside />
       <Reviews />
+      <Pricing />
       <AboutAuthor />
       <FAQ />
+      <Footer />
     </div>
   </main>
 </div>

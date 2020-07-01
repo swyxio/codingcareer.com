@@ -101,7 +101,7 @@
                       Community
                     </p>
                   </li>
-                  <li class="mt-4 flex items-start">
+                  <!-- <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +121,7 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Lifetime access
                     </p>
-                  </li>
+                  </li> -->
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
                       <svg
@@ -141,7 +141,9 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       PDF, EPUB, MOBI versions + Audio Book + Bibliography with
-                      2 hours of Author Commentary
+                      <span class="font-bold">
+                        2 hours of Author Commentary
+                      </span>
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -162,7 +164,9 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      10 Hours of Behind The Scenes Recorded Livestreams
+                      <span class="font-bold">
+                        10 Hours of Behind The Scenes Recorded Livestreams
+                      </span>
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -183,7 +187,8 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black ">
-                      Upcoming Live and Recorded Workshops (
+                      <span class="font-bold">Upcoming Live Workshops</span>
+                      (
                       <a
                         class="text-blue-500 hover:underline"
                         href="/#workshops">
@@ -196,6 +201,9 @@
                 <div class="mt-10">
                   <div class="rounded-lg shadow-lg">
                     <a
+                      href="https://swyx.podia.com/coding-career-creator-package?coupon=LAUNCHSALE50&via=shawn-wang"
+                      data-podia-embed="link"
+                      data-coupon="LAUNCHSALE50"
                       class="block w-full text-center rounded-lg bg-yellow-500
                       px-6 py-4 text-xl leading-6 font-semibold font-display
                       text-black hover:bg-gray-700 focus:outline-none
@@ -300,7 +308,9 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      PDF, EPUB, MOBI versions + Audio book + Bibliography (
+                      PDF, EPUB, MOBI versions +
+                      <span class="font-bold">Audio book + Bibliography</span>
+                      (
                       <a class="text-blue-500 hover:underline" href="/#files">
                         Learn more
                       </a>
@@ -325,7 +335,9 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Lifetime access to book updates
+                      <span class="font-bold">
+                        Lifetime access to book updates
+                      </span>
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -346,7 +358,8 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Lifetime access to dedicated Coding Career Community
+                      Dedicated
+                      <span class="font-bold">Coding Career Community</span>
                     </p>
                   </li>
                 </ul>
@@ -357,8 +370,9 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      target="_blank"
-                      rel="noreferrer">
+                      href="https://swyx.podia.com/coding-career-community-package?coupon=LAUNCHSALE20&via=shawn-wang"
+                      data-podia-embed="link"
+                      data-coupon="LAUNCHSALE20">
                       Buy Now
                     </a>
                   </div>
@@ -449,7 +463,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Lifetime access
+                      PDF + EPUB + MOBI Versions
                     </p>
                   </li>
                 </ul>
@@ -460,8 +474,9 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      target="_blank"
-                      rel="noreferrer">
+                      href="https://swyx.podia.com/coding-career-handbook?coupon=LAUNCHSALE20&via=shawn-wang"
+                      data-podia-embed="link"
+                      data-coupon="LAUNCHSALE20">
                       Buy Now
                     </a>
                   </div>

@@ -14,12 +14,15 @@
         Career Guides
       </h3>
       <p
-        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-        Aliquam erat volutpat. Cras vitae libero vel nunc faucibus aliquam.
-        Nulla varius quis nisi in fringilla. In hac habitasse platea dictumst.
-        Sed tempor ac leo sit amet ultrices. Mauris sit amet augue ut nibh
-        malesuada placerat vel ut nibh. Nullam rhoncus odio eu justo faucibus
-        scelerisque.
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
+        Specific advice on every career stage from
+        <span class="font-bold">Code Newbie</span>
+        to
+        <span class="font-bold">Junior Dev</span>
+        to
+        <span class="font-bold">Senior Dev</span>, and every transition after: the
+        <span class="font-bold">First Job Hunt</span>, going
+        <span class="font-bold">from Junior to Senior</span>, and <span class="font-bold">Beyond</span>.
       </p>
       <h3
         class="text-center mt-1 text-2xl tracking-tight leading-10 font-semibold
@@ -27,12 +30,17 @@
         Principles
       </h3>
       <p
-        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-        Aliquam erat volutpat. Cras vitae libero vel nunc faucibus aliquam.
-        Nulla varius quis nisi in fringilla. In hac habitasse platea dictumst.
-        Sed tempor ac leo sit amet ultrices. Mauris sit amet augue ut nibh
-        malesuada placerat vel ut nibh. Nullam rhoncus odio eu justo faucibus
-        scelerisque.
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
+        The best investments are in things that
+        <em>don't</em>
+        change. We discuss timeless rules for successful default behavior. Learn
+        to
+        <span class="font-bold">
+          grow your network and expertise,
+          <em>while</em>
+          you learn
+        </span>
+        .
       </p>
       <h3
         class="mt-1 text-center text-2xl tracking-tight leading-10 font-semibold
@@ -40,12 +48,11 @@
         Strategies
       </h3>
       <p
-        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500">
-        Aliquam erat volutpat. Cras vitae libero vel nunc faucibus aliquam.
-        Nulla varius quis nisi in fringilla. In hac habitasse platea dictumst.
-        Sed tempor ac leo sit amet ultrices. Mauris sit amet augue ut nibh
-        malesuada placerat vel ut nibh. Nullam rhoncus odio eu justo faucibus
-        scelerisque.
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
+        Everything to do with making big moves, from
+        <span class="font-bold">Betting on Technologies</span>, to
+        <span class="font-bold">Career Ladders</span>, to
+        <span class="font-bold">Software Business Models</span>. Grow your business and personal impact!
       </p>
       <h3
         class="mt-1 text-center text-2xl tracking-tight leading-10 font-semibold
@@ -53,13 +60,18 @@
         Tactics
       </h3>
       <p
-        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-500
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600
         pb-16">
-        Aliquam erat volutpat. Cras vitae libero vel nunc faucibus aliquam.
-        Nulla varius quis nisi in fringilla. In hac habitasse platea dictumst.
-        Sed tempor ac leo sit amet ultrices. Mauris sit amet augue ut nibh
-        malesuada placerat vel ut nibh. Nullam rhoncus odio eu justo faucibus
-        scelerisque.
+        Important, self-contained skills that you can repeatedly call on
+        throughout your career, from
+        <span class="font-bold">Negotiating</span>
+        to
+        <span class="font-bold">Side Projects</span>
+        to
+        <span class="font-bold">Twitter</span>
+        to
+        <span class="font-bold">Writing</span>
+        .
       </p>
     </div>
     <h3
