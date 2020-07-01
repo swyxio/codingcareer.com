@@ -96,7 +96,7 @@
       class="text-center mt-3 text-base font-bold sm:mt-5 sm:text-xl lg:text-xg
       xl:text-3xl">
       View the full
-      <a class="text-blue-500 hover:underline" href="./toc.html">
+      <a class="text-blue-500 hover:underline" href="./toc">
         table of contents →
       </a>
     </h3>
