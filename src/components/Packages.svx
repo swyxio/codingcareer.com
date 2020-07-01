@@ -200,7 +200,7 @@
                 PDF, EPUB, MOBI versions (<a href="#versions">Learn more</a>)
               </li>
             </ul>
-            <div class="text-left">
+            <div class="text-shifty">
               <a
                 class="btn btn-secondary btn-small"
                  href="https://swyx.podia.com/coding-career-handbook?coupon=LAUNCHSALE20&via=shawn-wang" data-podia-embed="link" data-coupon="LAUNCHSALE20">

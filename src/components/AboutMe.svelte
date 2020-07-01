@@ -72,7 +72,7 @@
     <div class="author-profile text-center mr-3">
       <img
         class="lazyload author-pic"
-        data-src="https://pbs.twimg.com/profile_images/1201029434054041606/efWs7Lr9_400x400.jpg"
+        data-src="/profiles/swyx.jpg"
         alt="meee" />
     </div>
     <div>
