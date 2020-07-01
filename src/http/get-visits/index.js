@@ -9,6 +9,14 @@ exports.handler = async function http(request) {
     key: "visits",
     prop: "visits", // : 0,
   });
+  let sources;
+  if (request.queryStringParameters.from) {
+    sources = await data.incr({
+      table: "visits",
+      key: "sources",
+      prop: request.queryStringParameters.from.replace(" ", "_"),
+    });
+  }
   // console.log(process.env);
   let ACAO = undefined;
   if (process.env.NODE_ENV === "testing") ACAO = "http://localhost:3000";
@@ -22,6 +30,7 @@ exports.handler = async function http(request) {
     },
     body: JSON.stringify({
       visits,
+      ...sources,
     }),
   };
 };

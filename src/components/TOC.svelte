@@ -15,15 +15,9 @@
     margin: 1em;
     grid-template-columns: 1fr;
   }
-  .text-shifty {
-    text-align: left;
-  }
   @media (min-width: 480px) {
     .tocgrid {
       grid-template-columns: 1fr 1fr;
-    }
-    .text-shifty {
-      text-align: center;
     }
   }
   @media (min-width: 768px) {
@@ -120,7 +114,7 @@
       </div>
     </div>
     <hr />
-    <h3 class="text-shifty">Finale: The Operating System of You</h3>
+    <h3 class="text-center">Finale: The Operating System of You</h3>
     <hr />
 
   </div>

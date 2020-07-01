@@ -193,7 +193,7 @@
               </li>
               <li>
                 <Check />
-                <b>Lifetime access to exclusive Coding Career Community</b> (<a href="#community">Learn more</a>)
+                <b>Lifetime access to dedicated Coding Career Community</b> (<a href="#community">Learn more</a>)
               </li>
             </ul>
             <div class="text-shifty">
