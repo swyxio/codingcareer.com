@@ -8,6 +8,12 @@
     justify-content: center;
     align-items: center;
   }
+  @media (max-width: 480px) {
+    .MediaLinks {
+      grid-template-columns: auto;
+      text-align: center;
+    }
+  }
   img {
     max-height: 100px;
     max-width: 200px;
@@ -20,6 +26,17 @@
 
 <h3 class="text-center">As seen on:</h3>
 <div class="MediaLinks">
+  <a
+    href="https://www.producthunt.com/posts/the-coding-career-handbook?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-the-coding-career-handbook"
+    target="_blank">
+    <img
+      src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=211610&theme=light"
+      alt="The Coding Career Handbook - Guides, Principles, Strategies and
+      Tactics for Jr to Sr Devs | Product Hunt Embed"
+      style="width: 250px; height: 54px;"
+      width="250px"
+      height="54px" />
+  </a>
   <a
     href="https://www.softwaresessions.com/episodes/learning-in-public/"
     target="_blank">
@@ -36,17 +53,6 @@
     <img
       src="https://d33wubrfki0l68.cloudfront.net/cfa60b84058e908b802c2b62cd95288669306e93/e7e81/static/logo2-7c9ef51a4bf07a43860f24f84c73d45e.png"
       alt="IncludeJS" />
-  </a>
-  <a
-    href="https://www.producthunt.com/posts/the-coding-career-handbook?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-the-coding-career-handbook"
-    target="_blank">
-    <img
-      src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=211610&theme=light"
-      alt="The Coding Career Handbook - Guides, Principles, Strategies and
-      Tactics for Jr to Sr Devs | Product Hunt Embed"
-      style="width: 250px; height: 54px;"
-      width="250px"
-      height="54px" />
   </a>
   <a href="https://www.youtube.com/watch?v=QFHO2-8fGtM" target="_blank">
     <img
