@@ -7,7 +7,6 @@
     );
     if (searchParams) {
       from = searchParams;
-      console.log({ from });
     }
   });
 </script>
