@@ -35,7 +35,7 @@
   .FAB:hover {
     /* https://www.w3schools.com/howto/howto_css_shake_image.asp */
     animation: shake 0.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 3;
   }
   @media (min-width: 768px) {
     .FAB {
@@ -47,7 +47,7 @@
 </style>
 
 <!-- href={`${from ? '?from=' + from : ''}#packages`} -->
-<button class="FAB btn-primary" on:click={click}>
+<button class="FAB btn btn-primary" on:click={click}>
   {#if from}
     <b>Hello {from}!</b>
     <br />

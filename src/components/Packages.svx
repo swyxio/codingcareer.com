@@ -9,6 +9,19 @@
   .content-section .key-points-list li {
     margin-bottom: 1rem;
   }
+  @media (max-width: 480px) {
+    .container,
+    .col-md-6 {
+      padding: 0
+    }
+    .row {
+      margin: 0
+    }
+    ul {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
   @media (min-width: 768px) {
     /* .img-big {
       max-width: 140%;
