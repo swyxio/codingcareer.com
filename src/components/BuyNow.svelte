@@ -14,7 +14,7 @@
       <div class="grid grid-cols-7 md:grid-cols-12">
         <div class="col-span-7 md:col-span-5 text-center text-right">
           <img
-            src="/bigduck.jpg"
+            src="/codingcareer/bigduck.jpg"
             alt="The Big Duck Package"
             class="max-w-full mb-4 md:mb-0" />
         </div>
@@ -52,7 +52,7 @@
       <div class="grid grid-cols-7 md:grid-cols-12">
         <div class="col-span-7 md:col-span-5 text-center text-right">
           <img
-            src="/duckrace.jpg"
+            src="/codingcareer/codingcareer/codingcareer/duckrace.jpg"
             alt="The Duck Race Package"
             class="max-w-full mb-4 md:mb-0" />
         </div>
@@ -88,7 +88,7 @@
       <div class="grid grid-cols-7 md:grid-cols-12">
         <div class="col-span-7 md:col-span-5 text-center text-right">
           <img
-            src="/rubberduck.png"
+            src="/codingcareer/codingcareer/rubberduck.png"
             alt="The Ducky Package"
             class="max-w-full mb-4 md:mb-0" />
         </div>

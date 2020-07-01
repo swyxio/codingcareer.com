@@ -58,14 +58,11 @@
     --highlight-color: indigo;
   }
   main {
-    /* background-color: #0078d4; */
-    /* background-image: url(http://www.transparenttextures.com/patterns/foggy-birds.png); */
-    /* background-image: url(/duck-bg-pattern.png); */
     position: relative;
   }
   main::after {
     content: "";
-    background-image: url(/duck-bg-pattern.png);
+    background-image: url(/codingcareer/duck-bg-pattern.png);
     background-repeat: round;
     opacity: 0.05;
     top: 0;
@@ -82,8 +79,29 @@
 </style>
 
 <svelte:window bind:scrollY={y} />
+<!-- https://webcode.tools/open-graph-generator/book -->
 <svelte:head>
   <title>The Coding Career Handbook</title>
+  <meta property="og:type" content="books.book" />
+  <meta property="og:title" content="The Coding Career Handbook" />
+  <meta property="og:site_name" content="Learn in Public" />
+  <meta property="og:url" content="https://www.learninpublic.org" />
+  <meta
+    property="og:description"
+    content="450+ pages of the best advice I have ever written, with Career
+    Guides, Principles, Strategies, and Tactics for the Junior-to-Senior
+    developer." />
+  <meta
+    property="og:image"
+    content="https://www.learninpublic.org/codingcareer/ogimage.png" />
+  <meta property="books:rating:value" content="5" />
+  <meta property="books:rating:scale" content="5" />
+  <meta property="books:author" content="https://swyx.io" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:label1" content="Followers" />
+  <meta name="twitter:data1" content="1800+" />
+  <meta name="twitter:label2" content="Reviews" />
+  <meta name="twitter:data2" content="⭐⭐⭐⭐⭐" />
 </svelte:head>
 
 <main id="top">
