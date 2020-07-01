@@ -121,7 +121,11 @@
               </li>
               <li>
                 <Check />
-                PDF, EPUB, MOBI versions + Audio book <b>with 2 hours of Author Commentary</b>
+                Lifetime access to book updates and Coding Career Community
+              </li>
+              <li>
+                <Check />
+                PDF, EPUB, MOBI versions + Audio Book + Bibliography <b>with 2 hours of Author Commentary</b>
               </li>
               <li>
                 <Check />
@@ -129,15 +133,7 @@
               </li>
               <li>
                 <Check />
-                Lifetime access to book updates
-              </li>
-              <li>
-                <Check />
-                Lifetime access to exclusive Coding Career Community
-              </li>
-              <li>
-                <Check />
-                Upcoming <b>Live and Recorded Workshops</b> <br /> (<a href="#workshops">Learn more</a>)
+                Upcoming <b>Live and Recorded Workshops</b> (<a href="#workshops">Learn more</a>)
               </li>
             </ul>
             <div class="text-shifty">
@@ -176,15 +172,15 @@
               </li>
               <li>
                 <Check />
-                PDF, EPUB, MOBI versions + <b>Audio book</b>
+                PDF, EPUB, MOBI versions + <b>Audio book + Bibliography</b> (<a href="#versions">Learn more</a>)
               </li>
               <li>
                 <Check />
-                Lifetime access to book updates
+                <b>Lifetime access to book updates</b>
               </li>
               <li>
                 <Check />
-                Lifetime access to exclusive <b>Coding Career Community</b> (<a href="#community">Learn more</a>)
+                <b>Lifetime access to exclusive Coding Career Community</b> (<a href="#community">Learn more</a>)
               </li>
             </ul>
             <div class="text-shifty">

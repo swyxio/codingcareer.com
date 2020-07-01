@@ -84,8 +84,9 @@ _Note: Invites will come via email, all recordings will be available via your Po
 
 #### What format are the files?
 
-- The book is available in PDF, EPUB and MOBI at all 3 tiers.
-- The audio book is available with **the Community Package** as a zip of `mp3` files.
+- **The Coding Career Handbook** is available in PDF, EPUB and MOBI at all 3 tiers.
+- **The Bibliography** extracts the **1400+ external links** referenced in the book as a convenience for those using e-readers on separate devices.
+- The Audiobook version is available with **the Community Package** as a zip of `mp3` files. _Note: due to a recording snafu, only half the chapters are available at launch. The rest will be rerecorded soon!_
 - **The Creator Package** comes with 2 hours of extra author commentary and 10 hours of livestreamed writing process (`mp4` files)!
 
 </div>

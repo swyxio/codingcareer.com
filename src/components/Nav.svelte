@@ -9,6 +9,10 @@
       from = searchParams;
     }
   });
+
+  function click() {
+    document.getElementById("packages").scrollIntoView();
+  }
 </script>
 
 <style>
@@ -21,8 +25,8 @@
     position: fixed;
     bottom: 1em;
     background: linear-gradient(to right, #ff335f, #9198e5);
-    left: 50%;
-    transform: translate3d(-50%, 0, 0);
+    left: 25%;
+    /* transform: translate3d(-50%, 0, 0); */
     text-align: center;
     z-index: 3;
     width: 80vw;
@@ -32,6 +36,7 @@
     /* https://www.w3schools.com/howto/howto_css_shake_image.asp */
     animation: shake 0.5s;
     animation-iteration-count: infinite;
+    left: 25%;
   }
   @media (min-width: 768px) {
     .FAB {
@@ -42,7 +47,8 @@
   }
 </style>
 
-<a class="FAB btn-primary" href={`${from ? '?from=' + from : ''}#packages`}>
+<!-- href={`${from ? '?from=' + from : ''}#packages`} -->
+<button class="FAB btn-primary" on:click={click}>
   {#if from}
     <b>Hello {from}!</b>
     <br />
@@ -50,4 +56,4 @@
   {:else}
     <b>Buy Now!</b>
   {/if}
-</a>
+</button>
