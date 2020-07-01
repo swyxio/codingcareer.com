@@ -104,15 +104,15 @@ Academic and nonprofit organizations can contact me for fifty percent off a team
 
 #### Do you do Purchasing Power Parity?
 
-We use Podia to process payments, and unfortunately PPP is not supported at this time. However the Launch Sale discount will be the lowest price offered for the book!
+We use Podia to process payments, and unfortunately PPP is not supported at this time. **However the Launch Sale discount will be the lowest price offered** for the book!
 
-#### Can I purchase multiple copies for my team?
+#### Refund policy?
 
-Yes! You can click here to check out the team packages. You can buy licenses of **the Community Package** for teams of up to 5 and 10. Please email me `swyx@hey.com` if you are a bootcamp and want to set up something for an entire cohort.xw
+Yup, 30 days. I'd love to ask you questions on how I can improve your experience, if you let me, otherwise no questions asked.
 
-#### How can I get future updates?
+#### How do I get future updates?
 
-Upon purchase, you will have a [Podia](http://www.podia.com/?via=shawn-wang) account tied to your email. You can use this to login and download your purchases any time. We will email you every time a new edition of the book comes out!
+Upon purchase, you will have a [Podia](http://www.podia.com/?via=shawn-wang) account tied to your email. You can use this to login and download your purchases any time. We will email you when a major new version of the book comes out! If anything goes wrong, contact [@Coding_Career](https://twitter.com/coding_career) or `swyx@hey.com`.
 
 #### Your site is broken!
 

@@ -53,14 +53,21 @@
       quote:
         "I love that he included information about burnout as this is one of the biggest hurdles new developer encounter early in their career. Shawn has included links to many wonderful resources and graphs from other content creators. The section on negotiation is one I could have used early on in my career.",
     },
+    // {
+    //   name: "Carlos Roso",
+    //   title: "Full Stack Developer, Toptal",
+    //   img: "/profiles/carlos.jpg",
+    //   // link: "https://twitter.com/caroso1222/status/1266421037689962497?s=20",
+    //   link: null,
+    //   quote:
+    //     "I wish I had this book when I started my career! Every single chapter is like a growth hack but for developers. I'd say this book is worth 1000x long term!",
+    // },
     {
-      name: "Carlos Roso",
-      title: "Full Stack Developer, Toptal",
-      img: "/profiles/carlos.jpg",
-      // link: "https://twitter.com/caroso1222/status/1266421037689962497?s=20",
-      link: null,
-      quote:
-        "I wish I had this book when I started my career! Every single chapter is like a growth hack but for developers. I'd say this book is worth 1000x long term!",
+      name: "Monica Lent",
+      title: "Software engineer, Engineering Manager, Founder",
+      img: "/profiles/monica.jpg",
+      link: "https://www.producthunt.com/posts/the-coding-career-handbook",
+      quote: `The Coding Career Handbook is easily the most practical guidebook for developers looking to level up their careers that I've ever read. Shawn talks about things that experienced engineers and managers learn "the hard way" or by having "already made it" -- but in a way that is accessible for people at all levels of experience. Things that NO ONE talks about, until now.`,
     },
     {
       name: "Dan Abramov",
@@ -71,13 +78,21 @@
       quote:
         "I’m reading through swyx’s @Coding_Career and I’m genuinely impressed. It’s very dense but reads very lightly. Lots of useful context for someone coming into the industry.",
     },
+    // {
+    //   name: "Adam Rackis",
+    //   title: "JS / C++ Engineer",
+    //   img: "/profiles/adam.jpg",
+    //   link: null,
+    //   quote:
+    //     "The Coding Career Handbook is a superb guide to the software engineering career field. I wish I'd had this available to me when I was just starting out 15 years ago!",
+    // },
     {
-      name: "Adam Rackis",
-      title: "JS / C++ Engineer",
-      img: "/profiles/adam.jpg",
-      link: null,
-      quote:
-        "The Coding Career Handbook is a superb guide to the software engineering career field. I wish I'd had this available to me when I was just starting out 15 years ago!",
+      name: "Forrest Brazeal",
+      title: "AWS Serverless Hero, Cloud Bard at ACloudGuru",
+      img: "/profiles/forrest.jpg",
+      link:
+        "https://twitter.com/forrestbrazeal/status/1275846608551317506?s=20",
+      quote: `The book could've been called (and I mean this in the best possible way, I really do) "Hacker News: The Good Parts." All the experience-based advice for career success, none of the toxic nonsense.`,
     },
     {
       name: "Scott Hanselman",
