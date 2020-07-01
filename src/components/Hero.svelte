@@ -4,12 +4,12 @@
   import { cubicIn } from "svelte/easing";
 
   const numPeeps = tweened(1, {
-    duration: 2000,
+    duration: 2500,
     delay: 500,
     easing: cubicIn,
   });
   onMount(() => {
-    $numPeeps = 400; // todo: get this from live endpoint!!!
+    $numPeeps = 500; // todo: get this from live endpoint!!!
   });
 </script>
 
