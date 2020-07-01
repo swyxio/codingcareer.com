@@ -33,7 +33,7 @@ export default {
         emitCss: true,
         extensions: [".svelte", ".svx"],
         preprocess: mdsvex({
-          layout: "./src/layoutcomponents/_layout.svelte",
+          // layout: "./src/layoutcomponents/_layout.svelte",
         }),
       }),
       resolve({
@@ -87,7 +87,7 @@ export default {
         generate: "ssr",
         extensions: [".svelte", ".svx"],
         preprocess: mdsvex({
-          layout: "./src/layoutcomponents/_layout.svelte",
+          // layout: "./src/layoutcomponents/_layout.svelte",
         }),
         dev,
       }),

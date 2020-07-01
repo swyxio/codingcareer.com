@@ -4,14 +4,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "run-p start:svelte start:sandbox",
-    "start:svelte": "sapper dev",
+    "start": "run-p start:svelte start:sandbox watch:tailwind",
     "start:sandbox": "sandbox",
-    "build": "sapper export --legacy",
-    "oldstart": "npm run watch:tailwind & sapper dev",
-    "oldwatch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
-    "oldbuild:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
-    "oldbuild": "npm run build:tailwind && sapper export --legacy"
+    "start:svelte": "sapper dev",
+    "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
+    "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
+    "build": "npm run build:tailwind && sapper export --legacy"
   },
   "dependencies": {
     "@tailwindcss/ui": "^0.3.0",
