@@ -98,7 +98,7 @@
   <meta property="books:rating:value" content="5" />
   <meta property="books:rating:scale" content="5" />
   <meta property="books:author" content="https://swyx.io" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:label1" content="Followers" />
   <meta name="twitter:data1" content="1800+" />
   <meta name="twitter:label2" content="Reviews" />
