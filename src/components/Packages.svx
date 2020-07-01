@@ -105,7 +105,7 @@
               <!-- data-src="/mocktalks_960.jpg" -->
             <img
               class="lazyload img-fluid"
-              data-src="/bigduck.jpg"
+              data-src="/codingcareer/bigduck.jpg"
               alt="book demo" />
           </div>
         </div>
@@ -159,7 +159,7 @@
           <div class="figure-holder mb-5">
             <img
               class="lazyload img-fluid"
-              data-src="/duckrace.jpg"
+              data-src="/codingcareer/duckrace.jpg"
               alt="book demo" />
           </div>
           <!--//figure-holder-->
@@ -208,7 +208,7 @@
           <div class="figure-holder mb-5">
             <img
               class="lazyload img-fluid img-small"
-              data-src="/ebook-mock-1.png"
+              data-src="/codingcareer/ebook-mock-1.png"
               alt="book demo" />
           </div>
           <!--//figure-holder-->

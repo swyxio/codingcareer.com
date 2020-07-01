@@ -1,13 +1,12 @@
 <script>
   import { onMount } from "svelte";
   import { tweened } from "svelte/motion";
-import { cubicIn } from 'svelte/easing';
+  import { cubicIn } from "svelte/easing";
 
-	
   const numPeeps = tweened(1, {
     duration: 2000,
     delay: 500,
-		easing: cubicIn
+    easing: cubicIn,
   });
   onMount(() => {
     $numPeeps = 400; // todo: get this from live endpoint!!!
@@ -113,7 +112,10 @@ import { cubicIn } from 'svelte/easing';
 
 <!-- Banner -->
 <div class="banner text-center">
-  🎉<b>Celebrating our Launch!</b> <a href="https://twitter.com/swyx/status/1263841899225350144?s=20">25%</a> of Book Sales will go to
+  🎉
+  <b>Celebrating our Launch!</b>
+  <a href="https://twitter.com/swyx/status/1263841899225350144?s=20">25%</a>
+  of Book Sales will go to
   <a
     href="https://www.freecodecamp.org/news/freecodecamp-servers-update-october-2019/">
     support FreeCodeCamp.
@@ -139,9 +141,9 @@ import { cubicIn } from 'svelte/easing';
           <div class="subheadline mb-4">
             Join a supportive community of
             {#if $numPeeps < 400}
-            <b>{Math.round($numPeeps)}</b>
+              <b>{Math.round($numPeeps)}</b>
             {:else}
-            <b class="purple">400+</b>
+              <b class="purple">400+</b>
             {/if}
             readers having a real conversation about the
             <b>Principles, Strategies and Tactics</b>
@@ -196,7 +198,7 @@ import { cubicIn } from 'svelte/easing';
         <div class="book-cover-holder">
           <img
             class="img-fluid book-cover"
-            src="/ebook-mock-1.png"
+            src="/codingcareer/ebook-mock-1.png"
             alt="book cover" />
           <!-- <div class="text-center">
             <a class="theme-link scrollto" href="#reviews-section">
