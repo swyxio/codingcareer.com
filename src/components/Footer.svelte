@@ -16,10 +16,17 @@
           Twitter
         </a>
       </div>
+      <div class="px-5 py-2">
+        <a
+          href="https://github.com/sw-yx/codingcareer.com"
+          class="text-base leading-6 text-gray-500 hover:text-gray-900">
+          View Source
+        </a>
+      </div>
     </nav>
     <div class="mt-8">
       <p class="text-center text-base leading-6 text-gray-600">
-        © 2020 All rights reserved.
+        © 2020 All rights reserved. <a class="text-purple-700" href="http://www.podia.com/?via=shawn-wang">Powered by Podia!</a>
       </p>
     </div>
   </div>
