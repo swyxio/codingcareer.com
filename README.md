@@ -2,7 +2,6 @@
 
 The site for [The Coding Career Handbook](https://gumroad.com/products/bAZJq/) and related community/blog notes.
 
-Site: to be determined
-Book: https://gumroad.com/products/bAZJq/
+- Site: https://www.learninpublic.org/
 
-This is a Sapper + Tailwind project. Fun to try but probably way too much effort for a side project.
+This is a Sapper + Mdsvex project. Fun to try but probably way too much effort for a side project.
