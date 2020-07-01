@@ -35,7 +35,7 @@
   .FAB:hover {
     /* https://www.w3schools.com/howto/howto_css_shake_image.asp */
     animation: shake 0.5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 1;
   }
   @media (min-width: 768px) {
     .FAB {
