@@ -31,8 +31,8 @@
           bg-yellow-500 px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:bg-yellow-600 focus:outline-none focus:shadow-outline
           transition ease-in-out duration-150"
-          href="/learn-in-public-2020.pdf">
-          Read Free Chapter
+          href="/#learn-more">
+          Free Chapters
         </a>
         <a
           class="shadow-md w-full sm:w-1/3 my-5 text-center rounded-lg

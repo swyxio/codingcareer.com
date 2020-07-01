@@ -16,13 +16,18 @@
       <p
         class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
         Specific advice on every career stage from
-        <span class="font-bold">Code Newbie</span>
+        <span class="font-bold text-yellow-800">Code Newbie</span>
         to
-        <span class="font-bold">Junior Dev</span>
+        <span class="font-bold text-yellow-800">Junior Dev</span>
         to
-        <span class="font-bold">Senior Dev</span>, and every transition after: the
-        <span class="font-bold">First Job Hunt</span>, going
-        <span class="font-bold">from Junior to Senior</span>, and <span class="font-bold">Beyond</span>.
+        <span class="font-bold text-yellow-800">Senior Dev</span>, and every transition after: the
+        <span class="font-bold text-yellow-800">First Job Hunt</span>, going
+        <span class="font-bold text-yellow-800">from Junior to Senior</span>, and <span class="font-bold text-yellow-800">Beyond</span>.
+        
+        <br />
+        <a class="text-blue-500 hover:underline" href="/v1-careers-junior-to-senior.pdf">
+          Read "Junior to Senior" Chapter →
+        </a>
       </p>
       <h3
         class="text-center mt-1 text-2xl tracking-tight leading-10 font-semibold
@@ -35,12 +40,16 @@
         <em>don't</em>
         change. We discuss timeless rules for successful default behavior. Learn
         to
-        <span class="font-bold">
+        <span class="font-bold text-yellow-800">
           grow your network and expertise,
           <em>while</em>
           you learn
         </span>
         .
+        <br />
+        <a class="text-blue-500 hover:underline" href="/v1-principles-learn-in-public.pdf">
+          Read "Learn in Public" Chapter →
+        </a>
       </p>
       <h3
         class="mt-1 text-center text-2xl tracking-tight leading-10 font-semibold
@@ -50,9 +59,14 @@
       <p
         class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
         Everything to do with making big moves, from
-        <span class="font-bold">Betting on Technologies</span>, to
-        <span class="font-bold">Career Ladders</span>, to
-        <span class="font-bold">Software Business Models</span>. Grow your business and personal impact!
+        <span class="font-bold text-yellow-800">Betting on Technologies</span>, to
+        <span class="font-bold text-yellow-800">Career Ladders</span>, to
+        <span class="font-bold text-yellow-800">Software Business Models</span>. Grow your business and personal impact!
+
+        <br />
+        <a class="text-blue-500 hover:underline" href="/v1-strategy-intro-tech.pdf">
+          Read "Intro to Tech Strategy" Chapter →
+        </a>
       </p>
       <h3
         class="mt-1 text-center text-2xl tracking-tight leading-10 font-semibold
@@ -64,14 +78,18 @@
         pb-16">
         Important, self-contained skills that you can repeatedly call on
         throughout your career, from
-        <span class="font-bold">Negotiating</span>
+        <span class="font-bold text-yellow-800">Negotiating</span>
         to
-        <span class="font-bold">Side Projects</span>
+        <span class="font-bold text-yellow-800">Side Projects</span>
         to
-        <span class="font-bold">Twitter</span>
+        <span class="font-bold text-yellow-800">Twitter</span>
         to
-        <span class="font-bold">Writing</span>
+        <span class="font-bold text-yellow-800">Writing</span>
         .
+        <br />
+        <a class="text-blue-500 hover:underline" href="/v1-tactics-marketing-yourself.pdf">
+          Read "Marketing Yourself (without Being a Celebrity)" Chapter →
+        </a>
       </p>
     </div>
     <h3
