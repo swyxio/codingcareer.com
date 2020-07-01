@@ -75,6 +75,32 @@
     The
     <b>Creator</b>
     Package is perfect for makers like you 👀
+  {:else if from === 'Hacker News'}
+    Welcome
+    <b>Hacker News</b>
+    !
+    <svg
+      version="1.1"
+      id="Layer_1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      width="30px"
+      height="30px"
+      viewBox="0 0 100 100"
+      enable-background="new 0 0 100 100"
+      xml:space="preserve">
+      <path
+        fill="#F26822"
+        d="M0,0v100h100V0H0z
+        M54.375,57.656v24.531h-8.906V57.656L23.594,14.375h10.313L50,47.031l16.563-32.656h9.688
+        L54.375,57.656z" />
+    </svg>
+    <br />
+    All books should have a comment section, so check out the
+    <b>Community</b>
+    Package!
   {:else if from}
     <b>Hello {from}!</b>
     <br />
