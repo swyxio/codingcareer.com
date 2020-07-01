@@ -67,7 +67,7 @@
       title: "Software engineer, Engineering Manager, Founder",
       img: "/profiles/monica.jpg",
       link: "https://www.producthunt.com/posts/the-coding-career-handbook",
-      quote: `The Coding Career Handbook is easily the most practical guidebook for developers looking to level up their careers that I've ever read. Shawn talks about things that experienced engineers and managers learn "the hard way" or by having "already made it" -- but in a way that is accessible for people at all levels of experience. Things that NO ONE talks about, until now.`,
+      quote: `Shawn talks about things that experienced engineers and managers learn "the hard way" or by having "already made it" -- but in a way that is accessible for people at all levels of experience. Things that NO ONE talks about, until now!`,
     },
     {
       name: "Dan Abramov",
