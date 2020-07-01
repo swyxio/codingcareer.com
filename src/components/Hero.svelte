@@ -140,10 +140,10 @@
           </h1>
           <div class="subheadline mb-4">
             Join a supportive community of
-            {#if $numPeeps < 400}
+            {#if $numPeeps < 500}
               <b>{Math.round($numPeeps)}</b>
             {:else}
-              <b class="purple">400+</b>
+              <b class="purple">500+</b>
             {/if}
             readers having a real conversation about the
             <b>Principles, Strategies and Tactics</b>
