@@ -12,6 +12,7 @@
     .MediaLinks {
       grid-template-columns: auto;
       text-align: center;
+      margin-bottom: 3rem;
     }
   }
   img {
