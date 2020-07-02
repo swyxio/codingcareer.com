@@ -382,7 +382,7 @@
                       focus:shadow-outline transition ease-in-out duration-150"
                       href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?coupon=LAUNCHSALE20&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE20"}
+                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE20"}>
                       Buy Now
                     </a>
                   </div>
@@ -486,7 +486,7 @@
                       focus:shadow-outline transition ease-in-out duration-150"
                       href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?coupon=LAUNCHSALE20&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE20"}
+                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE20"}>
                       Buy Now
                     </a>
                   </div>
