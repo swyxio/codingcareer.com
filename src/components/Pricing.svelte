@@ -5,6 +5,12 @@
   onMount(() => {
     affiliateCode = new URLSearchParams(window.location.search).get("a");
     affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
+    if (!affiliateCode) {
+      var script = document.createElement("script");
+      script.id = "podia-embed-script";
+      script.setAttribute("src", "https://cdn.podia.com/embeds.js");
+      document.head.appendChild(script);
+    }
   });
 </script>
 
@@ -213,7 +219,7 @@
                     <a
                       href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?coupon=LAUNCHSALE50&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE50"}
+                      data-coupon="LAUNCHSALE50"
                       class="block w-full text-center rounded-lg bg-yellow-500
                       px-6 py-4 text-xl leading-6 font-semibold font-display
                       text-black hover:bg-gray-700 focus:outline-none
@@ -382,7 +388,7 @@
                       focus:shadow-outline transition ease-in-out duration-150"
                       href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?coupon=LAUNCHSALE20&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE20"}>
+                      data-coupon="LAUNCHSALE20">
                       Buy Now
                     </a>
                   </div>
@@ -486,7 +492,7 @@
                       focus:shadow-outline transition ease-in-out duration-150"
                       href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?coupon=LAUNCHSALE20&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE20"}>
+                      data-coupon="LAUNCHSALE20">
                       Buy Now
                     </a>
                   </div>
