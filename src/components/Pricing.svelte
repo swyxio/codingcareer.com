@@ -5,7 +5,8 @@
   onMount(() => {
     affiliateCode = new URLSearchParams(window.location.search).get("a");
     affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
-    if (!affiliateCode) {
+    if (affiliateCode === "") {
+      // no affil, load podia
       var script = document.createElement("script");
       script.id = "podia-embed-script";
       script.setAttribute("src", "https://cdn.podia.com/embeds.js");
