@@ -10,7 +10,14 @@
       var script = document.createElement("script");
       script.id = "podia-embed-script";
       script.setAttribute("src", "https://cdn.podia.com/embeds.js");
-      document.head.appendChild(script);
+      script.onload = function() {
+        try {
+          Podia.Embeds.initialize();
+        } catch(e) {
+          console.error('Error initializing Podia embeds: ', e)
+        }
+      }
+      document.body.appendChild(script);
     }
   });
 </script>
