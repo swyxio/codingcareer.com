@@ -1,3 +1,11 @@
+<script>
+
+  let search = ''
+  import {onMount} from 'svelte'
+  onMount(() => {
+    search = window.location.search
+  })
+</script>
 <div
   class="mt-24 mx-auto pb-16 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20
   xl:mt-24">
@@ -31,7 +39,7 @@
           bg-yellow-500 px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:bg-yellow-600 focus:outline-none focus:shadow-outline
           transition ease-in-out duration-150"
-          href={`${window.location.search}#learn-more`}>
+          href={`${search}#learn-more`}>
           Free Chapters
         </a>
         <a
@@ -39,7 +47,7 @@
           bg-transparent px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:bg-yellow-500 focus:outline-none focus:shadow-outline
           transition ease-in-out duration-150 border-black border-2"
-          href={`${window.location.search}#buy`}>
+          href={`${search}#buy`}>
           Buy Now
         </a>
       </div>
