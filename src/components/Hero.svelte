@@ -31,7 +31,7 @@
           bg-yellow-500 px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:bg-yellow-600 focus:outline-none focus:shadow-outline
           transition ease-in-out duration-150"
-          href="/#learn-more">
+          href={`${window.location.search}#learn-more`}>
           Free Chapters
         </a>
         <a
@@ -39,7 +39,7 @@
           bg-transparent px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:bg-yellow-500 focus:outline-none focus:shadow-outline
           transition ease-in-out duration-150 border-black border-2"
-          href="/#buy">
+          href={`${window.location.search}#buy`}>
           Buy Now
         </a>
       </div>

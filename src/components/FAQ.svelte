@@ -3,7 +3,7 @@
   import {onMount} from 'svelte'
   let affiliateCode = ''
   onMount(() => {
-    let affiliateCode = new URLSearchParams(window.location.search).get(
+    affiliateCode = new URLSearchParams(window.location.search).get(
       "a"
     );
     affiliateCode = affiliateCode ? `/${affiliateCode}`: ''
