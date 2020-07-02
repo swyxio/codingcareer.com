@@ -1,13 +1,11 @@
-
 <script>
-  import {onMount} from 'svelte'
-  let affiliateCode = ''
+  import { onMount } from "svelte";
+  let affiliateCode = "";
+  $: console.log({ affiliateCode });
   onMount(() => {
-    affiliateCode = new URLSearchParams(window.location.search).get(
-      "a"
-    );
-    affiliateCode = affiliateCode ? `/${affiliateCode}`: ''
-  })
+    affiliateCode = new URLSearchParams(window.location.search).get("a");
+    affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
+  });
 </script>
 
 <div id="buy" class="mt-16 bg-yellow-500 py-12 lg:mt-20">
@@ -214,8 +212,8 @@
                   <div class="rounded-lg shadow-lg">
                     <a
                       href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?coupon=LAUNCHSALE50&via=shawn-wang`}
-                      data-podia-embed={affiliateCode ? undefined : "link"}
-                      data-coupon="LAUNCHSALE50"
+                      data-podia-embed={affiliateCode ? undefined : 'link'}
+                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE50"}
                       class="block w-full text-center rounded-lg bg-yellow-500
                       px-6 py-4 text-xl leading-6 font-semibold font-display
                       text-black hover:bg-gray-700 focus:outline-none
@@ -383,8 +381,8 @@
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
                       href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?coupon=LAUNCHSALE20&via=shawn-wang`}
-                      data-podia-embed={affiliateCode ? undefined : "link"}
-                      data-coupon="LAUNCHSALE20">
+                      data-podia-embed={affiliateCode ? undefined : 'link'}
+                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE20">}
                       Buy Now
                     </a>
                   </div>
@@ -487,8 +485,8 @@
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
                       href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?coupon=LAUNCHSALE20&via=shawn-wang`}
-                      data-podia-embed={affiliateCode ? undefined : "link"}
-                      data-coupon="LAUNCHSALE20">
+                      data-podia-embed={affiliateCode ? undefined : 'link'}
+                      data-coupon={affiliateCode ? undefined : "LAUNCHSALE20">}
                       Buy Now
                     </a>
                   </div>
