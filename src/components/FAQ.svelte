@@ -13,11 +13,10 @@
           </p>
           <p class="text-base leading-6 text-gray-600 mt-2">
             Ever feel like you didn’t have anyone outside work to talk to about
-            your career? Here’s a dedicated space where you can do exactly that,
-            with like minds who have gone down the same road you have.
+            your career? Here’s a dedicated space where you can do exactly that!
             <strong>The Coding Career Community</strong>
             is a moderated Discord chat where you can talk with other readers
-            about the ideas from the book, ask questions, give criticism, find
+            about the ideas from the book and more. Ask questions, give criticism, find
             collaborators, and generally use as a friendly resource as you build
             your coding career.
           </p>
@@ -148,11 +147,10 @@
             </li>
             <li class="list-disc mt-2">
               The <span class="font-bold">Audiobook</span> version is available with the Community Package as a
-              zip of mp3 files.
-              <p class="mt-2">
+              zip of mp3 files. <a href="https://drive.google.com/drive/folders/1s1xB0Qz5GGMWktuQYsgmcZxiC2GHQccd?usp=sharing" class="text-yellow-700">Here is a sample audio chapter! </a><span class="italic">
                 Note: due to a recording snafu, only half the chapters are
                 available at launch. The rest will be rerecorded soon!
-              </p>
+              </span>
             </li>
             <li class="list-disc mt-2">
               The Creator Package comes with <span class="font-bold">2 hours of extra author commentary</span>
