@@ -9,7 +9,7 @@ exports.handler = async function http(request) {
     key: "visits",
     prop: "visits", // : 0,
   });
-  let sources;
+  let sources, affiliates;
   if (request.queryStringParameters && request.queryStringParameters.from) {
     sources = await data.incr({
       table: "visits",
@@ -17,9 +17,17 @@ exports.handler = async function http(request) {
       prop: request.queryStringParameters.from.replace(" ", "_"),
     });
   }
+  if (request.queryStringParameters && request.queryStringParameters.a) {
+    affiliates = await data.incr({
+      table: "affiliates",
+      key: request.queryStringParameters.a,
+      prop: "boop",
+    });
+  }
   // console.log(process.env);
   let ACAO = undefined;
-  if (process.env.NODE_ENV === "testing") ACAO = "http://localhost:3000";
+  if (process.env.NODE_ENV === "testing") ACAO = "*";
+  // if (process.env.NODE_ENV === "testing") ACAO = undefined
   return {
     statusCode: 200,
     headers: {
@@ -30,6 +38,7 @@ exports.handler = async function http(request) {
     },
     body: JSON.stringify({
       visits,
+      // affiliates, // just for debugging
       ...sources,
     }),
   };

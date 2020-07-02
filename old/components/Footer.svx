@@ -16,25 +16,25 @@
   
 </style>
 <script>
-  // export let siteTheme
-  // export let toggleTheme
-  let visits = 'loading'
-  import {onMount} from 'svelte'
-  onMount(() => {
-    let prefix = ''
-    const searchParams = new URLSearchParams(window.location.search).get(
-      "from"
-    );
-    if (window.location.hostname === "localhost") prefix = "http://localhost:3333"
-    fetch(prefix + '/visits' + (searchParams ? `?from=${searchParams}` : '')).then(x => x.json()).then(begindata => {
-      console.log({begindata})
-      visits = begindata.visits
-    })
-  })
-  // setTimeout(() => {
-
+  // // export let siteTheme
+  // // export let toggleTheme
+  // let visits = 'loading'
+  // import {onMount} from 'svelte'
+  // onMount(() => {
+  //   let prefix = ''
+  //   const searchParams = new URLSearchParams(window.location.search).get(
+  //     "from"
+  //   );
+  //   if (window.location.hostname === "localhost") prefix = "http://localhost:3333"
+  //   fetch(prefix + '/visits' + (searchParams ? `?from=${searchParams}` : '')).then(x => x.json()).then(begindata => {
+  //     console.log({begindata})
+  //     visits = begindata.visits
+  //   })
   // })
-  $: message = visits === 'loading' ? '' : `You are visitor number ${visits}!`
+  // // setTimeout(() => {
+
+  // // })
+  // $: message = visits === 'loading' ? '' : `You are visitor number ${visits}!`
 </script>
 
 <footer class="flex-center">

@@ -1,3 +1,14 @@
+
+<script>
+  import {onMount} from 'svelte'
+  let affiliateCode = ''
+  onMount(() => {
+    let affiliateCode = new URLSearchParams(window.location.search).get(
+      "a"
+    );
+    affiliateCode = affiliateCode ? `/${affiliateCode}`: ''
+  })
+</script>
 <div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
   <h2
     class=" text-center text-4xl leading-10 font-display font-semibold
@@ -65,12 +76,12 @@
             <li class="list-disc">
               The Coding Career Handbook (
                 <a
-                  class="underline" href="https://swyx.podia.com/coding-career-handbook-team-5"
+                  class="underline" href={`https://swyx.podia.com/coding-career-handbook-team-5${affiliateCode}`}
                   data-podia-embed="link">
                   5 People - $149
                 </a>, 
                 <a
-                  class="underline" href="https://swyx.podia.com/coding-career-handbook-team-10"
+                  class="underline" href={`https://swyx.podia.com/coding-career-handbook-team-10${affiliateCode}`}
                   data-podia-embed="link">
                   10 People - $279
                 </a>) 
@@ -78,12 +89,12 @@
             <li class="list-disc">
               The Coding Career Community Package (
               <a
-                class="underline" href="https://swyx.podia.com/coding-career-community-team-5"
+                class="underline" href={`https://swyx.podia.com/coding-career-community-team-5${affiliateCode}`}
                 data-podia-embed="link">
                 5 People - $249
               </a>, 
               <a
-                class="underline" href="https://swyx.podia.com/coding-career-community-team-5"
+                class="underline" href={`https://swyx.podia.com/coding-career-community-team-5${affiliateCode}`}
                 data-podia-embed="link">
                 10 People - $479
               </a>

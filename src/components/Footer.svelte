@@ -6,11 +6,8 @@
   import {onMount} from 'svelte'
   onMount(() => {
     let prefix = ''
-    const searchParams = new URLSearchParams(window.location.search).get(
-      "from"
-    );
     if (window.location.hostname === "localhost") prefix = "http://localhost:3333"
-    fetch(prefix + '/visits' + (searchParams ? `?from=${searchParams}` : '')).then(x => x.json()).then(begindata => {
+    fetch(prefix + '/visits' + window.location.search).then(x => x.json()).then(begindata => {
       console.log({begindata})
       visits = begindata.visits
     })
