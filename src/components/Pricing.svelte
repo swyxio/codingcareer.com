@@ -5,20 +5,20 @@
   onMount(() => {
     affiliateCode = new URLSearchParams(window.location.search).get("a");
     affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
-    if (affiliateCode === "") {
-      // no affil, load podia
-      var script = document.createElement("script");
-      script.id = "podia-embed-script";
-      script.setAttribute("src", "https://cdn.podia.com/embeds.js");
-      script.onload = function() {
-        try {
-          window.Podia.Embeds.initialize();
-        } catch(e) {
-          console.error('Error initializing Podia embeds: ', e)
-        }
-      }
-      document.head.appendChild(script);
-    }
+    // if (affiliateCode === "") {
+    //   // no affil, load podia
+    //   var script = document.createElement("script");
+    //   script.id = "podia-embed-script";
+    //   script.setAttribute("src", "https://cdn.podia.com/embeds.js");
+    //   script.onload = function() {
+    //     try {
+    //       window.Podia.Embeds.initialize();
+    //     } catch(e) {
+    //       console.error('Error initializing Podia embeds: ', e)
+    //     }
+    //   }
+    //   document.head.appendChild(script);
+    // }
   });
 </script>
 
