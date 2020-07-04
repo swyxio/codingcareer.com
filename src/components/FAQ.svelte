@@ -102,8 +102,7 @@
             </li>
           </ul>
           <p class="text-base leading-6 text-gray-600 mt-2">
-            Academic and nonprofit organizations can contact me for fifty
-            percent off a team license.
+            Academic, bootcamp, and nonprofit organizations can contact me for a bigger bulk discount.
           </p>
         </div>
         <div class="mt-12">
@@ -116,14 +115,22 @@
             lowest price offered for the book!
           </p>
         </div>
+        <div class="mt-12">
+          <p class="text-lg leading-6 font-medium text-gray-900">
+            Can I use Paypal?
+          </p>
+          <p class="text-base leading-6 text-gray-600 mt-2">
+            Podia doesn't support Paypal, so we have <a href="https://gumroad.com/products/bAZJq">setup a Gumroad mirror</a> that can take payments there! Please contact swyx@hey.com if you need some other payment method.
+          </p>
+        </div>
       </div>
       <div class="mt-12 sm:mt-0">
         <div class="">
           <p class="text-lg leading-6 font-medium text-gray-900">
-            Refund Policy?
+            Refund Policy? Upgrades?
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-600">
-            Yes, 30 days, no questions asked (but if you have criticisms and feedback, I will gladly hear them!)
+            Yes, 30 days, no questions asked (but if you have criticisms and feedback, I will gladly hear them!). Same goes if you buy a package and want to upgrade – just email me and you can pay the difference.
           </p>
         </div>
         <div class="mt-12">
