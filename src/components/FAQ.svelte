@@ -31,7 +31,7 @@
             collaborators, and generally use as a friendly resource as you build
             your coding career.
           </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
+          <p class="text-base leading-6 text-gray-600 mt-2 italic">
             Note: Participation in the Community is subject to a Code of
             Conduct, and your questions are not guaranteed to be answered.
             <strong>This is a new community</strong>
@@ -57,7 +57,7 @@
             All workshops will be recorded, so this becomes an ever-growing
             library of career content.
           </p>
-          <p class="mt-2 text-base leading-6 text-gray-600">
+          <p class="mt-2 text-base leading-6 text-gray-600 italic">
             Note: Invites will come via email, all recordings will be available
             via your Podia purchase. Standalone workshops are available for
             bootcamps and small teams.
