@@ -26,7 +26,7 @@
         
         <br />
         <a class="text-blue-500 hover:underline" href="/v1-careers-junior-to-senior.pdf">
-          Read "Junior to Senior" Chapter →
+          Sample "Junior to Senior" Chapter →
         </a>
       </p>
       <h3
@@ -48,7 +48,7 @@
         .
         <br />
         <a class="text-blue-500 hover:underline" href="/v1-principles-learn-in-public.pdf">
-          Read "Learn in Public" Chapter →
+          Sample "Learn in Public" Chapter →
         </a>
       </p>
       <h3
@@ -65,7 +65,7 @@
 
         <br />
         <a class="text-blue-500 hover:underline" href="/v1-strategy-intro-tech.pdf">
-          Read "Intro to Tech Strategy" Chapter →
+          Sample "Intro to Tech Strategy" Chapter →
         </a>
       </p>
       <h3
@@ -88,7 +88,7 @@
         .
         <br />
         <a class="text-blue-500 hover:underline" href="/v1-tactics-marketing-yourself.pdf">
-          Read "Marketing Yourself (without Being a Celebrity)" Chapter →
+          Sample "Marketing Yourself (without Being a Celebrity)" Chapter →
         </a>
       </p>
     </div>

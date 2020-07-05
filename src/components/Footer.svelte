@@ -29,7 +29,7 @@
       </div>
       <div class="px-5 py-2">
         <a
-          href="https://twitter.com/swyx"
+          href="https://twitter.com/Coding_Career"
           class="text-base leading-6 text-gray-500 hover:text-gray-900">
           Twitter
         </a>

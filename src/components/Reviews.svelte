@@ -1,4 +1,8 @@
-<div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+<!-- <script>
+  import Tweets from "../components/Tweets.svelte";
+</script> -->
+<div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 relative">
+  <!-- <Tweets /> -->
   <h2
     class="text-4xl leading-10 font-display font-semibold text-gray-900
     md:text-5xl md:leading-none text-center">
@@ -7,7 +11,7 @@
   <h3
     class="text-center mt-3 text-base text-gray-600 sm:mt-5 sm:text-xl
     lg:text-lg xl:text-xl">
-    See what our early readers are saying!
+    See what our early readers are saying! <a class="text-blue-500 hover:underline" href="https://twitter.com/Coding_Career/timelines/1279629459759366145">Or see live Twitter reviews!</a>
   </h3>
   <div class="py-12 overflow-hidden md:py-20 lg:py-24 bg-gray-50">
     <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
