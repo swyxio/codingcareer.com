@@ -1,13 +1,34 @@
 
 <script>
-  import {onMount} from 'svelte'
+  import {onMount, onDestroy} from 'svelte'
   let affiliateCode = ''
+  let hash
+  let interval = setInterval(() => {
+    hash = window.location.hash
+    console.log({hash})
+  }, 1000)
   onMount(() => {
     affiliateCode = new URLSearchParams(window.location.search).get(
       "a"
     );
     affiliateCode = affiliateCode ? `/${affiliateCode}`: ''
+    
   })
+  
+  onDestroy(() => {
+    clearInterval(interval)
+  })
+
+	function highlightHash(node) {
+    const myhash = '#' + node.id
+		return {
+      update(theirhash) {
+        console.log({theirhash})
+        if (theirhash === myhash) node.classList.add('bg-yellow-200')
+        else node.classList.remove('bg-yellow-200')
+      }
+		};
+	}
 </script>
 <div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
   <h2
@@ -18,7 +39,7 @@
   <div class="mt-6 pt-10">
     <div class="md:grid md:grid-cols-2 md:gap-8">
       <div>
-        <div>
+        <div id="community" use:highlightHash={hash}>
           <p class="text-lg leading-6 font-medium text-gray-900">
             Tell me more about the Coding Career Community?
           </p>
@@ -38,7 +59,7 @@
             and therefore there is a lot left to figure out!
           </p>
         </div>
-        <div id="workshops" class="mt-12">
+        <div id="workshops" use:highlightHash={hash} class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Tell me more about the Coding Career Workshops?
           </p>
@@ -63,48 +84,6 @@
             bootcamps and small teams.
           </p>
         </div>
-        <div id="team-pricing" class="mt-12">
-          <p class="text-lg leading-6 font-medium text-gray-900">
-            Is there any DRM? Can I share this book with my team?
-          </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
-            No DRM, you should enjoy a hassle-free experience! If you purchase
-            an individual license, please respect the license terms and do not
-            distribute any copies. Team licenses are available:
-          </p>
-          <ul class="list-inside text-gray-600 mt-4 ml-3">
-            <li class="list-disc">
-              The Coding Career Handbook (
-                <a
-                  class="underline" href={`https://swyx.podia.com/coding-career-handbook-team-5${affiliateCode}`}
-                  data-podia-embed="link">
-                  5 People - $149
-                </a>, 
-                <a
-                  class="underline" href={`https://swyx.podia.com/coding-career-handbook-team-10${affiliateCode}`}
-                  data-podia-embed="link">
-                  10 People - $279
-                </a>) 
-            </li>
-            <li class="list-disc">
-              The Coding Career Community Package (
-              <a
-                class="underline" href={`https://swyx.podia.com/coding-career-community-team-5${affiliateCode}`}
-                data-podia-embed="link">
-                5 People - $249
-              </a>, 
-              <a
-                class="underline" href={`https://swyx.podia.com/coding-career-community-team-5${affiliateCode}`}
-                data-podia-embed="link">
-                10 People - $479
-              </a>
-              )
-            </li>
-          </ul>
-          <p class="text-base leading-6 text-gray-600 mt-2">
-            Academic, bootcamp, and nonprofit organizations can contact me for a bigger bulk discount.
-          </p>
-        </div>
         <div class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Do you do Purchasing Power Parity?
@@ -115,18 +94,8 @@
             lowest price offered for the book!
           </p>
         </div>
-        <div class="mt-12">
-          <p class="text-lg leading-6 font-medium text-gray-900">
-            Can I use Paypal?
-          </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
-            Podia doesn't support Paypal, so we have <a href="https://gumroad.com/products/bAZJq">setup a Gumroad mirror</a> that can take payments there! Please contact swyx@hey.com if you need some other payment method.
-          </p>
-        </div>
-      </div>
-      <div class="mt-12 sm:mt-0">
-        <div class="">
-          <p class="text-lg leading-6 font-medium text-gray-900">
+        <div class="mt-12 ">
+          <p class="mt-2 text-lg leading-6 font-medium text-gray-900">
             Refund Policy? Upgrades?
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-600">
@@ -143,15 +112,61 @@
             email you every time a new edition of the book comes out!
           </p>
         </div>
-        <div id="files" class="mt-12">
+      </div>
+      <div class="mt-12 sm:mt-0">
+        <div id="team-pricing" use:highlightHash={hash} class="">
+          <p class="text-lg leading-6 font-medium text-gray-900">
+            Is there any DRM? Can I share this book with my team?
+          </p>
+          <p class="text-base leading-6 text-gray-600 mt-2">
+            No DRM, you should enjoy a hassle-free experience! If you purchase
+            an individual license, please respect the license terms and do not
+            distribute any copies. Team licenses are available:
+          </p>
+          <ul class="list-inside text-gray-600 mt-4 ml-3">
+            <li class="list-disc">
+              Handbook (
+                <a
+                  class="underline hover:text-yellow-900 text-yellow-700" href={`https://swyx.podia.com/coding-career-handbook-team-5${affiliateCode}`}
+                  data-podia-embed="link">
+                  up to 5 - $149
+                </a>, 
+                <a
+                  class="underline hover:text-yellow-900 text-yellow-700" href={`https://swyx.podia.com/coding-career-handbook-team-10${affiliateCode}`}
+                  data-podia-embed="link">
+                  up to 10 - $279
+                </a>) 
+            </li>
+            <li class="list-disc">
+              Community Package (
+              <a
+                class="underline hover:text-yellow-900 text-yellow-700" href={`https://swyx.podia.com/coding-career-community-team-5${affiliateCode}`}
+                data-podia-embed="link">
+                up to 5 - $249
+              </a>, 
+              <a
+                class="underline hover:text-yellow-900 text-yellow-700" href={`https://swyx.podia.com/coding-career-community-team-5${affiliateCode}`}
+                data-podia-embed="link">
+                up to 10 - $479
+              </a>
+              )
+            </li>
+          </ul>
+          <p class="text-base leading-6 text-gray-600 mt-2">
+            Academic, bootcamp, and nonprofit organizations can contact me for a bigger bulk discount.
+          </p>
+        </div>
+        <div class="mt-12">
+          <p class="text-lg leading-6 font-medium text-gray-900">
+            Can I use Paypal? Gumroad?
+          </p>
+          <p class="text-base leading-6 text-gray-600 mt-2">
+            Podia doesn't support Paypal, so we have <a class="underline hover:text-yellow-900 text-yellow-700" href="https://gumroad.com/products/bAZJq">setup a Gumroad mirror</a> that can take payments there! Please contact swyx@hey.com if you need some other payment method.
+          </p>
+        </div>
+        <div id="files" use:highlightHash={hash} class="mt-12" class:border-yellow-700={hash === '#files'}>
           <p class="text-lg leading-6 font-medium text-gray-900">
             What format are the files?
-          </p>
-          <p class="mt-2 text-base leading-6 text-gray-600">
-            Get the most out of your Coding Career journey with monthly live
-            workshops. Dive deeper into selected topics from the book and others
-            that didn’t make the cut (yet!). Planned sessions in July are
-            Sundays at 12pm EST (9am PDT):
           </p>
           <ul class="list-inside text-gray-600 mt-4 ml-3 ">
             <li class="list-disc">
@@ -185,11 +200,8 @@
             <a href="https://www.podia.com/?via=shawn-wang">Podia</a>
             for purchasing and its embedded JavaScript can fail in two ways:
             Either it is blocked by an overzealous
-            <a href="https://privacybadger.org/">Privacy Badger</a>
-            , or you have ”Block third-party cookies” turned on in desktop
-            Chrome (
-            <a href="chrome://settings/cookies">chrome://settings/cookies</a>
-            ). Either way, there should be a not-very-graceful fallback to send
+            <a href="https://privacybadger.org/" class="font-bold underline">Privacy Badger</a>, or you have ”Block third-party cookies” turned on in desktop
+            Chrome (<a href="chrome://settings/cookies" class="font-mono">chrome://settings/cookies</a>). Either way, there should be a not-very-graceful fallback to send
             you to the Podia purchase page.
             <br />
             <br />

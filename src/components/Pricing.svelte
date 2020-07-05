@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import GoldTick from './GoldTick.svelte'
   let affiliateCode = "";
   $: console.log({ affiliateCode });
   onMount(() => {
@@ -83,64 +84,24 @@
                 <ul>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      450+ pages of Career Guides, Principles, Strategies, and
-                      Tactics
+                      The Coding Career Handbook
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Lifetime access to book updates and Coding Career
+                      Lifetime access to future editions and Coding Career
                       Community
                     </p>
                   </li>
                   <!-- <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Lifetime access
@@ -148,20 +109,7 @@
                   </li> -->
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       PDF, EPUB, MOBI versions + Audio Book + Bibliography with
@@ -172,20 +120,7 @@
                   </li>
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
@@ -195,30 +130,14 @@
                   </li>
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black ">
                       <span class="font-bold">Upcoming Live Workshops</span>
-                      (
-                      <a
+                      (<a
                         class="text-blue-500 hover:underline"
                         href="/#workshops">
-                        Learn more
-                      </a>
-                      )
+                        Learn more</a>)
                     </p>
                   </li>
                 </ul>
@@ -238,11 +157,11 @@
                   <p
                     class="mt-6 text-center text-base leading-6 font-medium
                     text-gray-900">
-                    Buying for your team?
+                    No Credit Card?
                     <a
                       class="text-black underline font-semibold hover:opacity-75"
-                      href="/#team-pricing">
-                      View team pricing →
+                      href="https://gumroad.com/products/bAZJq">
+                      Use Paypal ↗️
                     </a>
                   </p>
                 </div>
@@ -294,96 +213,41 @@
                 <ul>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black">
-                      450+ pages of Career Guides, Principles, Strategies, and
-                      Tactics
+                    <p class="ml-3 text-base font-bold leading-6 text-black">
+                      The Coding Career Handbook
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      PDF, EPUB, MOBI versions +
-                      <span class="font-bold">Audio book + Bibliography</span>
-                      (
-                      <a class="text-blue-500 hover:underline" href="/#files">
-                        Learn more
-                      </a>
-                      )
+                      <span class="font-bold">Audio book + Bibliography</span> for easier reading
+                      (<a class="text-blue-500 hover:underline" href="/#files">
+                        Learn more</a>)
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
-                        Lifetime access to book updates
+                        Lifetime access to all future editions
                       </span>
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Dedicated
                       <span class="font-bold">Coding Career Community</span>
+                      (<a class="text-blue-500 hover:underline" href="/#community">
+                        Learn more</a>)
                     </p>
                   </li>
                 </ul>
@@ -401,6 +265,16 @@
                     </a>
                   </div>
                 </div>
+                
+                  <p
+                    class="mt-6 text-center text-base leading-6 font-medium
+                    text-gray-900">
+                    <a
+                      class="text-black underline font-semibold hover:opacity-75"
+                      href="/#team-pricing">
+                      View team pricing
+                    </a>
+                  </p>
               </div>
             </div>
           </div>
@@ -449,20 +323,7 @@
                 <ul>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       450+ pages of Career Guides, Principles, Strategies, and
@@ -471,23 +332,19 @@
                   </li>
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="h-6 w-6 text-yellow-600">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                        <polyline points="22 4 12 14.01 9 11.01" />
-                      </svg>
+                      <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       PDF + EPUB + MOBI Versions
+                    </p>
+                  </li>
+
+                  <li class="mt-4 flex items-start">
+                    <div class="flex-shrink-0">
+                      <GoldTick />
+                    </div>
+                    <p class="ml-3 text-base leading-6 font-medium text-black">
+                      Updates to 2020 edition
                     </p>
                   </li>
                 </ul>
@@ -504,6 +361,16 @@
                       Buy Now
                     </a>
                   </div>
+                  
+                  <p
+                    class="mt-6 text-center text-base leading-6 font-medium
+                    text-gray-900">
+                    <a
+                      class="text-black underline font-semibold hover:opacity-75"
+                      href="/#team-pricing">
+                      View team pricing
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>

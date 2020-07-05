@@ -57,12 +57,32 @@
     <div class="md:grid md:grid-cols-2 md:gap-8">
       <div>
         <div class="m-2 md:m-0">
-          <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full">
+          <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full ">
+            “I wish I had this book when I was switching jobs. It helps you
+            understand what skills you should leverage and really encourages you
+            not underlevel yourself!”
+          </p>
+          <div class="flex items-center mt-3">
+            <img
+              class="h-16 w-16 rounded-full shadow-md"
+              src="/profiles/samantha.jpg"
+              alt="Samantha Bretous" />
+            <div class="flex flex-col ml-2">
+              <p class="text-xl font-bold">Samantha Bretous</p>
+              <p class="">
+                Computer magic maker, Software Engineer at Mailchimp
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="m-2 md:m-0">
+          <p class="text-lg text-gray-900 leading-loose mt-16 sm:w-5/6 w-full">
             “I was also lucky enough to read @Coding_Career early and I was
             thoroughly blown away! It’s the book I wish I had when I started my
             dev career.”
             <a
               href="https://twitter.com/RandallKanna/status/1265506271039496192"
+              aria-label="twitter link"
               target="_blank"
               rel="noreferrer">
               <svg
@@ -93,25 +113,6 @@
           </div>
         </div>
         <div class="m-2 md:m-0">
-          <p class="text-lg text-gray-900 leading-loose mt-16 sm:w-5/6 w-full ">
-            “I wish I had this book when I was switching jobs. It helps you
-            understand what skills you should leverage and really encourages you
-            not underlevel yourself!”
-          </p>
-          <div class="flex items-center mt-3">
-            <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/samantha.jpg"
-              alt="Kent C. Dodds" />
-            <div class="flex flex-col ml-2">
-              <p class="text-xl font-bold">Samantha Bretous</p>
-              <p class="">
-                Computer magic maker, Software Engineer at Mailchimp
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="m-2 md:m-0">
           <p class=" text-lg text-gray-900 leading-loose mt-16 sm:w-5/6 w-full">
             “The links to high-value blog posts already make the book worth it,
             never mind the amazing insight and context provided by Shawn. Must
@@ -119,6 +120,7 @@
             to grow!”
             <a
               href="https://twitter.com/AryanJabbari/status/1263597781286961159"
+              aria-label="twitter link"
               target="_blank"
               rel="noreferrer">
               <svg
@@ -182,7 +184,7 @@
               src="/profiles/kent.jpg"
               alt="Kent C. Dodds" />
             <div class="flex flex-col ml-2">
-              <p class="text-xl font-bold">kent C. Dodds</p>
+              <p class="text-xl font-bold">Kent C. Dodds</p>
               <p class="">KentCDodds.com</p>
             </div>
           </div>
@@ -211,6 +213,42 @@
           </div>
         </div>
         <div class="m-2 md:m-0">
+          <p
+            class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
+            “The book could've been called (and I mean this in the best possible way, I really do) "Hacker News: The Good Parts." All the experience-based advice for career success, none of the toxic nonsense.”
+            <a
+              href="https://twitter.com/forrestbrazeal/status/1275846608551317506?s=20"
+              aria-label="twitter link"
+              target="_blank"
+              rel="noreferrer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="inline w-5 h-5 ml-1">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86
+                  3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5
+                  20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+              </svg>
+            </a>
+          </p>
+          <div class="flex items-center mt-3">
+            <img
+              class="h-16 w-16 rounded-full shadow-md"
+              src="/profiles/forrest.jpg"
+              alt="Forrest Brazeal" />
+            <div class="flex flex-col ml-2">
+              <p class="text-xl font-bold">Forrest Brazeal</p>
+              <p class="">AWS Serverless Hero, Cloud Bard at ACloudGuru</p>
+            </div>
+          </div>
+        </div>
+        <div class="m-2 md:m-0">
           <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
             “I wish I had this book when I started my career! Every single
             chapter is like a growth hack but for developers. I'd say this book
@@ -229,11 +267,68 @@
         </div>
         <div class="m-2 md:m-0">
           <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
+            “Shawn talks about things that experienced engineers and managers learn "the hard way" or by having "already made it" -- but in a way that is accessible for people at all levels of experience. Things that NO ONE talks about, until now!”
+            <a
+              href="https://www.producthunt.com/posts/the-coding-career-handbook"
+              aria-label="twitter link"
+              target="_blank"
+              rel="noreferrer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="inline w-5 h-5 ml-1">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86
+                  3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5
+                  20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+              </svg>
+            </a>
+          </p>
+          <div class="flex items-center mt-3">
+            <img
+              class="h-16 w-16 rounded-full shadow-md"
+              src="/profiles/monica.jpg"
+              alt="Monica Lent" />
+            <div class="flex flex-col ml-2">
+              <p class="text-xl font-bold">Monica Lent</p>
+              <p class="">Software Engineer, Engineering Manager, Founder</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="m-2 md:m-0">
+          <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
+            “The Coding career Handbook is incredible! It's practical and covers
+            so many topics. I'll definitely use this book as a reference
+            throughout my career”
+          </p>
+          <div class="flex items-center mt-3">
+            <img
+              class="h-16 w-16 rounded-full shadow-md"
+              src="/profiles/mahmoud.jpg"
+              alt="Mahmoud Abdelwahab" />
+            <div class="flex flex-col ml-2">
+              <p class="text-xl font-bold">Mahmoud Abdelwahab</p>
+              <p class="">
+                Front-end Engineer, Learner Advocate at Egghead.io, Auth0
+                Ambassador
+              </p>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="m-2 md:m-0">
+          <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
             “I’m reading through swyx’s @Coding_Career and I’m genuinely
             impressed. It’s very dense but reads very lightly. Lots of useful
             context for someone coming into the industry.”
             <a
               href="https://twitter.com/dan_abramov/status/1265463366694440960"
+              aria-label="twitter link"
               target="_blank"
               rel="noreferrer">
               <svg
@@ -260,43 +355,6 @@
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Dan Abramov</p>
               <p class="">JustJavaScript.com</p>
-            </div>
-          </div>
-        </div>
-        <div class="m-2 md:m-0">
-          <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
-            “The Coding Career Handbook is a superb guide to the software
-            engineering career field. I wish I'd had this available to me when I
-            was just starting out 15 years ago!”
-          </p>
-          <div class="flex items-center mt-3">
-            <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/adam.jpg"
-              alt="Adam Rackis" />
-            <div class="flex flex-col ml-2">
-              <p class="text-xl font-bold">Adam Rackis</p>
-              <p class="">Js/C++ Engineer</p>
-            </div>
-          </div>
-        </div>
-        <div class="m-2 md:m-0">
-          <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
-            “The Coding career Handbook is incredible! It's practical and covers
-            so many topics. I'll definitely use this book as a reference
-            throughout my career”
-          </p>
-          <div class="flex items-center mt-3">
-            <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/mahmoud.jpg"
-              alt="Mahmoud Abdelwahab" />
-            <div class="flex flex-col ml-2">
-              <p class="text-xl font-bold">Mahmoud Abdelwahab</p>
-              <p class="">
-                Front-end Engineer, Learner Advocate at Egghead.io, Auth0
-                Ambassador
-              </p>
             </div>
           </div>
         </div>
