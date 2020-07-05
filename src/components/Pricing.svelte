@@ -5,6 +5,10 @@
   $: console.log({ affiliateCode });
   onMount(() => {
     affiliateCode = new URLSearchParams(window.location.search).get("a");
+    if (!affiliateCode) {
+      // try to restore from localstorage
+      affiliateCode = window.localStorage.getItem('swyxAffiliateCode')
+    }
     affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
     // if (affiliateCode === "") {
     //   // no affil, load podia

@@ -5,12 +5,15 @@
   let hash
   let interval = setInterval(() => {
     hash = window.location.hash
-    console.log({hash})
-  }, 1000)
+  }, 500)
   onMount(() => {
     affiliateCode = new URLSearchParams(window.location.search).get(
       "a"
     );
+    if (!affiliateCode) {
+      // try to restore from localstorage
+      affiliateCode = window.localStorage.getItem('swyxAffiliateCode')
+    }
     affiliateCode = affiliateCode ? `/${affiliateCode}`: ''
     
   })

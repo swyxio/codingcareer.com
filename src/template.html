@@ -41,6 +41,12 @@
 
   if(!document.querySelector('script#podia-embed-script')) {
     let affiliateCode = new URLSearchParams(window.location.search).get("a");
+    // last touch wins
+    if (affiliateCode) {
+      window.localStorage.setItem('swyxAffiliateCode', affiliateCode)
+    } else {
+      affiliateCode = window.localStorage.getItem('swyxAffiliateCode')
+    }
     if (!affiliateCode) {
       var script = document.createElement('script');
       script.id = 'podia-embed-script';
