@@ -50,28 +50,28 @@
     }
     if (!affiliateCode) {
       var script = document.createElement('script');
-      script.id = 'podia-embed-script';
-      script.setAttribute('src', 'https://cdn.podia.com/packs/js/embeds-77fbf5d98116fdc017f1.js');
+      // script.id = 'podia-embed-script';
+      script.setAttribute('src', 'https://cdn.podia.com/embeds.js');
 
-      script.onload = function() {
-        try {
-          Podia.Embeds.initialize();
-        } catch(e) {
-          console.error('Error initializing Podia embeds: ', e)
-        }
-      }
+      // script.onload = function() {
+      //   try {
+      //     Podia.Embeds.initialize();
+      //   } catch(e) {
+      //     console.error('Error initializing Podia embeds: ', e)
+      //   }
+      // }
       document.head.appendChild(script);
     }
   }
 
-  if(!document.querySelector('link#podia-embed-styles')) {
-    var styles = document.createElement('link');
-    styles.id = 'podia-embed-styles';
-    styles.type = 'text/css';
-    styles.rel = 'stylesheet';
-    styles.href = 'https://cdn.podia.com/packs/css/embeds-b5556ace.css';
-    document.head.appendChild(styles);
-  }
+  // if(!document.querySelector('link#podia-embed-styles')) {
+  //   var styles = document.createElement('link');
+  //   styles.id = 'podia-embed-styles';
+  //   styles.type = 'text/css';
+  //   styles.rel = 'stylesheet';
+  //   styles.href = 'https://cdn.podia.com/packs/css/embeds-b5556ace.css';
+  //   document.head.appendChild(styles);
+  // }
 })();
     </script>
 
