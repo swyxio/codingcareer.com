@@ -1,11 +1,25 @@
 <script>
-
-  let search = ''
-  import {onMount} from 'svelte'
+  let search = "";
+  import { onMount } from "svelte";
   onMount(() => {
-    search = window.location.search
-  })
+    search = window.location.search;
+  });
+  import AsSeenOn from "./_AsSeenOnImg.svelte";
 </script>
+
+<style>
+  .underline-effect {
+    background-image: linear-gradient(120deg, #f6e05e 0%, #fffff0 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+  }
+  .underline-effect:hover {
+    background-size: 100% 88%;
+  }
+</style>
+
 <div
   class="mt-24 mx-auto pb-16 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20
   xl:mt-24">
@@ -29,10 +43,13 @@
       <h2
         class="mt-3 text-base text-black sm:mt-5 sm:text-xl lg:text-lg
         xl:text-xl">
-        The Coding will always be the easiest part of a Coding Career. This is a
-        comprehensive guide about the principles, strategies and tactics
-        developers can use to build an awesome career!
+        You cracked the coding interview. <span class="font-na">Now what?</span>
+        Time for the <span class="font-bold">tacit knowledge</span> every
+        developer takes years to learn. For the first time, the principles, strategies and tactics
+        to build an awesome, <span class="italic">sustainable</span> career
+        have been compiled into <span class="font-bold">the Missing Manual for Junior to Senior Devs</span>!
       </h2>
+      <!-- you can use to build an awesome, <span class="italic">sustainable</span> career! -->
       <div class="flex-col sm:flex-row flex justify-center lg:justify-start">
         <a
           class="shadow-md w-full sm:w-1/3 my-5 mr-5 text-center rounded-lg
@@ -52,8 +69,8 @@
         </a>
       </div>
       <p
-        class="mt-3 hidden sm:block text-center md:text-left font-bold text-base text-black
-        sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+        class="mt-3 hidden sm:block text-center md:text-left font-bold text-base
+        text-black sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
         As Seen On
       </p>
       <div
@@ -64,63 +81,41 @@
           target="_blank"
           rel="noreferrer">
           <img
-          class="max-w-none"
+            class="max-w-none"
             alt="The Coding Career Handbook - Guides, Principles, Strategies and
             Tactics for Jr to Sr Devs | Product Hunt Embed"
             data-src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=211610&amp;theme=light"
             width="200px"
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=211610&amp;theme=light" />
         </a>
-        <a
-          class="mx-2"
+        <AsSeenOn
           href="https://www.softwaresessions.com/episodes/learning-in-public/"
-          target="_blank"
-          rel="noreferrer">
-          <img
-            class="w-20 max-w-none"
-            src="/codingcareer/icon-software-seshs.jpg"
-            alt="" />
-        </a>
-        <a
+          src="/codingcareer/icon-software-seshs.jpg"
+          ariaLabel="Software Sessions Podcast" />
+        <AsSeenOn
           href="https://www.youtube.com/watch?v=1ayI9j57VlQ"
-          class="mx-2"
-          target="_blank"
-          rel="noreferrer">
-          <img
-            class="w-20 max-w-none"
-            src="/codingcareer/icon-include.png"
-            alt="" />
-        </a>
-        <a
+          src="/codingcareer/icon-include.png"
+          ariaLabel="IncludeJS" />
+
+        <AsSeenOn
           href="https://www.youtube.com/watch?v=bcca0VCJe9Q"
-          class="mx-2"
-          target="_blank"
-          rel="noreferrer">
-          <img
-            class="w-20 max-w-none"
-            src="/codingcareer/icon-react-europe.jpg"
-            alt="" />
-        </a>
-        <a
+          src="/codingcareer/icon-react-europe.jpg"
+          ariaLabel="React Europe" />
+
+        <AsSeenOn
           href="https://www.youtube.com/watch?v=QFHO2-8fGtM"
-          class="mx-2"
-          target="_blank"
-          rel="noreferrer">
-          <img
-            class="w-20 max-w-none"
-            src="/codingcareer/icon-fsa.png"
-            alt="" />
-        </a>
-        <a
+          src="/codingcareer/icon-fsa.png"
+          ariaLabel="Fullstack Academy" />
+
+        <AsSeenOn
+          src="/codingcareer/icon-prodready.png"
+          href="https://www.productionreadypod.com/episodes/marketing-yourself-your-products-by-learning-in-public-w-shawn-wang"
+          ariaLabel="Production Ready Podcast" />
+
+        <AsSeenOn
           href="https://podcasts.apple.com/us/podcast/newline/id1509124255"
-          class="mx-2"
-          target="_blank"
-          rel="noreferrer">
-          <img
-            class="w-20 max-w-none"
-            src="/codingcareer/icon-newline.jpg"
-            alt="" />
-        </a>
+          src="/codingcareer/icon-newline.jpg"
+          ariaLabel="Newline Podcast" />
       </div>
     </div>
     <div
