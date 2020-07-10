@@ -52,7 +52,7 @@
             <li class="font-normal text-lg text-gray-600">Spark Joy</li>
             <li class="font-normal text-lg text-gray-600">The Platinum Rule</li>
             <li class="font-normal text-lg text-gray-600">
-              Good Enough is Better han Best
+              Good Enough is Better than Best
             </li>
             <li class="font-normal text-lg text-gray-600">
               First Principles Thinking
