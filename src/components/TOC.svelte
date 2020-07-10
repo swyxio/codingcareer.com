@@ -38,7 +38,7 @@
         <li class="font-bold text-xl mt-4">
           Principles
           <ol class="ml-4">
-            <li class="font-normal text-lg text-gray-600">Learn in public</li>
+            <li class="font-normal text-lg text-gray-600">Learn in Public</li>
             <li class="font-normal text-lg text-gray-600">
               Clone Open Source Apps
             </li>
@@ -52,14 +52,14 @@
             <li class="font-normal text-lg text-gray-600">Spark Joy</li>
             <li class="font-normal text-lg text-gray-600">The Platinum Rule</li>
             <li class="font-normal text-lg text-gray-600">
-              Good ENough is Better han Best
+              Good Enough is Better han Best
             </li>
             <li class="font-normal text-lg text-gray-600">
               First Principles Thinking
             </li>
-            <li class="font-normal text-lg text-gray-600">Write, a lot</li>
+            <li class="font-normal text-lg text-gray-600">Write, A Lot</li>
             <li class="font-normal text-lg text-gray-600">
-              Pick up what they put down
+              Pick Up What They Put Down
             </li>
           </ol>
         </li>
