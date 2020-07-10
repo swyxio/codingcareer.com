@@ -10,6 +10,11 @@
     affiliateCode = new URLSearchParams(window.location.search).get(
       "a"
     );
+    affiliateCode = {
+      "gergely": "uguka",
+      "erik": "354p7",
+      "sebastien": "gozhi",
+    }[affiliateCode] || affiliateCode
     if (!affiliateCode) {
       // try to restore from localstorage
       affiliateCode = window.localStorage.getItem('swyxAffiliateCode')

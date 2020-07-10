@@ -42,6 +42,11 @@
 
   if(!document.querySelector('script#podia-embed-script')) {
     let affiliateCode = new URLSearchParams(window.location.search).get("a");
+    affiliateCode = {
+      "gergely": "uguka",
+      "erik": "354p7",
+      "sebastien": "gozhi",
+    }[affiliateCode] || affiliateCode
     // last touch wins
     if (affiliateCode) {
       window.localStorage.setItem('swyxAffiliateCode', affiliateCode)
