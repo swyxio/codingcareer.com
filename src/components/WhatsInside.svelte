@@ -16,13 +16,13 @@
       <p
         class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
         Specific advice on every career stage from
-        <span class="font-bold text-yellow-800">Code Newbie</span>
+        <span class="font-bold text-black">Code Newbie</span>
         to
-        <span class="font-bold text-yellow-800">Junior Dev</span>
+        <span class="font-bold text-black">Junior Dev</span>
         to
-        <span class="font-bold text-yellow-800">Senior Dev</span>, and every transition after: the
-        <span class="font-bold text-yellow-800">First Job Hunt</span>, going
-        <span class="font-bold text-yellow-800">from Junior to Senior</span>, and <span class="font-bold text-yellow-800">Beyond</span>.
+        <span class="font-bold text-black">Senior Dev</span>, and every transition after: the
+        <span class="font-bold text-black">First Job Hunt</span>, going
+        <span class="font-bold text-black">from Junior to Senior</span>, and <span class="font-bold text-black">Beyond</span>.
         
         <br />
         <a class="text-blue-500 hover:underline" href="/v1-careers-junior-to-senior.pdf">
@@ -40,7 +40,7 @@
         <em>don't</em>
         change. We discuss timeless rules for successful default behavior. Learn
         to
-        <span class="font-bold text-yellow-800">
+        <span class="font-bold text-black">
           grow your network and expertise,
           <em>while</em>
           you learn
@@ -59,9 +59,9 @@
       <p
         class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
         Everything to do with making big moves, from
-        <span class="font-bold text-yellow-800">Betting on Technologies</span>, to
-        <span class="font-bold text-yellow-800">Career Ladders</span>, to
-        <span class="font-bold text-yellow-800">Software Business Models</span>. Grow your business and personal impact!
+        <span class="font-bold text-black">Betting on Technologies</span>, to
+        <span class="font-bold text-black">Career Ladders</span>, to
+        <span class="font-bold text-black">Software Business Models</span>. Grow your business and personal impact!
 
         <br />
         <a class="text-blue-500 hover:underline" href="/v1-strategy-intro-tech.pdf">
@@ -78,13 +78,13 @@
         pb-16">
         Important, self-contained skills that you can repeatedly call on
         throughout your career, from
-        <span class="font-bold text-yellow-800">Negotiating</span>
+        <span class="font-bold text-black">Negotiating</span>
         to
-        <span class="font-bold text-yellow-800">Side Projects</span>
+        <span class="font-bold text-black">Side Projects</span>
         to
-        <span class="font-bold text-yellow-800">Twitter</span>
+        <span class="font-bold text-black">Twitter</span>
         to
-        <span class="font-bold text-yellow-800">Writing</span>
+        <span class="font-bold text-black">Writing</span>
         .
         <br />
         <a class="text-blue-500 hover:underline" href="/v1-tactics-marketing-yourself.pdf">
