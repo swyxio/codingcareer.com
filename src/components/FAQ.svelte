@@ -194,7 +194,7 @@
               </span>
             </li>
             <li class="list-disc mt-2">
-              The Creator Package comes with <span class="font-bold">2 hours of extra author commentary</span>
+              The Creator Package comes with <span class="font-bold">3+ hours of extra Author Commentary</span>
               and <span class="font-bold">10 hours of livestreamed writing process</span> (mp4 files)!
             </li>
           </ul>
