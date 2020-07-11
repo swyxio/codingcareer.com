@@ -82,7 +82,7 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      The Coding Career Handbook
+                      Everything in <span class="font-bold">The Coding Career Community Package</span>!
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -90,26 +90,9 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Lifetime access to future editions and Coding Career
-                      Community
-                    </p>
-                  </li>
-                  <!-- <li class="mt-4 flex items-start">
-                    <div class="flex-shrink-0">
-                      <GoldTick />
-                    </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Lifetime access
-                    </p>
-                  </li> -->
-                  <li class="mt-4 flex items-start">
-                    <div class="flex-shrink-0">
-                      <GoldTick />
-                    </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black">
-                      PDF, EPUB, MOBI versions + Audio Book + Bibliography with
+                      Get more out of every chapter with
                       <span class="font-bold">
-                        2 hours of Author Commentary
+                        3+ hours of Author Commentary
                       </span>
                     </p>
                   </li>
@@ -119,8 +102,8 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
-                        10 Hours of Behind The Scenes Recorded Livestreams
-                      </span>
+                        10 Hours of Recorded Livestreams
+                      </span> demonstrating the creative process of Writing
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
