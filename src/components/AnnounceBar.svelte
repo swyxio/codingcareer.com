@@ -20,8 +20,6 @@
       hours = Math.floor((distance / _hour));
       minutes = Math.floor((distance % _hour) / _minute);
       seconds = Math.floor((distance % _minute) / _second);
-
-      console.log({hours, minutes, seconds})
   }
 
   timer = setInterval(showRemaining, 1000);
