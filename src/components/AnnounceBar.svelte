@@ -32,13 +32,7 @@
 
 
 <div
-  class="font-medium absolute w-full text-md text-center text-black
+  class="font-medium fixed top-0 z-50 w-full text-md text-center text-black
   bg-yellow-500 p-2">
-  {#if distance < 0} Launch Sale ending now! {:else} 🎉 Launch Sale! <code class="bg-yellow-600">{hours}h{minutes}m{seconds}s</code> left – {/if} 25% of Book Sales donated to<a
-    class="pl-1 underline"
-    href="https://www.freecodecamp.org/news/freecodecamp-servers-update-october-2019/"
-    target="_blank"
-    rel="noreferrer">
-  support FreeCodeCamp.
-  </a>
+  {#if distance < 0} Launch Sale ending now! {:else} 🎉 Launch Sale ending soon! <code class="bg-yellow-600">{hours}h{minutes}m{seconds}s</code> left!{/if} 
 </div>

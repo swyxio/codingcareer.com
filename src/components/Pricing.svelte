@@ -27,8 +27,14 @@
     </h2>
     <h3
       class="text-center mt-3 text-base font-bold text-black sm:mt-5 sm:text-xl
-      lg:text-lg xl:text-xl">
-      Pick your Coding Career package
+      lg:text-lg xl:text-xl bg-white">
+      25% of Book Sales donated to<a
+        class="pl-1 underline"
+        href="https://www.freecodecamp.org/news/freecodecamp-servers-update-october-2019/"
+        target="_blank"
+        rel="noreferrer">
+      support FreeCodeCamp
+      </a>!
     </h3>
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="relative lg:grid lg:grid-cols-10 my-10">
@@ -92,6 +98,17 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
+                      Special
+                      <span class="font-bold">
+                        Creators' Channel
+                      </span> in Community Discord <em>with regular updates and discussions</em>
+                    </p>
+                  </li>
+                  <li class="mt-4 flex items-start">
+                    <div class="flex-shrink-0">
+                      <GoldTick />
+                    </div>
+                    <p class="ml-3 text-base leading-6 font-medium text-black">
                       Get more out of every chapter with
                       <span class="font-bold">
                         3+ hours of Author Commentary
@@ -131,7 +148,7 @@
                       px-6 py-4 text-xl leading-6 font-semibold font-display
                       text-black hover:bg-gray-700 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150">
-                      Buy Now
+                      Find Your Tribe
                     </a>
                   </div>
                   <p
