@@ -42,7 +42,7 @@
                   <p
                     class="text-center text-lg leading-7 font-semibold
                     font-display text-yellow-600 uppercase tracking-widest">
-                    Best Value
+                    For Future Makers
                   </p>
                   <h2
                     class="mt-2 text-center text-3xl leading-9 font-semibold
@@ -83,7 +83,9 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Everything in <span class="font-bold">The Coding Career Community Package</span>!
-                    </p>
+                      <em>The Coding Career Handbook, Audio Book + Bibliography, Updates + All future editions, Coding Career Community</em></p>
+                    <!-- <ul class="block flex-1"> -->
+                    <!-- </ul> -->
                   </li>
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
@@ -103,7 +105,7 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
                         10 Hours of Recorded Livestreams
-                      </span> demonstrating the creative process of Writing
+                      </span> demonstrating Mise en Place Writing
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -156,6 +158,11 @@
             <div class="flex-1 flex flex-col">
               <div class="bg-white px-6 pt-12 pb-10">
                 <div>
+                  <p
+                    class="text-center text-md leading-7 font-semibold
+                    font-display text-yellow-600 uppercase">
+                    Best Value
+                  </p>
                   <h2
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900">
@@ -213,7 +220,7 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
-                        Lifetime access to all future editions
+                        Updates + All future editions
                       </span>
                     </p>
                   </li>
@@ -222,7 +229,7 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Dedicated
+                      Lifetime Access to
                       <span class="font-bold">Coding Career Community</span>
                       (<a class="text-blue-500 hover:underline" href="/#community">
                         Learn more</a>)
@@ -239,7 +246,7 @@
                       href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?coupon=LAUNCHSALE20&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon="LAUNCHSALE20">
-                      Buy Now
+                      Join 700+ Developers
                     </a>
                   </div>
                 </div>

@@ -113,7 +113,7 @@
           ariaLabel="Production Ready Podcast" />
 
         <AsSeenOn
-          href="https://podcasts.apple.com/us/podcast/newline/id1509124255"
+          href="https://podcast.newline.co/episodes/cracking-the-coding-career-with-shawn-wang"
           src="/codingcareer/icon-newline.jpg"
           ariaLabel="Newline Podcast" />
       </div>
