@@ -34,7 +34,7 @@
         target="_blank"
         rel="noreferrer">
       support FreeCodeCamp
-      </a>!
+      </a>! Thanks to you we have donated $7500 so far!
     </h3>
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="relative lg:grid lg:grid-cols-10 my-10">
@@ -57,25 +57,25 @@
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
-                    <span
+                    <!-- <span
                       class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
                       $249
-                    </span>
+                    </span> -->
                     <span
-                      class="px-3 flex items-start text-6xl leading-none
+                      class="-ml-6 px-3 flex items-start text-6xl leading-none
                       tracking-tight font-medium text-gray-900 sm:text-7xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
-                      <span>199</span>
+                      <span>249</span>
                     </span>
-                    <span
+                    <!-- <span
                       class="text-2xl leading-8 font-semibold text-gray-400
                       tracking-wide sm:text-3xl sm:leading-9">
                       USD
-                    </span>
+                    </span> -->
                   </div>
                 </div>
               </div>
@@ -187,25 +187,25 @@
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
-                    <span
+                    <!-- <span
                       class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
                       $99
-                    </span>
+                    </span> -->
                     <span
-                      class="px-3 flex items-start text-6xl leading-none
+                      class="-ml-6 px-3 flex items-start text-6xl leading-none
                       tracking-tight font-medium text-gray-900 sm:text-7xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
-                      <span>79</span>
+                      <span>99</span>
                     </span>
-                    <span
+                    <!-- <span
                       class="text-2xl leading-8 font-semibold text-gray-400
                       tracking-wide sm:text-3xl sm:leading-9">
                       USD
-                    </span>
+                    </span> -->
                   </div>
                 </div>
               </div>
@@ -297,25 +297,25 @@
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
-                    <span
+                    <!-- <span
                       class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
                       $59
-                    </span>
+                    </span> -->
                     <span
-                      class="px-3 flex items-start text-6xl leading-none
+                      class="-ml-6 px-3 flex items-start text-6xl leading-none
                       tracking-tight font-medium text-gray-900 sm:text-7xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
-                      <span>39</span>
+                      <span>59</span>
                     </span>
-                    <span
+                    <!-- <span
                       class="text-2xl leading-8 font-semibold text-gray-400
                       tracking-wide sm:text-3xl sm:leading-9">
                       USD
-                    </span>
+                    </span> -->
                   </div>
                 </div>
               </div>

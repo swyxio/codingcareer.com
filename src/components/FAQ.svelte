@@ -98,8 +98,8 @@
           </p>
           <p class="text-base leading-6 text-gray-600 mt-2">
             We use Podia to process payments, and unfortunately PPP is not
-            supported at this time. However the Launch Sale discount will be the
-            lowest price offered for the book!
+            supported at this time. If you have particular special needs,
+            feel free to get in touch to work something out.
           </p>
         </div>
         <div class="mt-12 ">
