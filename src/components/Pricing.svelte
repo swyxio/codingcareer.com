@@ -1,18 +1,22 @@
 <script>
   import { onMount } from "svelte";
-  import GoldTick from './GoldTick.svelte'
+  import GoldTick from "./GoldTick.svelte";
   let affiliateCode = "";
+  let couponCode;
   $: console.log({ affiliateCode });
   onMount(() => {
+    couponCode = new URLSearchParams(window.location.search).get("c");
+    couponCode = couponCode ? `coupon=${couponCode}` : undefined;
     affiliateCode = new URLSearchParams(window.location.search).get("a");
-    affiliateCode = {
-      "gergely": "uguka",
-      "erik": "354p7",
-      "sebastien": "gozhi",
-    }[affiliateCode] || affiliateCode
+    affiliateCode =
+      {
+        gergely: "uguka",
+        erik: "354p7",
+        sebastien: "gozhi",
+      }[affiliateCode] || affiliateCode;
     if (!affiliateCode) {
       // try to restore from localstorage
-      affiliateCode = window.localStorage.getItem('swyxAffiliateCode')
+      affiliateCode = window.localStorage.getItem("swyxAffiliateCode");
     }
     affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
   });
@@ -28,13 +32,15 @@
     <h3
       class="text-center mt-3 text-base font-bold text-black sm:mt-5 sm:text-xl
       lg:text-lg xl:text-xl bg-white">
-      25% of Book Sales donated to<a
+      25% of Book Sales donated to
+      <a
         class="pl-1 underline"
         href="https://www.freecodecamp.org/news/freecodecamp-servers-update-october-2019/"
         target="_blank"
         rel="noreferrer">
-      support FreeCodeCamp
-      </a>! Thanks to you we have donated $7500 so far!
+        support FreeCodeCamp
+      </a>
+      ! Thanks to you we have donated $7500 so far!
     </h3>
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="relative lg:grid lg:grid-cols-10 my-10">
@@ -88,8 +94,16 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Everything in <span class="font-bold">The Coding Career Community Package</span>!
-                      <em>The Coding Career Handbook, Audio Book + Bibliography, Updates + All future editions, Coding Career Community</em></p>
+                      Everything in
+                      <span class="font-bold">
+                        The Coding Career Community Package
+                      </span>
+                      !
+                      <em>
+                        The Coding Career Handbook, Audio Book + Bibliography,
+                        Updates + All future editions, Coding Career Community
+                      </em>
+                    </p>
                     <!-- <ul class="block flex-1"> -->
                     <!-- </ul> -->
                   </li>
@@ -99,9 +113,9 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Special
-                      <span class="font-bold">
-                        Creators' Channel
-                      </span> in Community Discord <em>with regular updates and discussions</em>
+                      <span class="font-bold">Creators' Channel</span>
+                      in Community Discord
+                      <em>with regular updates and discussions</em>
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -112,7 +126,8 @@
                       Get more out of every chapter with
                       <span class="font-bold">
                         3+ hours of Author Commentary
-                      </span> in high-quality recorded video
+                      </span>
+                      in high-quality recorded video
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -122,7 +137,8 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
                         10 Hours of Recorded Livestreams
-                      </span> demonstrating Mise en Place Writing
+                      </span>
+                      demonstrating Mise en Place Writing
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -131,19 +147,22 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black ">
                       <span class="font-bold">Upcoming Live Workshops</span>
-                      (<a
+                      (
+                      <a
                         class="text-blue-500 hover:underline"
                         href="/#workshops">
-                        Learn more</a>)
+                        Learn more
+                      </a>
+                      )
                     </p>
                   </li>
                 </ul>
                 <div class="mt-10">
                   <div class="rounded-lg shadow-lg">
                     <a
-                      href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?coupon=LAUNCHSALE50&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode || ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon="LAUNCHSALE50"
+                      data-coupon={couponCode}
                       class="block w-full text-center rounded-lg bg-yellow-500
                       px-6 py-4 text-xl leading-6 font-semibold font-display
                       text-black hover:bg-gray-700 focus:outline-none
@@ -226,9 +245,12 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      <span class="font-bold">Audio book + Bibliography</span> for easier reading
-                      (<a class="text-blue-500 hover:underline" href="/#files">
-                        Learn more</a>)
+                      <span class="font-bold">Audio book + Bibliography</span>
+                      for easier reading (
+                      <a class="text-blue-500 hover:underline" href="/#files">
+                        Learn more
+                      </a>
+                      )
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -248,8 +270,13 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Lifetime Access to
                       <span class="font-bold">Coding Career Community</span>
-                      (<a class="text-blue-500 hover:underline" href="/#community">
-                        Learn more</a>)
+                      (
+                      <a
+                        class="text-blue-500 hover:underline"
+                        href="/#community">
+                        Learn more
+                      </a>
+                      )
                     </p>
                   </li>
                 </ul>
@@ -260,23 +287,23 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?coupon=LAUNCHSALE20&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode || ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon="LAUNCHSALE20">
+                      data-coupon={couponCode}>
                       Join 700+ Developers
                     </a>
                   </div>
                 </div>
-                
-                  <p
-                    class="mt-6 text-center text-base leading-6 font-medium
-                    text-gray-900">
-                    <a
-                      class="text-black underline font-semibold hover:opacity-75"
-                      href="/#team-pricing">
-                      View team pricing
-                    </a>
-                  </p>
+
+                <p
+                  class="mt-6 text-center text-base leading-6 font-medium
+                  text-gray-900">
+                  <a
+                    class="text-black underline font-semibold hover:opacity-75"
+                    href="/#team-pricing">
+                    View team pricing
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -357,13 +384,13 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?coupon=LAUNCHSALE20&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?${couponCode || ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon="LAUNCHSALE20">
+                      data-coupon={couponCode}>
                       Buy Now
                     </a>
                   </div>
-                  
+
                   <p
                     class="mt-6 text-center text-base leading-6 font-medium
                     text-gray-900">
