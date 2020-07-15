@@ -160,7 +160,7 @@
                 <div class="mt-10">
                   <div class="rounded-lg shadow-lg">
                     <a
-                      href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode || ''}&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode || ""}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}
                       class="block w-full text-center rounded-lg bg-yellow-500
@@ -287,7 +287,7 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode || ''}&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode || ""}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
                       Join 700+ Developers
@@ -384,7 +384,7 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?${couponCode || ''}&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?${couponCode || ""}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
                       Buy Now
