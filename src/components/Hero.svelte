@@ -123,7 +123,7 @@
       </div>
     </div>
     <div
-      class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0
+      class="pointer-events-none mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0
       lg:col-span-4 lg:flex lg:items-center">
       <div class="relative mx-auto w-full lg:max-w-lg">
         <img
