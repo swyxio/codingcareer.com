@@ -32,8 +32,8 @@
             <div class="md:flex md:items-center md:justify-center">
               <div class="md:flex-shrink-0">
                 <img
-                  class="mx-auto h-10 w-10 rounded-full shadow-md"
-                  src="/profiles/quincy.jpg"
+                  class="lazyload mx-auto h-10 w-10 rounded-full shadow-md"
+                  data-src="/profiles/quincy.jpg"
                   alt="Quincy Larson" />
               </div>
               <div
@@ -68,8 +68,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/samantha.jpg"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/samantha.jpg"
               alt="Samantha Bretous" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Samantha Bretous</p>
@@ -107,8 +107,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/randall.jpg"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/randall.jpg"
               alt="Randall Kanna" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Randall Kanna</p>
@@ -145,8 +145,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/aryan.jpg"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/aryan.jpg"
               alt="Aryan Jabbari" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Aryan Jabbari</p>
@@ -165,8 +165,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/hj.png"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/hj.png"
               alt="Chen Hui Jing" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Chen Hui Jing</p>
@@ -184,8 +184,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/kent.jpg"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/kent.jpg"
               alt="Kent C. Dodds" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Kent C. Dodds</p>
@@ -207,8 +207,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/emma.jpg"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/emma.jpg"
               alt="Emma Bostian" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Emma Bostian</p>
@@ -243,8 +243,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/forrest.jpg"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/forrest.jpg"
               alt="Forrest Brazeal" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Forrest Brazeal</p>
@@ -260,8 +260,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/carlos.jpg"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/carlos.jpg"
               alt="Carlos Roso" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Carlos Roso</p>
@@ -295,8 +295,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/monica.jpg"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/monica.jpg"
               alt="Monica Lent" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Monica Lent</p>
@@ -312,8 +312,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/mahmoud.jpg"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/mahmoud.jpg"
               alt="Mahmoud Abdelwahab" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Mahmoud Abdelwahab</p>
@@ -353,8 +353,8 @@
           </p>
           <div class="flex items-center mt-3">
             <img
-              class="h-16 w-16 rounded-full shadow-md"
-              src="/profiles/dan.png"
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/dan.png"
               alt="Dan Abramov" />
             <div class="flex flex-col ml-2">
               <p class="text-xl font-bold">Dan Abramov</p>
@@ -390,8 +390,8 @@
             <div class="md:flex md:items-center md:justify-center">
               <div class="md:flex-shrink-0">
                 <img
-                  class="mx-auto h-10 w-10 rounded-full shadow-md"
-                  src="/profiles/scott.jpg"
+                  class="lazyload mx-auto h-10 w-10 rounded-full shadow-md"
+                  data-src="/profiles/scott.jpg"
                   alt="Scott Hanselman" />
               </div>
               <div

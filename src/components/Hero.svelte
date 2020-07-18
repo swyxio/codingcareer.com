@@ -116,6 +116,10 @@
           href="https://podcast.newline.co/episodes/cracking-the-coding-career-with-shawn-wang"
           src="/codingcareer/icon-newline.jpg"
           ariaLabel="Newline Podcast" />
+        <AsSeenOn
+          href="https://aquestionofcode.com/71-how-should-developers-market-themselves-shawn-wang/"
+          src="/codingcareer/icon-aqoc.jpg"
+          ariaLabel="A Question of Code Podcast" />
       </div>
     </div>
     <div
