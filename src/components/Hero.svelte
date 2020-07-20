@@ -43,11 +43,19 @@
       <h2
         class="mt-3 text-base text-black sm:mt-5 sm:text-xl lg:text-lg
         xl:text-xl">
-        You cracked the coding interview. <span class="font-na">Now what?</span>
-        Time for the <span class="font-bold">tacit knowledge</span> every
-        developer takes years to learn. For the first time, the principles, strategies and tactics
-        to build an awesome, <span class="italic">sustainable</span> career
-        have been compiled into <span class="font-bold">the Missing Manual for Junior to Senior Devs</span>!
+        You cracked the coding interview.
+        <span class="font-na">Now what?</span>
+        Time for the
+        <span class="font-bold">tacit knowledge</span>
+        every developer takes
+        <span class="italic">years</span>
+        to learn. Build an awesome,
+        <span class="italic">sustainable</span>
+        career have been compiled into
+        <span class="font-bold">
+          the Missing Manual for Junior to Senior Devs
+        </span>
+        !
       </h2>
       <!-- you can use to build an awesome, <span class="italic">sustainable</span> career! -->
       <div class="flex-col sm:flex-row flex justify-center lg:justify-start">
@@ -55,18 +63,28 @@
           class="shadow-md w-full sm:w-1/3 my-5 mr-5 text-center rounded-lg
           bg-yellow-500 px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:bg-yellow-600 focus:outline-none focus:shadow-outline
-          transition ease-in-out duration-150"
-          href={`${search}#learn-more`}>
-          Free Chapters
+          transition ease-in-out duration-150 border-black border-2"
+          href={`${search}#buy`}>
+          Buy Now
         </a>
         <a
           class="shadow-md w-full sm:w-1/3 my-5 text-center rounded-lg
           bg-transparent px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:bg-yellow-500 focus:outline-none focus:shadow-outline
-          transition ease-in-out duration-150 border-black border-2"
-          href={`${search}#buy`}>
-          Buy Now
+          transition ease-in-out duration-150"
+          href="https://swyx.podia.com/login">
+          Log in
         </a>
+
+        <!-- <div
+          class="text-sm font-semibold uppercase tracking-wider text-gray-700
+          sm:text-base lg:text-sm xl:text-base"> -->
+          <!-- <a 
+          class="sm:w-1/3 my-5 text-center rounded-lg
+          bg-transparent px-6 py-4 text-xl leading-6 font-semibold font-display
+           text-gray-600 hover:text-black hover:underline"
+          href="https://swyx.podia.com/login">Login</a> -->
+        <!-- </div> -->
       </div>
       <p
         class="mt-3 hidden sm:block text-center md:text-left font-bold text-base
@@ -123,8 +141,8 @@
       </div>
     </div>
     <div
-      class="pointer-events-none mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0
-      lg:col-span-4 lg:flex lg:items-center">
+      class="pointer-events-none mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0
+      lg:max-w-none lg:mx-0 lg:col-span-4 lg:flex lg:items-center">
       <div class="relative mx-auto w-full lg:max-w-lg">
         <img
           class="w-full"

@@ -2,11 +2,10 @@
   import { onMount } from "svelte";
   import GoldTick from "./GoldTick.svelte";
   let affiliateCode = "";
-  let couponCode;
-  $: console.log({ affiliateCode });
+  let couponCode = "XLAUNCH20";
+  $: console.log({ affiliateCode, couponCode });
   onMount(() => {
-    couponCode = new URLSearchParams(window.location.search).get("c");
-    couponCode = couponCode ? `coupon=${couponCode}` : undefined;
+    couponCode = new URLSearchParams(window.location.search).get("c") || couponCode;
     affiliateCode = new URLSearchParams(window.location.search).get("a");
     affiliateCode =
       {
@@ -20,6 +19,25 @@
     }
     affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
   });
+
+  let p1 = 59
+  let d1 = 49
+  let p2 = 99
+  let d2 = 79
+  let p3 = 249
+  let d3 = 199
+  $: {
+  if (couponCode === 'XLAUNCH20') {
+    d1 = Math.round(0.8 * p1)
+    d2 = Math.round(0.8 * p2)
+    d3 = Math.round(0.8 * p3)
+  } else if (couponCode==='SWYXMIX') {
+    d1 = Math.round(0.5 * p1)
+    d2 = Math.round(0.5 * p2)
+    d3 = Math.round(0.5 * p3)
+  }
+
+  }
 </script>
 
 <div id="buy" class="mt-16 bg-yellow-500 py-12 lg:mt-20">
@@ -63,25 +81,25 @@
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
-                    <!-- <span
+                    <span
                       class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
-                      $249
-                    </span> -->
+                      ${p3}
+                    </span>
                     <span
-                      class="-ml-6 px-3 flex items-start text-6xl leading-none
+                      class="px-3 flex items-start text-6xl leading-none
                       tracking-tight font-medium text-gray-900 sm:text-7xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
-                      <span>249</span>
+                      <span>{d3}</span>
                     </span>
-                    <!-- <span
+                    <span
                       class="text-2xl leading-8 font-semibold text-gray-400
                       tracking-wide sm:text-3xl sm:leading-9">
                       USD
-                    </span> -->
+                    </span>
                   </div>
                 </div>
               </div>
@@ -114,8 +132,8 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Special
                       <span class="font-bold">Creators' Channel</span>
-                      in Community Discord
-                      <em>with regular updates and discussions</em>
+                      in Community Discord,
+                      <em> a supportive mastermind group for indie hackers and side projects</em>
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -123,7 +141,7 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Get more out of every chapter with
+                      Get more out of <span class="font-bold">every</span> chapter with
                       <span class="font-bold">
                         3+ hours of Author Commentary
                       </span>
@@ -147,20 +165,17 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black ">
                       <span class="font-bold">Upcoming Live Workshops</span>
-                      (
-                      <a
+                      (<a
                         class="text-blue-500 hover:underline"
                         href="/#workshops">
-                        Learn more
-                      </a>
-                      )
+                        Learn more</a>)
                     </p>
                   </li>
                 </ul>
                 <div class="mt-10">
                   <div class="rounded-lg shadow-lg">
                     <a
-                      href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode || ""}&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ""}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}
                       class="block w-full text-center rounded-lg bg-yellow-500
@@ -206,25 +221,25 @@
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
-                    <!-- <span
+                    <span
                       class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
-                      $99
-                    </span> -->
+                      ${p2}
+                    </span>
                     <span
-                      class="-ml-6 px-3 flex items-start text-6xl leading-none
+                      class="px-3 flex items-start text-6xl leading-none
                       tracking-tight font-medium text-gray-900 sm:text-7xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
-                      <span>99</span>
+                      <span>{d2}</span>
                     </span>
-                    <!-- <span
+                    <span
                       class="text-2xl leading-8 font-semibold text-gray-400
                       tracking-wide sm:text-3xl sm:leading-9">
                       USD
-                    </span> -->
+                    </span>
                   </div>
                 </div>
               </div>
@@ -246,11 +261,9 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">Audio book + Bibliography</span>
-                      for easier reading (
-                      <a class="text-blue-500 hover:underline" href="/#files">
+                      for easier reading (<a class="text-blue-500 hover:underline" href="/#files">
                         Learn more
-                      </a>
-                      )
+                      </a>)
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -270,13 +283,10 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Lifetime Access to
                       <span class="font-bold">Coding Career Community</span>
-                      (
-                      <a
+                      (<a
                         class="text-blue-500 hover:underline"
                         href="/#community">
-                        Learn more
-                      </a>
-                      )
+                        Learn more</a>)
                     </p>
                   </li>
                 </ul>
@@ -287,10 +297,10 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode || ""}&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ""}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
-                      Join 700+ Developers
+                      Join 800+ Developers
                     </a>
                   </div>
                 </div>
@@ -324,25 +334,25 @@
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
-                    <!-- <span
+                    <span
                       class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
-                      $59
-                    </span> -->
+                      ${p1}
+                    </span>
                     <span
-                      class="-ml-6 px-3 flex items-start text-6xl leading-none
+                      class="px-3 flex items-start text-6xl leading-none
                       tracking-tight font-medium text-gray-900 sm:text-7xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
-                      <span>59</span>
+                      <span>{d1}</span>
                     </span>
-                    <!-- <span
+                    <span
                       class="text-2xl leading-8 font-semibold text-gray-400
                       tracking-wide sm:text-3xl sm:leading-9">
                       USD
-                    </span> -->
+                    </span>
                   </div>
                 </div>
               </div>
@@ -384,7 +394,7 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?${couponCode || ""}&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ""}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
                       Buy Now

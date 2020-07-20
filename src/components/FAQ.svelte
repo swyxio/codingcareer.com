@@ -78,8 +78,8 @@
             Sundays at 12pm EST (9am PDT):
           </p>
           <ul class="list-inside text-gray-600 mt-4 ml-3">
-            <li class="list-disc"><span class="font-bold">July 12</span>: Learning in Public</li>
-            <li class="list-disc"><span class="font-bold">July 19</span>: The Business of Software</li>
+            <li class="list-disc"><span class="font-bold">July 12</span> ✅: Learning in Public</li>
+            <li class="list-disc"><span class="font-bold">July 19</span> ✅: The Business of Software</li>
             <li class="list-disc"><span class="font-bold">July 26</span>: Writing and Speaking</li>
           </ul>
           <p class="mt-2 text-base leading-6 text-gray-600">

@@ -1,5 +1,5 @@
 <script>
-  // import AnnounceBar from "../components/AnnounceBar.svelte";
+  import AnnounceBar from "../components/AnnounceBar.svelte";
   import Hero from "../components/Hero.svelte";
   import WhatsInside from "../components/WhatsInside.svelte";
   import Reviews from "../components/Reviews.svelte";
@@ -36,7 +36,7 @@
 <div class="flex flex-col min-h-screen font-sans text-gray-900">
   <main>
     <div class="relative bg-gray-100 overflow-hidden">
-      <!-- <AnnounceBar /> -->
+      <AnnounceBar />
       <Hero />
       <WhatsInside />
       <Reviews />

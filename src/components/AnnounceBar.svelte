@@ -1,7 +1,7 @@
 <script>
-  import {onDestroy} from 'svelte'
+  import {onDestroy, onMount} from 'svelte'
 
-  const end = new Date('07/14/2020 11:59 PM PDT');
+  const end = new Date('08/01/2020 11:59 PM PDT');
 
   const _second = 1000;
   const _minute = _second * 60;
@@ -26,11 +26,22 @@
   showRemaining()
   onDestroy(() => clearInterval(timer))
 
+  let couponCode
+  onMount(() => {
+    couponCode = new URLSearchParams(window.location.search).get("c")
+  })
+
 </script>
 
 
 <div
-  class="font-medium fixed top-0 z-50 w-full text-md text-center text-black
-  bg-yellow-500 p-2">
-  {#if distance < 0} Launch Sale ending now! {:else} 🎉 Launch Sale ending soon! <code class="bg-yellow-600">{hours}h{minutes}m{seconds}s</code> left!{/if} 
+class="font-medium fixed top-0 z-50 w-full text-md text-center text-black
+bg-yellow-500 p-2">
+  <a href="#buy">
+    {#if couponCode}
+      Coupon <code class="bg-yellow-600">{couponCode}</code> has been applied!
+    {:else}
+      {#if distance < 0} Extended Launch Sale ending soon! {:else} 🔈 Launch Sale extended by popular demand - <code class="bg-yellow-600">{hours}h{minutes}m{seconds}s</code> to get 20% off!{/if} 
+    {/if}
+  </a>
 </div>
