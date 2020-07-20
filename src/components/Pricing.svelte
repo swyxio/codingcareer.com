@@ -5,7 +5,8 @@
   let couponCode = "XLAUNCH20";
   $: console.log({ affiliateCode, couponCode });
   onMount(() => {
-    couponCode = new URLSearchParams(window.location.search).get("c") || couponCode;
+    couponCode =
+      new URLSearchParams(window.location.search).get("c") || couponCode;
     affiliateCode = new URLSearchParams(window.location.search).get("a");
     affiliateCode =
       {
@@ -20,23 +21,27 @@
     affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
   });
 
-  let p1 = 59
-  let d1 = 49
-  let p2 = 99
-  let d2 = 79
-  let p3 = 249
-  let d3 = 199
+  let p1 = 59;
+  let d1 = 49;
+  let p2 = 99;
+  let d2 = 79;
+  let p3 = 249;
+  let d3 = 199;
   $: {
-  if (couponCode === 'XLAUNCH20') {
-    d1 = Math.round(0.8 * p1)
-    d2 = Math.round(0.8 * p2)
-    d3 = Math.round(0.8 * p3)
-  } else if (couponCode==='SWYXMIX') {
-    d1 = Math.round(0.5 * p1)
-    d2 = Math.round(0.5 * p2)
-    d3 = Math.round(0.5 * p3)
-  }
-
+    if (couponCode === "XLAUNCH20") {
+      d1 = Math.round(0.8 * p1);
+      d2 = Math.round(0.8 * p2);
+      d3 = Math.round(0.8 * p3);
+    } else if (couponCode === "SWYXMIX") {
+      d1 = Math.round(0.5 * p1);
+      d2 = Math.round(0.5 * p2);
+      d3 = Math.round(0.5 * p3);
+    } else if (couponCode.endsWith("0")) {
+      let discount = 1 - Number(couponCode.slice(-2)) / 100;
+      d1 = Math.round(discount * p1);
+      d2 = Math.round(discount * p2);
+      d3 = Math.round(discount * p3);
+    }
   }
 </script>
 
@@ -133,7 +138,10 @@
                       Special
                       <span class="font-bold">Creators' Channel</span>
                       in Community Discord,
-                      <em> a supportive mastermind group for indie hackers and side projects</em>
+                      <em>
+                        a supportive mastermind group for indie hackers and side
+                        projects
+                      </em>
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -141,7 +149,9 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Get more out of <span class="font-bold">every</span> chapter with
+                      Get more out of
+                      <span class="font-bold">every</span>
+                      chapter with
                       <span class="font-bold">
                         3+ hours of Author Commentary
                       </span>
@@ -165,17 +175,20 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black ">
                       <span class="font-bold">Upcoming Live Workshops</span>
-                      (<a
+                      (
+                      <a
                         class="text-blue-500 hover:underline"
                         href="/#workshops">
-                        Learn more</a>)
+                        Learn more
+                      </a>
+                      )
                     </p>
                   </li>
                 </ul>
                 <div class="mt-10">
                   <div class="rounded-lg shadow-lg">
                     <a
-                      href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ""}&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}
                       class="block w-full text-center rounded-lg bg-yellow-500
@@ -261,9 +274,11 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">Audio book + Bibliography</span>
-                      for easier reading (<a class="text-blue-500 hover:underline" href="/#files">
+                      for easier reading (
+                      <a class="text-blue-500 hover:underline" href="/#files">
                         Learn more
-                      </a>)
+                      </a>
+                      )
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -283,10 +298,13 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Lifetime Access to
                       <span class="font-bold">Coding Career Community</span>
-                      (<a
+                      (
+                      <a
                         class="text-blue-500 hover:underline"
                         href="/#community">
-                        Learn more</a>)
+                        Learn more
+                      </a>
+                      )
                     </p>
                   </li>
                 </ul>
@@ -297,7 +315,7 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ""}&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
                       Join 800+ Developers
@@ -394,7 +412,7 @@
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ""}&via=shawn-wang`}
+                      href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
                       Buy Now
