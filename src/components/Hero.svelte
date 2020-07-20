@@ -51,7 +51,7 @@
         <span class="italic">years</span>
         to learn. Build an awesome,
         <span class="italic">sustainable</span>
-        career have been compiled into
+        career with
         <span class="font-bold">
           the Missing Manual for Junior to Senior Devs
         </span>
