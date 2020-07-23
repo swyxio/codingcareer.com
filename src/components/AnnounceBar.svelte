@@ -41,7 +41,12 @@ bg-yellow-500 p-2">
     {#if couponCode}
       Coupon <code class="bg-yellow-600">{couponCode}</code> has been applied!
     {:else}
-      {#if distance < 0} Extended Launch Sale ending soon! {:else} 🔈 Launch Sale extended by popular demand - <code class="bg-yellow-600">{hours}h{minutes}m{seconds}s</code> to get 20% off!{/if} 
-    {/if}
-  </a>
-</div>
+      {#if distance < 0} 
+      Extended Launch Sale ending soon! 
+      {:else} 
+      🔈 Launch Sale extended by popular demand - 20% off til Aug 1st!
+      {/if} 
+      {/if}
+    </a>
+  </div>
+  <!-- 🔈 Launch Sale extended by popular demand - <code class="bg-yellow-600">{hours}h{minutes}m{seconds}s</code> to get 20% off! -->
