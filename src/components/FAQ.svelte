@@ -153,7 +153,7 @@
                 up to 5 - $249
               </a>, 
               <a
-                class="underline hover:text-yellow-900 text-yellow-700" href={`https://swyx.podia.com/coding-career-community-team-5${affiliateCode}`}
+                class="underline hover:text-yellow-900 text-yellow-700" href={`https://swyx.podia.com/coding-career-community-team-10${affiliateCode}`}
                 data-podia-embed="link">
                 up to 10 - $479
               </a>
