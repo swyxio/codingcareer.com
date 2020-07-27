@@ -8,6 +8,12 @@
       <span>Book</span>
     </h2>
     <div class="max-w-3xl mx-auto">
+      <p
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600 italic">
+        10 hours of audio. 40 chapters. 450+ pages. 1,400+ links to original sources curated over 3 years. 
+        Priceless insights from dozens of developers at the top of their fields. 
+        Proven ideas, tested by personal experience, backed by solid theoretical foundations.
+      </p>
       <h3
         class="mt-1 text-2xl text-center tracking-tight leading-10 font-semibold
         text-gray-900 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-12">
@@ -23,8 +29,6 @@
         <span class="font-bold text-black">Senior Dev</span>, and every transition after: the
         <span class="font-bold text-black">First Job Hunt</span>, going
         <span class="font-bold text-black">from Junior to Senior</span>, and <span class="font-bold text-black">Beyond</span>.
-        
-        <br />
         <a class="text-blue-500 hover:underline" href="/v1-careers-junior-to-senior.pdf">
           Sample "Junior to Senior" Chapter →
         </a>
@@ -43,10 +47,7 @@
         <span class="font-bold text-black">
           grow your network and expertise,
           <em>while</em>
-          you learn
-        </span>
-        .
-        <br />
+          you learn</span>.
         <a class="text-blue-500 hover:underline" href="/v1-principles-learn-in-public.pdf">
           Sample "Learn in Public" Chapter →
         </a>
@@ -62,8 +63,6 @@
         <span class="font-bold text-black">Betting on Technologies</span>, to
         <span class="font-bold text-black">Career Ladders</span>, to
         <span class="font-bold text-black">Software Business Models</span>. Grow your business and personal impact!
-
-        <br />
         <a class="text-blue-500 hover:underline" href="/v1-strategy-intro-tech.pdf">
           Sample "Intro to Tech Strategy" Chapter →
         </a>
@@ -84,20 +83,18 @@
         to
         <span class="font-bold text-black">Twitter</span>
         to
-        <span class="font-bold text-black">Writing</span>
-        .
-        <br />
+        <span class="font-bold text-black">Writing</span>.
         <a class="text-blue-500 hover:underline" href="/v1-tactics-marketing-yourself.pdf">
           Sample "Marketing Yourself (without Being a Celebrity)" Chapter →
         </a>
       </p>
     </div>
     <h3
-      class="text-center mt-3 text-base font-bold sm:mt-5 sm:text-xl lg:text-xg
-      xl:text-3xl">
-      View the full
+      class="text-center mt-3 text-base font-bold sm:mt-5 text-3xl lg:text-4xl
+      xl:text-5xl">
+      View the 
       <a class="text-blue-500 hover:underline" href="./toc">
-        table of contents →
+        Full Table of Contents →
       </a>
     </h3>
   </div>

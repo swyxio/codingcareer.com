@@ -100,15 +100,15 @@
       </div>
       <div>
         <p class="text-lg italic text-gray-900 leading-loose sm:w-5/6 w-full">
-          “The book could've been called (and I mean this in the best possible
-          way) "<span class="font-bold">Hacker News: The Good Parts</span>." All the
+          “The book could've been called <span class="font-bold">Hacker News: The Good Parts</span>. All the
           experience-based advice for career success, none of the toxic
           nonsense.”
           <a
             href="https://twitter.com/forrestbrazeal/status/1275846608551317506?s=20"
             aria-label="twitter link"
             target="_blank"
-            rel="noreferrer">
+            class="hover:underline hover:text-blue-500"
+            rel="noreferrer"> - Forrest Brazeal, AWS Serverless Hero
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -185,13 +185,17 @@
           src="/codingcareer/icon-aqoc.jpg"
           ariaLabel="A Question of Code Podcast" />
         <AsSeenOn
+          href="https://www.youtube.com/watch?v=50GKF08jLxo"
+          src="/codingcareer/icon-rk.jpg"
+          ariaLabel="React Knowledgeable" />
+        <AsSeenOn
           href="https://www.youtube.com/watch?v=1ayI9j57VlQ"
           src="/codingcareer/icon-include.png"
           ariaLabel="IncludeJS" />
       </div>
     </div>
     <div
-      class="pointer-events-none mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0
+      class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0
       lg:max-w-none lg:mx-0 lg:col-span-4 lg:flex lg:items-center">
       <div class="text-center md:absolute md:top-0 md:right-0">
         <a

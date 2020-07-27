@@ -58,7 +58,7 @@
             is a moderated Discord chat where you can talk with other readers
             about the ideas from the book and more. Ask questions, give criticism, find
             collaborators, and generally use as a friendly resource as you build
-            your coding career.
+            your coding career!
           </p>
           <p class="text-base leading-6 text-gray-600 mt-2 italic">
             Note: Participation in the Community is subject to a Code of
@@ -69,22 +69,22 @@
         </div>
         <div id="workshops" use:highlightHash={hash} class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
-            Tell me more about the Coding Career Workshops?
+            Tell me more about the Creator Workshops?
           </p>
           <p class="mt-2 text-base leading-6 text-gray-600">
-            Get the most out of your Coding Career journey with monthly live
-            workshops. Dive deeper into selected topics from the book and others
-            that didn’t make the cut (yet!). Planned sessions in July are
-            Sundays at 12pm EST (9am PDT):
+            Get the most out of your Coding Career journey with monthly live workshops, and join our <a href="https://en.wikipedia.org/wiki/Mastermind_group" class="underline hover:text-yellow-900 text-yellow-700">Mastermind Group</a> of fellow Creators -
+            People who want to <span class="font-bold">make money Learning in Public</span>! Workshops are live over Zoom, Sundays at 12pm ET (9am PT):
           </p>
           <ul class="list-inside text-gray-600 mt-4 ml-3">
             <li class="list-disc"><span class="font-bold">July 12</span> ✅: Learning in Public</li>
             <li class="list-disc"><span class="font-bold">July 19</span> ✅: The Business of Software</li>
-            <li class="list-disc"><span class="font-bold">July 26</span>: Writing and Speaking</li>
+            <li class="list-disc"><span class="font-bold">July 26</span> ✅: Writing and Speaking</li>
+            <li class="list-disc"><span class="font-bold">mid-August</span>: Indiehacking</li>
+            <li class="list-disc"><span class="font-bold">end-August</span>: Guest speaker tbd</li>
           </ul>
           <p class="mt-2 text-base leading-6 text-gray-600">
             All workshops will be recorded, so this becomes an ever-growing
-            library of career content.
+            library of creator content.
           </p>
           <p class="mt-2 text-base leading-6 text-gray-600 italic">
             Note: Invites will come via email, all recordings will be available
@@ -116,7 +116,9 @@
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-600">
             Upon purchase, you will have a Podia account tied to your email. You
-            can use this to login and download your purchases any time. We will
+            can use this to login and download your purchases any time (You can <a
+            class="text-blue-500 hover:underline"
+            href="https://swyx.podia.com/login">log in here</a>). We will
             email you every time a new edition of the book comes out!
           </p>
         </div>
@@ -187,7 +189,7 @@
               devices.
             </li>
             <li class="list-disc mt-2">
-              The <span class="font-bold">Audiobook</span> version is available with the Community Package as a
+              The <span class="font-bold">10 Hour Audiobook</span> version is available with the Community Package as a
               zip of mp3 files. <a href="https://drive.google.com/drive/folders/1s1xB0Qz5GGMWktuQYsgmcZxiC2GHQccd?usp=sharing" class="text-yellow-700">Here is a sample audio chapter! </a><span class="italic">
                 Note: due to a recording snafu, only half the chapters are
                 available at launch. The rest will be rerecorded soon!
