@@ -12,6 +12,7 @@
       {
         gergely: "uguka",
         erik: "354p7",
+        tlakomy: "5ssju",
         sebastien: "gozhi",
       }[affiliateCode] || affiliateCode;
     if (!affiliateCode) {
