@@ -2,7 +2,8 @@
   import { onMount } from "svelte";
   import GoldTick from "./GoldTick.svelte";
   let affiliateCode = "";
-  let couponCode = "XLAUNCH20";
+  // let couponCode = "XLAUNCH20";
+  let couponCode = null
   $: console.log({ affiliateCode, couponCode });
   onMount(() => {
     couponCode =
@@ -22,12 +23,9 @@
     affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
   });
 
-  let p1 = 59;
-  let d1 = 49;
-  let p2 = 99;
-  let d2 = 79;
-  let p3 = 249;
-  let d3 = 199;
+  let p1 = 59, d1 = 59;
+  let p2 = 99, d2 = 99;
+  let p3 = 249, d3 = 249;
   $: {
     if (couponCode === "XLAUNCH20") {
       d1 = Math.round(0.8 * p1);
@@ -38,7 +36,7 @@
       d1 = Math.round(0.5 * p1);
       d2 = Math.round(0.5 * p2);
       d3 = Math.round(0.5 * p3);
-    } else if (couponCode.endsWith("0")) {
+    } else if (couponCode && couponCode.endsWith("0")) {
       let discount = 1 - Number(couponCode.slice(-2)) / 100;
       d1 = Math.round(discount * p1);
       d2 = Math.round(discount * p2);
@@ -87,12 +85,14 @@
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
+                    {#if p3 !== d3}
                     <span
                       class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
                       ${p3}
                     </span>
+                    {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
                       tracking-tight font-medium text-gray-900 sm:text-7xl">
@@ -228,12 +228,14 @@
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
+                    {#if p1 !== d1}
                     <span
                       class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
                       ${p1}
                     </span>
+                    {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
                       tracking-tight font-medium text-gray-900 sm:text-7xl">
@@ -329,12 +331,14 @@
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
+                    {#if p2 !== d2}
                     <span
                       class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
                       ${p2}
                     </span>
+                    {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
                       tracking-tight font-medium text-gray-900 sm:text-7xl">
