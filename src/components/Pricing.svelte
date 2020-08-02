@@ -52,7 +52,7 @@
       md:text-5xl md:leading-none text-center">
       Pricing
     </h2>
-    <h3
+    <!-- <h3
       class="text-center mt-3 text-base font-bold text-black sm:mt-5 sm:text-xl
       lg:text-lg xl:text-xl bg-white">
       25% of Book Sales go to<a
@@ -63,7 +63,7 @@
         support FreeCodeCamp</a>. <br /> Thanks to you, we have sponsored
       <span class="font-bold underline">5 million hours</span>
       of developer education!
-    </h3>
+    </h3> -->
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="relative lg:grid lg:grid-cols-10 my-10">
         <div
