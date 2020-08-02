@@ -11,6 +11,7 @@
       "a"
     );
     affiliateCode = {
+      "tretuna": "p5kuh",
       "gergely": "uguka",
       "erik": "354p7",
       "tlakomy": "5ssju",

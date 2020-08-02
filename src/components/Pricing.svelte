@@ -11,6 +11,7 @@
     affiliateCode = new URLSearchParams(window.location.search).get("a");
     affiliateCode =
       {
+        tretuna: "p5kuh",
         gergely: "uguka",
         erik: "354p7",
         tlakomy: "5ssju",
@@ -411,7 +412,7 @@
                       href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
-                      Join 800+ Developers
+                      Join 1,100+ Developers
                     </a>
                   </div>
                 </div>
