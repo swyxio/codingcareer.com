@@ -412,7 +412,7 @@
                       href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
-                      Join 1,100+ Developers
+                      Join 1000+ Developers
                     </a>
                   </div>
                 </div>
