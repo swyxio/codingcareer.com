@@ -1,3 +1,34 @@
+<script>
+  // Create an instance of the Stripe object with your publishable API key
+  var stripe = Stripe('pk_live_6fPy43Zf01HIjsaM84nXfi8l');
+  function checkout() {
+    let prefix = ''
+    if (window.location.hostname === "localhost") prefix = "http://localhost:3333"
+    fetch(prefix + '/stripe', {
+      method: 'POST',
+      body: JSON.stringify({
+        item: 'book',
+        coupon: 'SWYXMIX',
+        referer: 'nuzie',
+      })
+    })
+    .then(res => res.json())
+    .then(session => console.log({session}) || stripe.redirectToCheckout({ sessionId: session.id }))
+    .then(function(result) {
+      // If `redirectToCheckout` fails due to a browser or network
+      // error, you should display the localized error message to your
+      // customer using `error.message`.
+      if (result.error) {
+        alert(result.error.message);
+      }
+    })
+    .catch(function(error) {
+      console.error('Error:', error);
+    });
+  }
+</script>
+
+
 <div class="relative bg-gray-100 overflow-hidden">
   <div
     class="py-16 max-w-3xl bg-white overflow-hidden lg:py-16s mx-auto mt-14
@@ -124,6 +155,8 @@
         Convinced?
         <!-- -->
         <a class="text-blue-500 " href="/#buy">Get the Book Now 📘</a>
+
+        <button id="checkout-button" on:click={checkout}>Checkout</button>
       </p>
     </div>
   </div>

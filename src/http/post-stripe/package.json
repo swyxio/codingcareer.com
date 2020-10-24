@@ -1,0 +1,16 @@
+{
+  "name": "stripe-checkout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "swyx",
+  "license": "ISC",
+  "dependencies": {
+    "@architect/functions": "^3.13.4",
+    "stripe": "^8.117.0"
+  }
+}
