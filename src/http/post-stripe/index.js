@@ -3,7 +3,7 @@ let arc = require('@architect/functions')
 let parseBody = arc.http.helpers.bodyParser
 // Set your secret key. Remember to switch to your live secret key in production!
 // See your keys here: https://dashboard.stripe.com/account/apikeys
-const stripe = require('stripe')(process.env.STR_SK_LIVE);
+const stripe = require('stripe')(process.env.STR_SK_LIVE || "sk_live_zxIZHYHWPZ2dZvl0ySZ1qQv5");
 
 let idMap = {
   'book': 'price_1HfuidKWe8hdGUWLxmTQHB5E',
@@ -11,14 +11,20 @@ let idMap = {
   'creator': 'price_1HfuidKWe8hdGUWLxmTQHB5E',
 }
 
-let wrapcurlies = txt = `{{${txt}}}`
+// let wrapcurlies = txt => `{{${txt}}}`
+let wrapcurlies = txt => txt
 exports.handler = async function http(request) {
   let body = parseBody(request) // Pass the entire request object
   let item = idMap[body.item]
+  // console.log({item, body})
   if (!item) {
     return {
       statusCode: 500,
-      body: JSON.stringify('unrecognized item')
+      body: JSON.stringify({
+        error: 'unrecognized item',
+        body,
+        item
+      })
     }
   }
   let coupon = body.coupon
@@ -29,9 +35,9 @@ exports.handler = async function http(request) {
         price: wrapcurlies(item),
         quantity: 1,
       }],
-    discounts: coupon && [{
+    discounts: coupon ? [{
       coupon: wrapcurlies(coupon)
-    }],
+    }] : undefined,
     metadata: {
       referer: referer || 'no_referer'
     },

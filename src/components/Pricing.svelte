@@ -1,9 +1,57 @@
 <script>
   import { onMount } from "svelte";
   import GoldTick from "./GoldTick.svelte";
+
+  /**
+   *
+   *
+   * stripe
+   *
+   */
+  // Create an instance of the Stripe object with your publishable API key
+  let stripe;
+  onMount(() => {
+    stripe = window.Stripe("pk_live_6fPy43Zf01HIjsaM84nXfi8l");
+  });
+  function checkout({ item, coupon }) {
+    let prefix = "";
+    if (window.location.hostname === "localhost")
+      prefix = "http://localhost:3333";
+    return fetch(prefix + "/stripe", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        item,
+        coupon,
+        referer: "nuzie",
+      }),
+    })
+      .then((res) => res.json())
+      .then(
+        (session) =>
+          console.log({ session }) ||
+          stripe.redirectToCheckout({ sessionId: session.id })
+      )
+      .then(function (result) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, you should display the localized error message to your
+        // customer using `error.message`.
+        if (result.error) {
+          alert(result.error.message);
+        }
+      })
+      .catch(function (error) {
+        console.error("Error:", error);
+      });
+  }
+
+  /// rest
+
   let affiliateCode = "";
   // let couponCode = "XLAUNCH20";
-  let couponCode = null
+  let couponCode = null;
   $: console.log({ affiliateCode, couponCode });
   onMount(() => {
     couponCode =
@@ -24,9 +72,12 @@
     affiliateCode = affiliateCode ? `/${affiliateCode}` : "";
   });
 
-  let p1 = 59, d1 = 59;
-  let p2 = 99, d2 = 99;
-  let p3 = 249, d3 = 249;
+  let p1 = 59,
+    d1 = 59;
+  let p2 = 99,
+    d2 = 99;
+  let p3 = 249,
+    d3 = 249;
   $: {
     if (couponCode === "XLAUNCH20") {
       d1 = Math.round(0.8 * p1);
@@ -49,6 +100,7 @@
 <div id="buy" class="mt-16 bg-yellow-500 py-12 lg:mt-20">
   <div class="relative z-0">
     <h2
+      id="pricing"
       class="text-4xl leading-10 font-display font-semibold text-gray-900
       md:text-5xl md:leading-none text-center">
       Pricing
@@ -87,12 +139,12 @@
                   <div
                     class="mt-4 flex items-center justify-center font-display">
                     {#if p3 !== d3}
-                    <span
-                      class="-ml-8 text-right text-2xl leading-8 font-semibold
+                      <span
+                        class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
-                      ${p3}
-                    </span>
+                        ${p3}
+                      </span>
                     {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
@@ -177,8 +229,8 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black ">
-                      <span class="font-bold">⭐ Creator Workshops</span> for first time creators
-                      (<a
+                      <span class="font-bold">⭐ Creator Workshops</span>
+                      for first time creators (<a
                         class="text-blue-500 hover:underline"
                         href="/#workshops">
                         Learn more</a>)
@@ -187,7 +239,16 @@
                 </ul>
                 <div class="mt-10">
                   <div class="rounded-lg shadow-lg">
-                    <a
+                    <button
+                      class="block w-full text-center rounded-lg bg-yellow-500
+                      px-6 py-4 text-xl leading-6 font-semibold font-display
+                      text-black hover:bg-yellow-400 focus:outline-none
+                      focus:shadow-outline transition ease-in-out duration-150"
+                      on:click={() => checkout({
+                          item: 'creator',
+                          coupon: couponCode,
+                        })}>Find Your Tribe</button>
+                    <!-- <a
                       href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}
@@ -196,7 +257,7 @@
                       text-black hover:bg-gray-700 focus:outline-none
                       focus:shadow-outline transition ease-in-out duration-150">
                       Find Your Tribe
-                    </a>
+                    </a> -->
                   </div>
                   <p
                     class="mt-6 text-center text-base leading-6 font-medium
@@ -230,12 +291,12 @@
                   <div
                     class="mt-4 flex items-center justify-center font-display">
                     {#if p1 !== d1}
-                    <span
-                      class="-ml-8 text-right text-2xl leading-8 font-semibold
+                      <span
+                        class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
-                      ${p1}
-                    </span>
+                        ${p1}
+                      </span>
                     {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
@@ -285,7 +346,16 @@
                 </ul>
                 <div class="mt-8">
                   <div class="rounded-lg shadow-md">
-                    <a
+                    <button
+                      class="block w-full text-center rounded-lg bg-white px-6
+                    py-3 text-base leading-6 font-semibold font-display
+                    text-black hover:text-yellow-600 focus:outline-none
+                    focus:shadow-outline transition ease-in-out duration-150"
+                      on:click={() => checkout({
+                          item: 'book',
+                          coupon: couponCode,
+                        })}>Buy Now</button>
+                    <!-- <a
                       class="block w-full text-center rounded-lg bg-white px-6
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
@@ -294,7 +364,7 @@
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
                       Buy Now
-                    </a>
+                    </a> -->
                   </div>
 
                   <p
@@ -333,12 +403,12 @@
                   <div
                     class="mt-4 flex items-center justify-center font-display">
                     {#if p2 !== d2}
-                    <span
-                      class="-ml-8 text-right text-2xl leading-8 font-semibold
+                      <span
+                        class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
-                      ${p2}
-                    </span>
+                        ${p2}
+                      </span>
                     {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
@@ -384,7 +454,9 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">Audio book + Bibliography</span>
-                      for easier reading (<a class="text-blue-500 hover:underline" href="/#files">
+                      for easier reading (<a
+                        class="text-blue-500 hover:underline"
+                        href="/#files">
                         Learn more</a>)
                     </p>
                   </li>
@@ -404,7 +476,16 @@
                 </ul>
                 <div class="mt-8">
                   <div class="rounded-lg shadow-md">
-                    <a
+                    <button
+                      class="block w-full text-center rounded-lg bg-white px-6
+                    py-3 text-base leading-6 font-semibold font-display
+                    text-black hover:text-yellow-600 focus:outline-none
+                    focus:shadow-outline transition ease-in-out duration-150"
+                      on:click={() => checkout({
+                          item: 'community',
+                          coupon: couponCode,
+                        })}>Join 1000+ Developers</button>
+                    <!-- <a
                       class="block w-full text-center rounded-lg bg-white px-6
                       py-3 text-base leading-6 font-semibold font-display
                       text-black hover:text-yellow-600 focus:outline-none
@@ -413,7 +494,7 @@
                       data-podia-embed={affiliateCode ? undefined : 'link'}
                       data-coupon={couponCode}>
                       Join 1000+ Developers
-                    </a>
+                    </a> -->
                   </div>
                 </div>
 
