@@ -33,7 +33,7 @@
   let isShown = true;
 </script>
 
-{#if couponCode}
+{#if isShown && couponCode}
   <div
     class="font-medium fixed top-0 z-50 w-full text-md text-center text-black
     bg-yellow-500 p-2">
