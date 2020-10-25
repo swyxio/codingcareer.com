@@ -10,7 +10,7 @@
         <span class=" ">Handbook</span>
       </h1>
       <h2
-        class="text-center mt-1 text-2xl tracking-tight leading-10 font-semibold
+        class="text-center text-2xl tracking-tight leading-10 font-semibold
         text-gray-500 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-4">
         Table of Contents
       </h2>

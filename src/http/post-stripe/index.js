@@ -3,9 +3,13 @@ let arc = require('@architect/functions')
 let parseBody = arc.http.helpers.bodyParser
 // Set your secret key. Remember to switch to your live secret key in production!
 // See your keys here: https://dashboard.stripe.com/account/apikeys
+<<<<<<< HEAD
 const stripe = require('stripe')(process.env.STR_SK_LIVE, {
   maxNetworkRetries: 2, // Retry a request twice before giving up
 });
+=======
+const stripe = require('stripe')(process.env.STR_SK_LIVE || "sk_live_zxIZHYHWPZ2dZvl0ySZ1qQv5");
+>>>>>>> 3140e998380a831c935e525addec041db80cd07a
 
 let idMap = {
   'book': 'price_1HfuidKWe8hdGUWLxmTQHB5E',
