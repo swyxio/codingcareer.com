@@ -44,7 +44,7 @@
     </nav>
     <div class="mt-8">
       <p class="text-center text-base leading-6 text-gray-600">
-        © 2020 All rights reserved. <a class="text-purple-700" href="http://www.podia.com/?via=shawn-wang">Powered by Podia!</a>
+        © 2020 All rights reserved.
       </p>
     </div>
   </div>

@@ -78,11 +78,15 @@
             People who want to <span class="font-bold">make money Learning in Public</span>! Workshops are live over Zoom, Sundays at 12pm ET (9am PT):
           </p>
           <ul class="list-inside text-gray-600 mt-4 ml-3">
-            <li class="list-disc"><span class="font-bold">July 12</span> ✅: Learning in Public</li>
-            <li class="list-disc"><span class="font-bold">July 19</span> ✅: The Business of Software</li>
-            <li class="list-disc"><span class="font-bold">July 26</span> ✅: Writing and Speaking</li>
-            <li class="list-disc"><span class="font-bold">mid-August</span>: Indiehacking</li>
-            <li class="list-disc"><span class="font-bold">end-August</span>: Guest speaker tbd</li>
+            <li class="list-disc"><span class="font-bold">July</span> ✅: Learning in Public</li>
+            <li class="list-disc"><span class="font-bold">July</span> ✅: The Business of Software</li>
+            <li class="list-disc"><span class="font-bold">July</span> ✅: Writing and Speaking</li>
+            <li class="list-disc"><span class="font-bold">August</span>✅: Indiehacking</li>
+            <li class="list-disc"><span class="font-bold">September</span>✅: Monica Lent on Blogging</li>
+            <li class="list-disc"><span class="font-bold">September</span>✅: Creator Coaching - Adrian Twarog</li>
+            <li class="list-disc"><span class="font-bold">October</span>✅: Alex West on Indiehacking</li>
+            <li class="list-disc"><span class="font-bold">October</span>: Coding Career Codebase Walkthrough</li>
+            <li class="list-disc">More workshops based on demand/inspiration!</li>
           </ul>
           <p class="mt-2 text-base leading-6 text-gray-600">
             All workshops will be recorded, so this becomes an ever-growing
@@ -90,8 +94,8 @@
           </p>
           <p class="mt-2 text-base leading-6 text-gray-600 italic">
             Note: Invites will come via email, all recordings will be available
-            via your Podia purchase. Standalone workshops are available for
-            bootcamps and small teams.
+            via our Circle workspace. Standalone workshops are available on request
+            for bootcamps and small teams.
           </p>
         </div>
         <div class="mt-12">
@@ -99,7 +103,7 @@
             Do you do Purchasing Power Parity?
           </p>
           <p class="text-base leading-6 text-gray-600 mt-2">
-            We use Podia to process payments, and unfortunately PPP is not
+            We use Stripe to process payments, and unfortunately PPP is not
             supported at this time. If you have particular special needs,
             feel free to get in touch to work something out.
           </p>
@@ -117,10 +121,10 @@
             How can I get future updates?
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-600">
-            Upon purchase, you will have a Podia account tied to your email. You
+            Upon purchase, you will be invited to create a Circle account. You
             can use this to login and download your purchases any time (You can <a
             class="text-blue-500 hover:underline"
-            href="https://swyx.podia.com/login">log in here</a>). We will
+            href="https://codingcareer.circle.so/">log in here</a>). We will
             email you every time a new edition of the book comes out!
           </p>
         </div>
@@ -173,7 +177,7 @@
             Can I use Paypal? Gumroad?
           </p>
           <p class="text-base leading-6 text-gray-600 mt-2">
-            Podia doesn't support Paypal, so we have <a class="underline hover:text-yellow-900 text-yellow-700" href="https://gumroad.com/products/bAZJq">setup a Gumroad mirror</a> that can take payments there! Please contact swyx@hey.com if you need some other payment method.
+            Stripe doesn't support Paypal, so we have <a class="underline hover:text-yellow-900 text-yellow-700" href="https://gumroad.com/products/bAZJq">setup a Gumroad mirror</a> that can take payments there! Please contact swyx@hey.com if you need some other payment method.
           </p>
         </div>
         <div id="files" use:highlightHash={hash} class="mt-12" class:border-yellow-700={hash === '#files'}>
@@ -210,7 +214,7 @@
           <p class=" mt-2 text-base leading-6 text-gray-600">
             I use
             <a href="https://www.podia.com/?via=shawn-wang">Podia</a>
-            for purchasing and its embedded JavaScript can fail in two ways:
+            for some purchases and its embedded JavaScript can fail in two ways:
             Either it is blocked by an overzealous
             <a href="https://privacybadger.org/" class="font-bold underline">Privacy Badger</a>, or you have ”Block third-party cookies” turned on in desktop
             Chrome (<a href="chrome://settings/cookies" class="font-mono">chrome://settings/cookies</a>). Either way, there should be a not-very-graceful fallback to send

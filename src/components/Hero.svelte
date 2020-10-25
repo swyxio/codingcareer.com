@@ -87,16 +87,6 @@
           href={`${search}#learn-more`}>
           See Samples
         </a>
-
-        <!-- <div
-          class="text-sm font-semibold uppercase tracking-wider text-gray-700
-          sm:text-base lg:text-sm xl:text-base"> -->
-        <!-- <a 
-          class="sm:w-1/3 my-5 text-center rounded-lg
-          bg-transparent px-6 py-4 text-xl leading-6 font-semibold font-display
-           text-gray-600 hover:text-black hover:underline"
-          href="https://swyx.podia.com/login">Login</a> -->
-        <!-- </div> -->
       </div>
       <div>
         <p class="text-lg italic text-gray-900 leading-loose sm:w-5/6 w-full">
