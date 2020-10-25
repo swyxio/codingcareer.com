@@ -10,6 +10,7 @@
    */
   // Create an instance of the Stripe object with your publishable API key
   let stripe;
+  let checkingOutItem;
   onMount(() => {
     stripe = window.Stripe("pk_live_6fPy43Zf01HIjsaM84nXfi8l");
   });
@@ -17,6 +18,7 @@
     let prefix = "";
     if (window.location.hostname === "localhost")
       prefix = "http://localhost:3333";
+    checkingOutItem = item;
     return fetch(prefix + "/stripe", {
       method: "POST",
       headers: {
@@ -28,7 +30,7 @@
         referer: "nuzie",
       }),
     })
-      .then((res) => res.json())
+      .then((res) => (checkingOutItem = undefined || res.json()))
       .then(
         (session) =>
           console.log({ session }) ||
@@ -247,7 +249,11 @@
                       on:click={() => checkout({
                           item: 'creator',
                           coupon: couponCode,
-                        })}>Find Your Tribe</button>
+                        })}>
+                      {#if checkingOutItem === 'creator'}
+                        Checking out...
+                      {:else}Find Your Tribe{/if}
+                    </button>
                     <!-- <a
                       href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
                       data-podia-embed={affiliateCode ? undefined : 'link'}
@@ -354,7 +360,11 @@
                       on:click={() => checkout({
                           item: 'book',
                           coupon: couponCode,
-                        })}>Buy Now</button>
+                        })}>
+                      {#if checkingOutItem === 'book'}
+                        Checking out...
+                      {:else}Buy Now{/if}
+                    </button>
                     <!-- <a
                       class="block w-full text-center rounded-lg bg-white px-6
                       py-3 text-base leading-6 font-semibold font-display
@@ -484,7 +494,11 @@
                       on:click={() => checkout({
                           item: 'community',
                           coupon: couponCode,
-                        })}>Join 1000+ Developers</button>
+                        })}>
+                      {#if checkingOutItem === 'community'}
+                        Checking out...
+                      {:else}Join 1000+ Developers{/if}
+                    </button>
                     <!-- <a
                       class="block w-full text-center rounded-lg bg-white px-6
                       py-3 text-base leading-6 font-semibold font-display

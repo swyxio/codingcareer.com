@@ -7,6 +7,13 @@ const stripe = require('stripe')(process.env.STR_SK_LIVE, {
   maxNetworkRetries: 2, // Retry a request twice before giving up
 });
 
+let linkMap = {
+  'book': process.env.LINK_BOOK,
+  'community': process.env.LINK_COMMUNITY,
+  'creator': process.env.LINK_CREATOR,
+}
+
+
 let idMap = {
   'book': 'price_1HfuidKWe8hdGUWLxmTQHB5E',
   'community': 'price_1HfukDKWe8hdGUWLBQOZ4OdZ',
@@ -31,6 +38,7 @@ exports.handler = async function http(request) {
   }
   let coupon = body.coupon
   let referer = body.referer
+  let success_url = linkMap[body.item]
   const session = await stripe.checkout.sessions.create({
     payment_method_types: ['card'],
     line_items: [{
@@ -44,13 +52,13 @@ exports.handler = async function http(request) {
       referer: referer || 'no_referer'
     },
     mode: 'payment',
-    success_url: 'https://learninpublic.org/success',
+    success_url,
     cancel_url: 'https://learninpublic.org/#buy',
   });
 
   return {
     statusCode: 200,
     // headers: { 'content-type': 'text/html; charset=utf8' },
-    body: JSON.stringify({id: session.id})
+    body: JSON.stringify({success_url, id: session.id, customer_email: session.customer_email})
   }
 }
