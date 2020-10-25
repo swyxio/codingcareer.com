@@ -85,6 +85,11 @@
       d1 = Math.round(0.8 * p1);
       d2 = Math.round(0.8 * p2);
       d3 = Math.round(0.8 * p3);
+    } else if (couponCode === "SWYXTEST") {
+      // lol dont try it, this is a temporary thing
+      d1 = Math.round(0.05 * p1);
+      d2 = Math.round(0.05 * p2);
+      d3 = Math.round(0.05 * p3);
     } else if (couponCode === "SWYXMIX") {
       // legacy
       d1 = Math.round(0.5 * p1);

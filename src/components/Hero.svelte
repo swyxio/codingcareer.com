@@ -200,7 +200,7 @@
       <div class="text-center md:absolute md:top-0 md:right-0">
         <a
           class="text-blue-500 hover:underline"
-          href="https://swyx.podia.com/login">
+          href="https://codingcareer.circle.so/">
           Already bought? Log In ↗
         </a>
       </div>
