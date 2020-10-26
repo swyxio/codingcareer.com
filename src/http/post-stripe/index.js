@@ -17,7 +17,7 @@ let linkMap = {
 let idMap = {
   'book': 'price_1HfuidKWe8hdGUWLxmTQHB5E',
   'community': 'price_1HfukDKWe8hdGUWLBQOZ4OdZ',
-  'creator': 'price_1HfuidKWe8hdGUWLxmTQHB5E',
+  'creator': 'price_1HfulVKWe8hdGUWL6lu8zjdy',
 }
 
 // let wrapcurlies = txt => `{{${txt}}}`
