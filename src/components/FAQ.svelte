@@ -15,7 +15,6 @@
     let prefix = "";
     if (window.location.hostname === "localhost")
       prefix = "http://localhost:3333";
-    checkingOutItem = item;
     return fetch(prefix + "/stripe", {
       method: "POST",
       headers: {
