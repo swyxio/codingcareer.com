@@ -35,52 +35,7 @@
     <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>     -->
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <script>
-
-(function() {
-  /*! Compiled 2020-07-02T23:32:27+00:00 */
-
-  if(!document.querySelector('script#podia-embed-script')) {
-    let affiliateCode = new URLSearchParams(window.location.search).get("a");
-    affiliateCode = {
-      "tretuna": "p5kuh",
-      "gergely": "uguka",
-      "erik": "354p7",
-      "tlakomy": "5ssju",
-      "sebastien": "gozhi",
-    }[affiliateCode] || affiliateCode
-    // last touch wins
-    if (affiliateCode) {
-      window.localStorage.setItem('swyxAffiliateCode', affiliateCode)
-    } else {
-      affiliateCode = window.localStorage.getItem('swyxAffiliateCode')
-    }
-    if (!affiliateCode) {
-      var script = document.createElement('script');
-      // script.id = 'podia-embed-script';
-      script.setAttribute('src', 'https://cdn.podia.com/embeds.js');
-
-      // script.onload = function() {
-      //   try {
-      //     Podia.Embeds.initialize();
-      //   } catch(e) {
-      //     console.error('Error initializing Podia embeds: ', e)
-      //   }
-      // }
-      document.head.appendChild(script);
-    }
-  }
-
-  // if(!document.querySelector('link#podia-embed-styles')) {
-  //   var styles = document.createElement('link');
-  //   styles.id = 'podia-embed-styles';
-  //   styles.type = 'text/css';
-  //   styles.rel = 'stylesheet';
-  //   styles.href = 'https://cdn.podia.com/packs/css/embeds-b5556ace.css';
-  //   document.head.appendChild(styles);
-  // }
-})();
-    </script>
+    
 
     <!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is

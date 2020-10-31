@@ -9,14 +9,22 @@ const stripe = require('stripe')(process.env.STR_SK_LIVE, {
 
 let linkMap = {
   'book': process.env.LINK_BOOK,
+  'book5': process.env.LINK_BOOK_TEAM,
+  'book10': process.env.LINK_BOOK_TEAM,
   'community': process.env.LINK_COMMUNITY,
+  'community5': process.env.LINK_COMMUNITY_TEAM,
+  'community10': process.env.LINK_COMMUNITY_TEAM,
   'creator': process.env.LINK_CREATOR,
 }
 
 
 let idMap = {
   'book': 'price_1HfuidKWe8hdGUWLxmTQHB5E',
+  'book5': 'price_1HiMDjKWe8hdGUWLUZbpgbap',
+  'book10': 'price_1HiMD7KWe8hdGUWLbGuROpgi',
   'community': 'price_1HfukDKWe8hdGUWLBQOZ4OdZ',
+  'community5': 'price_1HiMGjKWe8hdGUWL7wMuDnpw',
+  'community10': 'price_1HiMGjKWe8hdGUWLuZsTBCq2',
   'creator': 'price_1HfulVKWe8hdGUWL6lu8zjdy',
 }
 

@@ -7,6 +7,11 @@
   import Pricing from "../components/Pricing.svelte";
   import FAQ from "../components/FAQ.svelte";
   import Footer from "../components/Footer.svelte";
+  import { onMount } from "svelte";
+  let stripe;
+  onMount(() => {
+    stripe = window.Stripe("pk_live_6fPy43Zf01HIjsaM84nXfi8l");
+  });
 </script>
 
 <svelte:head>
@@ -40,9 +45,9 @@
       <Hero />
       <WhatsInside />
       <Reviews />
-      <Pricing />
+      <Pricing {stripe} />
       <AboutAuthor />
-      <FAQ />
+      <FAQ {stripe} />
       <Footer />
     </div>
   </main>

@@ -9,11 +9,8 @@
    *
    */
   // Create an instance of the Stripe object with your publishable API key
-  let stripe;
+  export let stripe;
   let checkingOutItem;
-  onMount(() => {
-    stripe = window.Stripe("pk_live_6fPy43Zf01HIjsaM84nXfi8l");
-  });
   function checkout({ item, coupon }) {
     let prefix = "";
     if (window.location.hostname === "localhost")
@@ -259,16 +256,6 @@
                         Checking out...
                       {:else}Find Your Tribe{/if}
                     </button>
-                    <!-- <a
-                      href={`https://swyx.podia.com/coding-career-creator-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
-                      data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon={couponCode}
-                      class="block w-full text-center rounded-lg bg-yellow-500
-                      px-6 py-4 text-xl leading-6 font-semibold font-display
-                      text-black hover:bg-gray-700 focus:outline-none
-                      focus:shadow-outline transition ease-in-out duration-150">
-                      Find Your Tribe
-                    </a> -->
                   </div>
                   <p
                     class="mt-6 text-center text-base leading-6 font-medium
@@ -370,16 +357,6 @@
                         Checking out...
                       {:else}Buy Now{/if}
                     </button>
-                    <!-- <a
-                      class="block w-full text-center rounded-lg bg-white px-6
-                      py-3 text-base leading-6 font-semibold font-display
-                      text-black hover:text-yellow-600 focus:outline-none
-                      focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-handbook${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
-                      data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon={couponCode}>
-                      Buy Now
-                    </a> -->
                   </div>
 
                   <p
@@ -504,16 +481,6 @@
                         Checking out...
                       {:else}Join 1000+ Developers{/if}
                     </button>
-                    <!-- <a
-                      class="block w-full text-center rounded-lg bg-white px-6
-                      py-3 text-base leading-6 font-semibold font-display
-                      text-black hover:text-yellow-600 focus:outline-none
-                      focus:shadow-outline transition ease-in-out duration-150"
-                      href={`https://swyx.podia.com/coding-career-community-package${affiliateCode}?${couponCode ? `coupon=${couponCode}` : ''}&via=shawn-wang`}
-                      data-podia-embed={affiliateCode ? undefined : 'link'}
-                      data-coupon={couponCode}>
-                      Join 1000+ Developers
-                    </a> -->
                   </div>
                 </div>
 
