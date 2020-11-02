@@ -40,8 +40,12 @@
           alert(result.error.message);
         }
       })
-      .catch(function (error) {
-        alert("Some error happened - please report to swyx if there has been a mistake. Sorry! Error: ", error)
+      .catch(function ({error}) {
+        if (error.raw && error.raw.message) {
+          alert('Error: ' + error.raw.message)
+        } else {
+          alert("Some error happened - please report to swyx if there has been a mistake. Sorry! Error: ", error)
+        }
         console.error("Error:", error);
       });
   }
