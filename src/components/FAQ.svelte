@@ -27,11 +27,11 @@
       }),
     })
       .then((res) => res.json())
-      .then((response) => {
-        if (response.status >= 200 && response.status < 300) {
-          return Promise.resolve(response)
-        } else {
-          return Promise.reject(new Error(response))
+      .then((result) => {
+        console.log({result})
+        if (result.error && result.error.raw) {
+          alert('Error: ' + result.error.raw.message);
+          throw new Error(result.error)
         }
       })
       .then(
@@ -47,12 +47,8 @@
           alert(result.error.message);
         }
       })
-      .catch(function ({error}) {
-        if (error.raw && error.raw.message) {
-          alert('Error: ' + error.raw.message)
-        } else {
-          alert("Some error happened - please report to swyx if there has been a mistake. Sorry! Error: ", error)
-        }
+      .catch(function (error) {
+        alert("Some error happened - please report to swyx if there has been a mistake. Sorry! Error: ", error)
         console.error("Error:", error);
       });
   }

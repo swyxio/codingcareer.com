@@ -28,11 +28,11 @@
       }),
     })
       .then((res) => (checkingOutItem = undefined || res.json()))
-      .then((response) => {
-        if (response.status >= 200 && response.status < 300) {
-          return Promise.resolve(response)
-        } else {
-          return Promise.reject(new Error(response))
+      .then((result) => {
+        console.log({result})
+        if (result.error && result.error.raw) {
+          alert('Error: ' + result.error.raw.message);
+          throw new Error(result.error)
         }
       })
       .then(
