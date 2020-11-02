@@ -29,10 +29,11 @@
     })
       .then((res) => (checkingOutItem = undefined || res.json()))
       .then((result) => {
-        console.log({result})
         if (result.error && result.error.raw) {
           alert('Error: ' + result.error.raw.message);
-          throw new Error(result.error)
+          throw 'INVALIDCOUPON'
+        } else {
+          return result
         }
       })
       .then(
@@ -49,11 +50,8 @@
         }
       })
       .catch(function (error) {
-        if (error.raw && error.raw.message) {
-          alert('Error: ' + error.raw.message)
-        } else {
-          alert("Some error happened - please report to swyx if there has been a mistake. Sorry! Error: ", error)
-        }
+        if (error === 'INVALIDCOUPON') return // already errored
+        alert("Some error happened - please report to swyx if there has been a mistake. Sorry! Error: ", error)
         console.error("Error:", error);
       });
   }
