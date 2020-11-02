@@ -41,6 +41,7 @@
         }
       })
       .catch(function (error) {
+        alert("Some error happened - please report to swyx if there has been a mistake. Sorry! Error: ", error)
         console.error("Error:", error);
       });
   }

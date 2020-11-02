@@ -28,8 +28,6 @@ let idMap = {
   'creator': 'price_1HfulVKWe8hdGUWL6lu8zjdy',
 }
 
-// let wrapcurlies = txt => `{{${txt}}}`
-let wrapcurlies = txt => txt
 exports.handler = async function http(request) {
   let body = parseBody(request) // Pass the entire request object
   let item = idMap[body.item]
@@ -47,22 +45,30 @@ exports.handler = async function http(request) {
   let coupon = body.coupon
   let referer = body.referer
   let success_url = linkMap[body.item]
-  const session = await stripe.checkout.sessions.create({
-    payment_method_types: ['card'],
-    line_items: [{
-        price: wrapcurlies(item),
-        quantity: 1,
-      }],
-    discounts: coupon ? [{
-      coupon: wrapcurlies(coupon)
-    }] : undefined,
-    metadata: {
-      referer: referer || 'no_referer'
-    },
-    mode: 'payment',
-    success_url,
-    cancel_url: 'https://learninpublic.org/#buy',
-  });
+  let session
+  try {
+    session = await stripe.checkout.sessions.create({
+      payment_method_types: ['card'],
+      line_items: [{
+          price: item,
+          quantity: 1,
+        }],
+      discounts: coupon ? [{
+        coupon: coupon.toUpperCase() // must be uppercase
+      }] : undefined,
+      metadata: {
+        referer: referer || 'no_referer'
+      },
+      mode: 'payment',
+      success_url,
+      cancel_url: 'https://learninpublic.org/#buy',
+    });
+  } catch (error) {
+    return {
+      statusCode: 422,
+      body: JSON.stringify({error})
+    }
+  }
 
   return {
     statusCode: 200,
