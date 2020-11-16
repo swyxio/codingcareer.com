@@ -234,7 +234,7 @@
                 on:click={() => checkout({ item: 'book10' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
                 up to 10 - $279
-              </button>),
+              </button>,
               <button
                 on:click={() => checkout({ item: 'book20' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
