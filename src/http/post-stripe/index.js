@@ -23,7 +23,7 @@ let idMap = {
   'book': 'price_1HfuidKWe8hdGUWLxmTQHB5E',
   'book5': 'price_1HiMDjKWe8hdGUWLUZbpgbap',
   'book10': 'price_1HiMD7KWe8hdGUWLbGuROpgi',
-  'book20': 'price_1HoGT1KWe8hdGUWLQNXxxCxY',
+  'book20': 'price_1HoulWKWe8hdGUWLdKmToZ0O',
   'community': 'price_1HfukDKWe8hdGUWLBQOZ4OdZ',
   'community5': 'price_1HiMGjKWe8hdGUWL7wMuDnpw',
   'community10': 'price_1HiMGjKWe8hdGUWLuZsTBCq2',
