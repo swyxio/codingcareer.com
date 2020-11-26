@@ -207,7 +207,7 @@
                       <span class="font-bold">
                         3 hours of Author Commentary
                       </span>
-                      in high-quality recorded video
+                      in HQ recorded video
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">

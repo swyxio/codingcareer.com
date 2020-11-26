@@ -178,11 +178,11 @@
               Indiehacking
             </li>
             <li class="list-disc">
-              <span class="font-bold">October</span>: Coding Career Codebase
+              <span class="font-bold">November</span>✅: Coding Career Codebase
               Walkthrough
             </li>
             <li class="list-disc">
-              More workshops based on demand/inspiration!
+              We have paused monthly workshops for now but will resume them in 2021!
             </li>
           </ul>
           <p class="mt-2 text-base leading-6 text-gray-600">
