@@ -26,7 +26,7 @@
   // showRemaining();
   // onDestroy(() => clearInterval(timer));
 
-  let couponCode;
+  let couponCode = "BLACKFRIYAY";
   onMount(() => {
     couponCode = new URLSearchParams(window.location.search).get("c");
   });
@@ -38,12 +38,17 @@
     class="font-medium fixed top-0 z-50 w-full text-md text-center text-black
     bg-yellow-500 p-2">
     <div class="relative">
-
+      {#if couponCode === "BLACKFRIYAY"}
+      <a href="#buy">
+        🎉 Celebrating Black Friday with our first sale post launch! 50% off everything, including team licenses! 🎉
+      </a>
+      {:else}
       <a href="#buy">
         Coupon
         <code class="bg-yellow-600">{couponCode}</code>
         has been applied!
       </a>
+      {/if}
       <button class="absolute right-0" on:click={() => (isShown = false)}>
         x
       </button>

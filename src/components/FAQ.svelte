@@ -1,6 +1,7 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   let affiliateCode = "";
+  let couponCode = "BLACKFRIYAY";
   let hash;
   let interval = setInterval(() => {
     hash = window.location.hash;
@@ -55,7 +56,23 @@
       });
   }
 
+  let b5 = 149;
+  let b10 = 279;
+  let b20 = 399;
+  let c5 = 249;
+  let c10 = 479;
   onMount(() => {
+    couponCode =
+      new URLSearchParams(window.location.search).get("c") || couponCode;
+
+    if (couponCode === "BLACKFRIYAY") {
+      b5 = Math.round(b5 * 0.5);
+      b10 = Math.round(b10 * 0.5);
+      b20 = Math.round(b20 * 0.5);
+      c5 = Math.round(c5 * 0.5);
+      c10 = Math.round(c10 * 0.5);
+    }
+
     affiliateCode = new URLSearchParams(window.location.search).get("a");
     affiliateCode =
       {
@@ -228,17 +245,17 @@
               <button
                 on:click={() => checkout({ item: 'book5' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 5 - $149
+                up to 5 - ${b5}
               </button>,
               <button
                 on:click={() => checkout({ item: 'book10' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 10 - $279
+                up to 10 - ${b10}
               </button>,
               <button
                 on:click={() => checkout({ item: 'book20' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 20 - $399
+                up to 20 - ${b20}
               </button>)
             </li>
             <li class="list-disc">
@@ -246,12 +263,12 @@
               <button
                 on:click={() => checkout({ item: 'community5' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 5 - $249
+                up to 5 - ${c5}
               </button>,
               <button
                 on:click={() => checkout({ item: 'community10' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 10 - $479
+                up to 10 - ${c10}
               </button>
               )
             </li>

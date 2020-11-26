@@ -60,7 +60,7 @@
 
   let affiliateCode = "";
   // let couponCode = "XLAUNCH20";
-  let couponCode = null;
+  let couponCode = "BLACKFRIYAY";
   $: console.log({ affiliateCode, couponCode });
   onMount(() => {
     couponCode =
@@ -97,7 +97,7 @@
       d1 = Math.round(0.05 * p1);
       d2 = Math.round(0.05 * p2);
       d3 = Math.round(0.05 * p3);
-    } else if (couponCode === "SWYXMIX") {
+    } else if (["SWYXMIX", "BLACKFRIYAY"].includes(couponCode)) {
       // legacy
       d1 = Math.round(0.5 * p1);
       d2 = Math.round(0.5 * p2);
