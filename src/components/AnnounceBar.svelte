@@ -28,7 +28,7 @@
 
   let couponCode = "BLACKFRIYAY";
   onMount(() => {
-    couponCode = new URLSearchParams(window.location.search).get("c");
+    couponCode = new URLSearchParams(window.location.search).get("c") || "BLACKFRIYAY";
   });
   let isShown = true;
 </script>
