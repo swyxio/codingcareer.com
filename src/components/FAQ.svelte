@@ -286,7 +286,7 @@
             Stripe doesn't support Paypal, so we have
             <a
               class="underline hover:text-yellow-900 text-yellow-700"
-              href="https://gumroad.com/products/bAZJq">setup a Gumroad mirror</a>
+              href="https://gumroad.com/l/bAZJq/BLackfriyay">setup a Gumroad mirror</a>
             that can take payments there! Please contact swyx@hey.com if you
             need some other payment method.
           </p>
