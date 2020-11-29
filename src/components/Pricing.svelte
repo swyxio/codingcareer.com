@@ -273,8 +273,8 @@
                     No Credit Card?
                     <a
                       class="text-black underline font-semibold hover:opacity-75"
-                      href="https://gumroad.com/products/bAZJq">
-                      Use Paypal ↗️
+                      href="https://gumroad.com/l/bAZJq/BLackfriyay">
+                      Use Paypal/Gumroad ↗️
                     </a>
                   </p>
                 </div>
