@@ -26,9 +26,9 @@
   // showRemaining();
   // onDestroy(() => clearInterval(timer));
 
-  let couponCode = "BLACKFRIYAY";
+  let couponCode = null;
   onMount(() => {
-    couponCode = new URLSearchParams(window.location.search).get("c") || "BLACKFRIYAY";
+    couponCode = new URLSearchParams(window.location.search).get("c")
   });
   let isShown = true;
 </script>
@@ -40,7 +40,7 @@
     <div class="relative">
       {#if couponCode === "BLACKFRIYAY"}
       <a href="#buy">
-        🎉 Celebrating Black Friday with our first sale post launch! 50% off everything, including team licenses! 🎉
+        🎉 Code BLACKFRIYAY applied! 50% off everything, including team licenses! 🎉
       </a>
       {:else}
       <a href="#buy">

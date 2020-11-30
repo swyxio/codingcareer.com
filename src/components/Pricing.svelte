@@ -59,8 +59,7 @@
   /// rest
 
   let affiliateCode = "";
-  // let couponCode = "XLAUNCH20";
-  let couponCode = "BLACKFRIYAY";
+  let couponCode = null;
   $: console.log({ affiliateCode, couponCode });
   onMount(() => {
     couponCode =
@@ -273,7 +272,7 @@
                     No Credit Card?
                     <a
                       class="text-black underline font-semibold hover:opacity-75"
-                      href="https://gumroad.com/l/bAZJq/BLackfriyay">
+                      href="https://gumroad.com/l/bAZJq">
                       Use Paypal/Gumroad ↗️
                     </a>
                   </p>
