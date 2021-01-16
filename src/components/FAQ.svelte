@@ -217,6 +217,21 @@
             free to get in touch to work something out.
           </p>
         </div>
+      </div>
+      <div class="mt-12 sm:mt-0">
+        <div class="">
+          <p class="text-lg leading-6 font-medium text-gray-900">
+            How can I get future updates?
+          </p>
+          <p class=" mt-2 text-base leading-6 text-gray-600">
+            Upon purchase, you will be invited to create a Circle account. You
+            can use this to login and download your purchases any time (You can
+            <a
+                    class="text-blue-500 hover:underline"
+                    href="https://codingcareer.circle.so/">log in here</a>). We will
+            email you every time a new edition of the book comes out!
+          </p>
+        </div>
         <div class="mt-12 ">
           <p class="mt-2 text-lg leading-6 font-medium text-gray-900">
             Refund Policy? Upgrades?
@@ -226,22 +241,7 @@
             and want to upgrade – just email me and you can pay the difference.
           </p>
         </div>
-        <div class="mt-12">
-          <p class="text-lg leading-6 font-medium text-gray-900">
-            How can I get future updates?
-          </p>
-          <p class=" mt-2 text-base leading-6 text-gray-600">
-            Upon purchase, you will be invited to create a Circle account. You
-            can use this to login and download your purchases any time (You can
-            <a
-              class="text-blue-500 hover:underline"
-              href="https://codingcareer.circle.so/">log in here</a>). We will
-            email you every time a new edition of the book comes out!
-          </p>
-        </div>
-      </div>
-      <div class="mt-12 sm:mt-0">
-        <div id="team-pricing" use:highlightHash={hash} class="">
+        <div id="team-pricing" use:highlightHash={hash} class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Is there any DRM? Team plans?
           </p>
@@ -333,25 +333,13 @@
               </a>
             </li>
             <li class="list-disc mt-2">
-              The Creator Package comes with
-              <span class="font-bold">5 hours of extra Author Commentary</span>
-              and
-              <span class="font-bold">10 hours of livestreamed writing process</span>
-              (mp4 files)!
+              The Creator Workshops come with
+              <span class="font-bold">5 hours</span> of extra Author Commentary,
+              <span class="font-bold">10 hours</span> of livestreamed writing process,
+              and many more hours of recorded Workshops, all in
+              <span class="font-bold">.mp4 files</span>.
             </li>
           </ul>
-        </div>
-        <div class="mt-12">
-          <p class="text-lg leading-6 font-medium text-gray-900">
-            Your site is broken!
-          </p>
-          <p class=" mt-2 text-base leading-6 text-gray-600">
-            Adblockers sometimes really get in the way. Have you tried viewing this in incognito?
-            <br />
-            <br />
-            If the site is still broken, please contact me and I’ll
-            fix it right away! Contact info below 👇
-          </p>
         </div>
         <div class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
