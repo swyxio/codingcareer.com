@@ -36,7 +36,10 @@
             target="_blank"
             rel="noreferrer"
             class=" text-blue-500">
-      teaching</a> and <a href="https://twitter.com/swyx">Twitter</a>
+      teaching</a> and <a href="https://twitter.com/swyx"
+                          target="_blank"
+                          rel="noreferrer"
+                          class=" text-blue-500">Twitter</a>
       and decided the only way to really scale my advice is to write down the best of it in a book and offer it to those
       who care enough to invest in their professional growth.
     </p>

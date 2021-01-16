@@ -453,7 +453,7 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">Audio book + Bibliography</span>
-                      for easier reading (<a
+                      (<a
                         class="text-blue-500 hover:underline"
                         href="/#files">
                         Learn more</a>)
