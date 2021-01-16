@@ -12,6 +12,7 @@
     </p>
     <p class="ml-5 leading-6 mb-5">
       I've climbed the career ladder twice - first going from sell-side junior trader to buy-side hedge fund analyst, then again
+      from
       <a
         href="https://medium.com/hackernoon/no-zero-days-my-path-from-code-newbie-to-full-stack-developer-in-12-months-214122a8948f"
         target="_blank"

@@ -132,7 +132,7 @@
         As Seen On
       </p>
       <div
-        class="flex flex-wrap sm:flex-nowrap sm:flex-col sm:flex-row mt-5 sm:max-w-lg sm:mx-auto
+        class="flex flex-wrap sm:flex-row mt-5 sm:max-w-lg sm:mx-auto
         sm:text-center lg:text-left lg:mx-0 items-center">
         <!-- <a
           href="https://www.producthunt.com/posts/the-coding-career-handbook?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-the-coding-career-handbook"
