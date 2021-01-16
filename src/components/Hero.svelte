@@ -85,7 +85,7 @@
           text-black hover:bg-yellow-500 focus:outline-none focus:shadow-outline
           transition ease-in-out duration-150"
           href={`${search}#learn-more`}>
-          See Samples
+          Free Samples
         </a>
       </div>
       <div>
@@ -127,12 +127,12 @@
         </div> -->
       </div>
       <p
-        class="mt-3 hidden sm:block text-center md:text-left font-bold text-base
+        class="mt-3 block text-center md:text-left font-bold text-base
         text-black sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
         As Seen On
       </p>
       <div
-        class="hidden sm:flex flex-col sm:flex-row mt-5 sm:max-w-lg sm:mx-auto
+        class="flex flex-wrap sm:flex-nowrap sm:flex-col sm:flex-row mt-5 sm:max-w-lg sm:mx-auto
         sm:text-center lg:text-left lg:mx-0 items-center">
         <!-- <a
           href="https://www.producthunt.com/posts/the-coding-career-handbook?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-the-coding-career-handbook"
@@ -147,6 +147,10 @@
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=211610&amp;theme=light" />
         </a> -->
         <AsSeenOn
+          href="https://shoptalkshow.com/432/"
+          src="/codingcareer/icon-shoptalk.png"
+          ariaLabel="Shoptalk Show" />
+        <AsSeenOn
           href="https://podcast.newline.co/episodes/cracking-the-coding-career-with-shawn-wang"
           src="/codingcareer/icon-newline.jpg"
           ariaLabel="Newline Podcast" />
@@ -155,21 +159,25 @@
           src="/codingcareer/icon-software-seshs.jpg"
           ariaLabel="Software Sessions Podcast" />
         <AsSeenOn
+          href="https://www.mlengineered.com/episode/swyx"
+          src="/codingcareer/icon-mleng.jpg"
+          ariaLabel="Machine Learning Engineered Podcast" />
+        <AsSeenOn
           src="/codingcareer/icon-prodready.png"
           href="https://www.productionreadypod.com/episodes/marketing-yourself-your-products-by-learning-in-public-w-shawn-wang"
           ariaLabel="Production Ready Podcast" />
-
+        <AsSeenOn
+          href="https://www.youtube.com/watch?v=bTtb2NF8Gds"
+          src="/codingcareer/icon-coder-foundry.jpg"
+          ariaLabel="Coder Foundry YouTube" />
         <AsSeenOn
           href="https://www.youtube.com/watch?v=bcca0VCJe9Q"
           src="/codingcareer/icon-react-europe.jpg"
           ariaLabel="React Europe" />
-
         <AsSeenOn
           href="https://www.youtube.com/watch?v=QFHO2-8fGtM"
           src="/codingcareer/icon-fsa.png"
           ariaLabel="Fullstack Academy" />
-
-
         <AsSeenOn
           href="https://aquestionofcode.com/71-how-should-developers-market-themselves-shawn-wang/"
           src="/codingcareer/icon-aqoc.jpg"
@@ -177,6 +185,10 @@
         <AsSeenOn
           href="https://www.youtube.com/watch?v=50GKF08jLxo"
           src="/codingcareer/icon-rk.jpg"
+          ariaLabel="React Knowledgeable" />
+        <AsSeenOn
+          href="https://www.shopify.com/partners/blog/app-development-books"
+          src="/codingcareer/icon-shopify.jpg"
           ariaLabel="React Knowledgeable" />
         <AsSeenOn
           href="https://www.youtube.com/watch?v=1ayI9j57VlQ"
