@@ -4,7 +4,7 @@
   About the author
 </h2>
 <div
-  class="flex flex-col lg:flex-row w-11/12 mx-auto my-16 lg:w-1/2">
+  class="flex flex-col items-center lg:items-start lg:flex-row w-11/12 mx-auto my-16 lg:w-1/2">
   <img class="max-w-xs rounded-full h-20 w-20" src="/profiles/swyx.jpg" alt="swyx" />
   <div>
     <p class="ml-5 mb-5 mt-12 lg:mt-0">
