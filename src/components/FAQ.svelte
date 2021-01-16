@@ -116,82 +116,94 @@
       <div>
         <div id="community" use:highlightHash={hash}>
           <p class="text-lg leading-6 font-medium text-gray-900">
-            Tell me more about the Coding Career Community?
+            Tell me more about the Coding Career Community!
           </p>
           <p class="text-base leading-6 text-gray-600 mt-2">
             Ever feel like you didn’t have anyone outside work to talk to about
-            your career? Here’s a dedicated space where you can do exactly that!
-            <strong>The Coding Career Community</strong>
-            is a moderated Discord chat where you can talk with other readers
-            about the ideas from the book and more. Ask questions, give
-            criticism, find collaborators, and generally use as a friendly
+            your career?
+          </p>
+          <p class="text-base leading-6 text-gray-600 mt-2">
+            <strong>The Coding Career Community</strong> has two parts:
+            a moderated Discord (realtime live chat) and Circle community (async knowledge base).
+            Membership is for life — Engage as much or as little as you need. We'll be here for you.
+          </p>
+          <p class="text-base leading-6 text-gray-600 mt-2">
+            I have extensive dev community moderation experience having served the
+            200k-strong
+            <a
+                    href="https://www.reddit.com/r/reactjs/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class=" text-blue-500">
+              /r/reactjs community
+            </a> and started the
+            <a
+                    href="https://twitter.com/SvelteSociety"
+                    target="_blank"
+                    rel="noreferrer"
+                    class=" text-blue-500">
+              Svelte Society
+            </a>
+            global movement.
+
+            We are active with <strong>new topics every day</strong>.
+            Ask questions, get feedback, find jobs and collaborators, and use as a friendly
             resource as you build your coding career!
           </p>
           <p class="text-base leading-6 text-gray-600 mt-2 italic">
-            Note: Participation in the Community is subject to a Code of
-            Conduct, and your questions are not guaranteed to be answered.
-            <strong>This is a new community</strong>
-            and therefore there is a lot left to figure out!
+            Note: This is a professional community. Participation is subject to a Code of
+            Conduct. You will be removed if you repeatedly violate it.
           </p>
         </div>
         <div id="workshops" use:highlightHash={hash} class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
-            Tell me more about the Creator Workshops?
+            Tell me more about the Creator Workshops!
           </p>
           <p class="mt-2 text-base leading-6 text-gray-600">
-            Get the most out of your Coding Career journey with monthly live
-            workshops, and join our
+            Creator Workshops is our growing library of topical discussions on starting your Creator journey.
+            You also join our
             <a
               href="https://en.wikipedia.org/wiki/Mastermind_group"
               class="underline hover:text-yellow-900 text-yellow-700">Mastermind
               Group</a>
             of fellow Creators - People who want to
             <span class="font-bold">make money Learning in Public</span>!
-            Workshops are live over Zoom, Sundays at 12pm ET (9am PT):
+            Recorded Workshops included:
           </p>
           <ul class="list-inside text-gray-600 mt-4 ml-3">
             <li class="list-disc">
-              <span class="font-bold">July</span>
-              ✅: Learning in Public
+              <span class="font-bold">Principles</span>: Learning in Public
             </li>
             <li class="list-disc">
-              <span class="font-bold">July</span>
-              ✅: The Business of Software
+              <span class="font-bold">Strategy</span>: The Business of Software
             </li>
             <li class="list-disc">
-              <span class="font-bold">July</span>
-              ✅: Writing and Speaking
+              <span class="font-bold">Tactics</span>: Writing and Speaking
             </li>
-            <li class="list-disc">
-              <span class="font-bold">August</span>✅: Indiehacking
+            <li class="list-disc"><span class="font-bold">Indiehacking</span>
             </li>
-            <li class="list-disc">
-              <span class="font-bold">September</span>✅: Monica Lent on
-              Blogging
+            <li class="list-disc"><span class="font-bold">Coding Career Codebase
+              Walkthrough</span>
             </li>
-            <li class="list-disc">
-              <span class="font-bold">September</span>✅: Creator Coaching -
-              Adrian Twarog
+            <li class="list-disc"><span class="font-bold">Blogging for Developers</span> with <a
+                    href="https://bloggingfordevs.com/"
+                    class="underline hover:text-yellow-900 text-yellow-700">Monica Lent</a>
             </li>
-            <li class="list-disc">
-              <span class="font-bold">October</span>✅: Alex West on
-              Indiehacking
-            </li>
-            <li class="list-disc">
-              <span class="font-bold">November</span>✅: Coding Career Codebase
-              Walkthrough
-            </li>
-            <li class="list-disc">
-              We have paused monthly workshops for now but will resume them in 2021!
+            <li class="list-disc"><span class="font-bold">Creator Chats</span> with the likes of <a
+                    href="https://www.youtube.com/channel/UCvM5YYWwfLwpcQgbRr68JLQ"
+                    class="underline hover:text-yellow-900 text-yellow-700">Adrian Twarog</a> (Design), <a
+                    href="https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw"
+                    class="underline hover:text-yellow-900 text-yellow-700">Erik Hanchett</a> (YouTube), and <a
+                    href="https://twitter.com/alexwestco/status/1295767414894768128"
+                    class="underline hover:text-yellow-900 text-yellow-700">Alex West</a> (Indiehacking)
             </li>
           </ul>
           <p class="mt-2 text-base leading-6 text-gray-600">
-            All workshops will be recorded, so this becomes an ever-growing
+            All workshops are recorded, so this becomes an ever-growing
             library of creator content.
           </p>
           <p class="mt-2 text-base leading-6 text-gray-600 italic">
-            Note: Invites will come via email, all recordings will be available
-            via our Circle workspace. Standalone workshops are available on
+            Note: The Creator Package will be moving to application-only Cohorts soon. Standalone workshops are available on
             request for bootcamps and small teams.
           </p>
         </div>
@@ -210,8 +222,7 @@
             Refund Policy? Upgrades?
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-600">
-            Yes, 30 days, no questions asked (but if you have criticisms and
-            feedback, I will gladly hear them!). Same goes if you buy a package
+            Yes, 30 days, no questions asked (but feedback greatly appreciated!). Same goes if you buy a package
             and want to upgrade – just email me and you can pay the difference.
           </p>
         </div>
@@ -232,12 +243,15 @@
       <div class="mt-12 sm:mt-0">
         <div id="team-pricing" use:highlightHash={hash} class="">
           <p class="text-lg leading-6 font-medium text-gray-900">
-            Is there any DRM? Can I share this book with my team?
+            Is there any DRM? Team plans?
           </p>
           <p class="text-base leading-6 text-gray-600 mt-2">
             No DRM, you should enjoy a hassle-free experience! If you purchase
             an individual license, please respect the license terms and do not
-            distribute any copies. Team licenses are available:
+            distribute any copies.
+          </p>
+          <p class="text-base leading-6 text-gray-600 mt-2">
+            Team licenses are available:
           </p>
           <ul class="list-inside text-gray-600 mt-4 ml-3">
             <li class="list-disc">
@@ -245,17 +259,17 @@
               <button
                 on:click={() => checkout({ item: 'book5' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 5 - ${b5}
+                ${b5} for 5
               </button>,
               <button
                 on:click={() => checkout({ item: 'book10' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 10 - ${b10}
+                ${b10} for 10
               </button>,
               <button
                 on:click={() => checkout({ item: 'book20' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 20 - ${b20}
+                ${b20} for 20
               </button>)
             </li>
             <li class="list-disc">
@@ -263,19 +277,18 @@
               <button
                 on:click={() => checkout({ item: 'community5' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 5 - ${c5}
+                ${c5} for 5
               </button>,
               <button
                 on:click={() => checkout({ item: 'community10' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
-                up to 10 - ${c10}
+                ${c10} for 10
               </button>
               )
             </li>
           </ul>
           <p class="text-base leading-6 text-gray-600 mt-2">
-            Academic, bootcamp, and nonprofit organizations can contact me for a
-            bigger bulk discount.
+            If you are a team lead going through the book, I also offer a 60 minute Q&A session on request.
           </p>
         </div>
         <div class="mt-12">
@@ -302,13 +315,12 @@
           <ul class="list-inside text-gray-600 mt-4 ml-3 ">
             <li class="list-disc">
               The Coding Career Handbook is available in PDF, EPUB and MOBI at
-              all 3 tiers.
+              all 3 tiers. There is no physical print version - yet.
             </li>
             <li class="list-disc mt-2">
               The
               <span class="font-bold">Bibliography</span>
-              extracts the 1400+ external links referenced in the book as a
-              convenience for those using e-readers on separate devices.
+              extracts the 1400+ external links referenced in the book to help those using e-reader devices follow along on mobile.
             </li>
             <li class="list-disc mt-2">
               The
@@ -318,14 +330,11 @@
               <a
                 href="https://drive.google.com/drive/folders/1s1xB0Qz5GGMWktuQYsgmcZxiC2GHQccd?usp=sharing"
                 class="text-yellow-700">Here is a sample audio chapter!
-              </a><span class="italic">
-                Note: due to a recording snafu, only half the chapters are
-                available at launch. The rest will be rerecorded soon!
-              </span>
+              </a>
             </li>
             <li class="list-disc mt-2">
               The Creator Package comes with
-              <span class="font-bold">3+ hours of extra Author Commentary</span>
+              <span class="font-bold">5 hours of extra Author Commentary</span>
               and
               <span class="font-bold">10 hours of livestreamed writing process</span>
               (mp4 files)!

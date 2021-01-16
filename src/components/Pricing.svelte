@@ -186,14 +186,24 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       Everything in
                       <span class="font-bold">
-                        The Coding Career Community Package</span>!
+                        The Community Package</span>!
                       <em>
-                        The Coding Career Handbook, Audio Book + Bibliography,
-                        Updates + All future editions, Coding Career Community
+                        Handbook + Audio Book + Bibliography +
+                        All future editions + Community Access
                       </em>
                     </p>
-                    <!-- <ul class="block flex-1"> -->
-                    <!-- </ul> -->
+                  </li>
+                  <li class="mt-4 flex items-start">
+                    <div class="flex-shrink-0">
+                      <GoldTick />
+                    </div>
+                    <p class="ml-3 text-base leading-6 font-medium text-black ">
+                      <span class="font-bold">Creator Workshops</span>
+                      for first time creators (<a
+                            class="text-blue-500 hover:underline"
+                            href="/#workshops">
+                      Learn more</a>)
+                    </p>
                   </li>
                   <li class="mt-4 flex items-start">
                     <div class="flex-shrink-0">
@@ -235,18 +245,6 @@
                       <span class="font-bold">
                         You don't have to ship alone!
                       </span>
-                    </p>
-                  </li>
-                  <li class="mt-4 flex items-start">
-                    <div class="flex-shrink-0">
-                      <GoldTick />
-                    </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black ">
-                      <span class="font-bold">⭐ Creator Workshops</span>
-                      for first time creators (<a
-                        class="text-blue-500 hover:underline"
-                        href="/#workshops">
-                        Learn more</a>)
                     </p>
                   </li>
                 </ul>
@@ -347,7 +345,7 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      All updates to 2020 edition
+                      All updates to v1 edition
                     </p>
                   </li>
                 </ul>
@@ -445,8 +443,8 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
-                        Updates + All future editions
-                      </span>
+                        All future editions
+                      </span> (v2 coming in 3Q 2021)
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
