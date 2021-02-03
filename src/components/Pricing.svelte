@@ -254,7 +254,7 @@
                       class="block w-full text-center rounded-lg bg-yellow-500
                       px-6 py-4 text-xl leading-6 font-semibold font-display
                       text-black hover:bg-yellow-400 focus:outline-none
-                      focus:shadow-outline transition ease-in-out duration-150"
+                      focus:ring transition ease-in-out duration-150"
                       on:click={() => checkout({
                           item: 'creator',
                           coupon: couponCode,
@@ -355,7 +355,7 @@
                       class="block w-full text-center rounded-lg bg-white px-6
                     py-3 text-base leading-6 font-semibold font-display
                     text-black hover:text-yellow-600 focus:outline-none
-                    focus:shadow-outline transition ease-in-out duration-150"
+                    focus:ring transition ease-in-out duration-150"
                       on:click={() => checkout({
                           item: 'book',
                           coupon: couponCode,
@@ -479,7 +479,7 @@
                       class="block w-full text-center rounded-lg bg-white px-6
                     py-3 text-base leading-6 font-semibold font-display
                     text-black hover:text-yellow-600 focus:outline-none
-                    focus:shadow-outline transition ease-in-out duration-150"
+                    focus:ring transition ease-in-out duration-150"
                       on:click={() => checkout({
                           item: 'community',
                           coupon: couponCode,

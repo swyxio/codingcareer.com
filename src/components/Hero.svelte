@@ -74,7 +74,7 @@
         <a
           class="shadow-md w-full sm:w-1/3 my-5 mr-5 text-center rounded-lg
           bg-yellow-500 px-6 py-4 text-xl leading-6 font-semibold font-display
-          text-black hover:bg-yellow-600 focus:outline-none focus:shadow-outline
+          text-black hover:bg-yellow-600 focus:outline-none focus:ring
           transition ease-in-out duration-150 border-black border-2"
           href={`${search}#buy`}>
           Buy Now
@@ -82,7 +82,7 @@
         <a
           class="shadow-md w-full sm:w-1/3 my-5 text-center rounded-lg
           bg-transparent px-6 py-4 text-xl leading-6 font-semibold font-display
-          text-black hover:bg-yellow-500 focus:outline-none focus:shadow-outline
+          text-black hover:bg-yellow-500 focus:outline-none focus:ring
           transition ease-in-out duration-150"
           href={`${search}#learn-more`}>
           Free Samples

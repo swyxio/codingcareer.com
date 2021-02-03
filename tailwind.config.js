@@ -3,7 +3,7 @@ module.exports = {
   purge:  {
     // mode: 'all', // TODO: purge typography styles
     // options: {
-    //   whitelist: ['h1', 'h2', 'h3', 'p', 'blockquote', 'strong' /* etc. */],
+    //   safelist: ['h1', 'h2', 'h3', 'p', 'blockquote', 'strong' /* etc. */],
     // },
     content: [
       "./src/**/*.svelte",
