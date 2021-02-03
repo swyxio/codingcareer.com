@@ -161,7 +161,7 @@
                     {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
-                      tracking-tight font-medium text-gray-900 sm:text-7xl">
+                      tracking-tight font-medium text-gray-900 sm:text-6xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
@@ -305,7 +305,7 @@
                     {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
-                      tracking-tight font-medium text-gray-900 sm:text-7xl">
+                      tracking-tight font-medium text-gray-900 sm:text-6xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
@@ -411,7 +411,7 @@
                     {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
-                      tracking-tight font-medium text-gray-900 sm:text-7xl">
+                      tracking-tight font-medium text-gray-900 sm:text-6xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
