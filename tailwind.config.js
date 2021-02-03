@@ -24,6 +24,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      fontSize: {
+        '6xl': '4rem'
+      },
       colors: {
         blue: {
           100: '#ebf8ff',
