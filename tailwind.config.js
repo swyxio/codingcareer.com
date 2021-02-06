@@ -1,4 +1,4 @@
-const production = !process.env.ROLLUP_WATCH;
+const isProduction = !process.env.ROLLUP_WATCH;
 module.exports = {
   purge:  {
     // mode: 'all', // TODO: purge typography styles
@@ -20,7 +20,7 @@ module.exports = {
       // .concat([...content.matchAll(/(?:class:)*([\w\d-\/:%.]+)/gm)].map(([_match, group, ..._rest]) => group))
       return matches
     },
-    enabled: production // disable purge in dev
+    enabled: isProduction // disable purge in dev
   },
   theme: {
     extend: {
