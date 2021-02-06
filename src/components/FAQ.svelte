@@ -1,5 +1,6 @@
 <script>
   import { onMount, onDestroy } from "svelte";
+  import Button from "./Button.svelte";
   let affiliateCode = "";
   let couponCode = null;
   let hash;
@@ -158,12 +159,7 @@
             Note: This is a professional community. Participation is subject to a Code of
             Conduct. You will be removed if you repeatedly violate it.
           </p>
-          <a class="block m-0 mx-auto shadow-md mt-2 sm:w-1/3 text-center rounded-lg
-          bg-yellow-500 px-3 py-2 leading-6 font-semibold font-display
-          text-black hover:bg-yellow-600 border-black border-2"
-             href={`${search}#buy`}>
-            Buy Now
-          </a>
+          <Button text="Buy Now" cta {search} />
         </div>
         <div id="workshops" use:highlightHash={hash} class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
@@ -216,12 +212,7 @@
             Note: The Creator Package will be moving to application-only Cohorts soon. Standalone workshops are available on
             request for bootcamps and small teams.
           </p>
-          <a class="block m-0 mx-auto shadow-md mt-2 sm:w-1/3 text-center rounded-lg
-          bg-yellow-500 px-3 py-2 leading-6 font-semibold font-display
-          text-black hover:bg-yellow-600 border-black border-2"
-             href={`${search}#buy`}>
-            Buy Now
-          </a>
+          <Button text="Buy Now" cta {search} />
         </div>
         <div class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
