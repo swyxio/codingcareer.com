@@ -161,7 +161,7 @@
                     {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
-                      tracking-tight font-medium text-gray-900 sm:text-7xl">
+                      tracking-tight font-medium text-gray-900 sm:text-6xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
@@ -254,7 +254,7 @@
                       class="block w-full text-center rounded-lg bg-yellow-500
                       px-6 py-4 text-xl leading-6 font-semibold font-display
                       text-black hover:bg-yellow-400 focus:outline-none
-                      focus:shadow-outline transition ease-in-out duration-150"
+                      focus:ring transition ease-in-out duration-150"
                       on:click={() => checkout({
                           item: 'creator',
                           coupon: couponCode,
@@ -305,7 +305,7 @@
                     {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
-                      tracking-tight font-medium text-gray-900 sm:text-7xl">
+                      tracking-tight font-medium text-gray-900 sm:text-6xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
@@ -355,7 +355,7 @@
                       class="block w-full text-center rounded-lg bg-white px-6
                     py-3 text-base leading-6 font-semibold font-display
                     text-black hover:text-yellow-600 focus:outline-none
-                    focus:shadow-outline transition ease-in-out duration-150"
+                    focus:ring transition ease-in-out duration-150"
                       on:click={() => checkout({
                           item: 'book',
                           coupon: couponCode,
@@ -411,7 +411,7 @@
                     {/if}
                     <span
                       class="px-3 flex items-start text-6xl leading-none
-                      tracking-tight font-medium text-gray-900 sm:text-7xl">
+                      tracking-tight font-medium text-gray-900 sm:text-6xl">
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
@@ -479,7 +479,7 @@
                       class="block w-full text-center rounded-lg bg-white px-6
                     py-3 text-base leading-6 font-semibold font-display
                     text-black hover:text-yellow-600 focus:outline-none
-                    focus:shadow-outline transition ease-in-out duration-150"
+                    focus:ring transition ease-in-out duration-150"
                       on:click={() => checkout({
                           item: 'community',
                           coupon: couponCode,
