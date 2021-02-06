@@ -18,11 +18,6 @@
   .underline-effect:hover {
     background-size: 100% 88%;
   }
-  .book-cover {
-    width: 150%;
-    margin-left: -25%;
-    max-width: 150%;
-  }
 </style>
 
 <div
@@ -206,11 +201,8 @@
           Already bought? Log In ↗
         </a>
       </div>
-      <div class="relative mx-auto w-full lg:max-w-lg">
-        <img
-          class="w-full book-cover"
-          src="/codingcareer/book-mock-1.png"
-          alt="Book cover" />
+      <div class="relative mx-auto mt-8 lg:w-10/12">
+        <img src="/codingcareer/book.jpg" alt="Book cover" />
       </div>
     </div>
   </div>
