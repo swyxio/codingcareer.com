@@ -9,7 +9,7 @@
     Book reviews
   </h2>
   <h3
-    class="text-center mt-3 text-base text-gray-600 sm:mt-5 sm:text-xl
+    class="text-center mt-3 text-base text-gray-650 sm:mt-5 sm:text-xl
     lg:text-lg xl:text-xl">
     See what our early readers are saying! <a class="text-blue-500 hover:underline" href="https://twitter.com/Coding_Career/timelines/1279629459759366145">Or see live Twitter reviews!</a>
   </h3>
