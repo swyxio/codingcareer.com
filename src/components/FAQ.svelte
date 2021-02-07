@@ -1,5 +1,6 @@
 <script>
   import { onMount, onDestroy } from "svelte";
+  import Button from "./Button.svelte";
   let affiliateCode = "";
   let couponCode = null;
   let hash;
@@ -122,16 +123,16 @@
           <p class="text-lg leading-6 font-medium text-gray-900">
             Tell me more about the Coding Career Community!
           </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
+          <p class="text-base leading-6 text-gray-650 mt-2">
             Ever feel like you didn’t have anyone outside work to talk to about
             your career?
           </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
+          <p class="text-base leading-6 text-gray-650 mt-2">
             <strong>The Coding Career Community</strong> has two parts:
             a moderated Discord (realtime live chat) and Circle community (async knowledge base).
             Membership is for life — Engage as much or as little as you need. We'll be here for you.
           </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
+          <p class="text-base leading-6 text-gray-650 mt-2">
             I have extensive dev community moderation experience having served the
             200k-strong
             <a
@@ -154,22 +155,17 @@
             Ask questions, get feedback, find jobs and collaborators, and use as a friendly
             resource as you build your coding career!
           </p>
-          <p class="text-base leading-6 text-gray-600 mt-2 italic">
+          <p class="text-base leading-6 text-gray-650 mt-2 italic">
             Note: This is a professional community. Participation is subject to a Code of
             Conduct. You will be removed if you repeatedly violate it.
           </p>
-          <a class="block m-0 mx-auto shadow-md mt-2 sm:w-1/3 text-center rounded-lg
-          bg-yellow-500 px-3 py-2 leading-6 font-semibold font-display
-          text-black hover:bg-yellow-600 border-black border-2"
-             href={`${search}#buy`}>
-            Buy Now
-          </a>
+          <Button text="Buy Now" cta {search} />
         </div>
         <div id="workshops" use:highlightHash={hash} class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Tell me more about the Creator Workshops!
           </p>
-          <p class="mt-2 text-base leading-6 text-gray-600">
+          <p class="mt-2 text-base leading-6 text-gray-650">
             Creator Workshops is our growing library of topical discussions on starting your Creator journey.
             You also join our
             <a
@@ -180,7 +176,7 @@
             <span class="font-bold">make money Learning in Public</span>!
             Recorded Workshops included:
           </p>
-          <ul class="list-inside text-gray-600 mt-4 ml-3">
+          <ul class="list-inside text-gray-650 mt-4 ml-3">
             <li class="list-disc">
               <span class="font-bold">Principles</span>: Learning in Public
             </li>
@@ -208,26 +204,21 @@
                     class="underline hover:text-yellow-900 text-yellow-700">Alex West</a> (Indiehacking)
             </li>
           </ul>
-          <p class="mt-2 text-base leading-6 text-gray-600">
+          <p class="mt-2 text-base leading-6 text-gray-650">
             All workshops are recorded, so this becomes an ever-growing
             library of creator content.
           </p>
-          <p class="mt-2 text-base leading-6 text-gray-600 italic">
+          <p class="mt-2 text-base leading-6 text-gray-650 italic">
             Note: The Creator Package will be moving to application-only Cohorts soon. Standalone workshops are available on
             request for bootcamps and small teams.
           </p>
-          <a class="block m-0 mx-auto shadow-md mt-2 sm:w-1/3 text-center rounded-lg
-          bg-yellow-500 px-3 py-2 leading-6 font-semibold font-display
-          text-black hover:bg-yellow-600 border-black border-2"
-             href={`${search}#buy`}>
-            Buy Now
-          </a>
+          <Button text="Buy Now" cta {search} />
         </div>
         <div class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Do you do Purchasing Power Parity?
           </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
+          <p class="text-base leading-6 text-gray-650 mt-2">
             We use Stripe to process payments, and unfortunately PPP is not
             supported at this time. If you have particular special needs, feel
             free to get in touch to work something out.
@@ -239,7 +230,7 @@
           <p class="text-lg leading-6 font-medium text-gray-900">
             How can I get future updates?
           </p>
-          <p class=" mt-2 text-base leading-6 text-gray-600">
+          <p class=" mt-2 text-base leading-6 text-gray-650">
             Upon purchase, you will be invited to create a Circle account. You
             can use this to login and download your purchases any time (You can
             <a
@@ -252,7 +243,7 @@
           <p class="mt-2 text-lg leading-6 font-medium text-gray-900">
             Refund Policy? Upgrades?
           </p>
-          <p class=" mt-2 text-base leading-6 text-gray-600">
+          <p class=" mt-2 text-base leading-6 text-gray-650">
             Yes, 30 days, no questions asked (but feedback greatly appreciated!). Same goes if you buy a package
             and want to upgrade – just email me and you can pay the difference.
           </p>
@@ -261,15 +252,15 @@
           <p class="text-lg leading-6 font-medium text-gray-900">
             Is there any DRM? Team plans?
           </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
+          <p class="text-base leading-6 text-gray-650 mt-2">
             No DRM, you should enjoy a hassle-free experience! If you purchase
             an individual license, please respect the license terms and do not
             distribute any copies.
           </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
+          <p class="text-base leading-6 text-gray-650 mt-2">
             Team licenses are available:
           </p>
-          <ul class="list-inside text-gray-600 mt-4 ml-3">
+          <ul class="list-inside text-gray-650 mt-4 ml-3">
             <li class="list-disc">
               Handbook (
               <button
@@ -303,7 +294,7 @@
               )
             </li>
           </ul>
-          <p class="text-base leading-6 text-gray-600 mt-2">
+          <p class="text-base leading-6 text-gray-650 mt-2">
             If you are a team lead going through the book, I also offer a 60 minute Q&A session on request.
           </p>
         </div>
@@ -311,7 +302,7 @@
           <p class="text-lg leading-6 font-medium text-gray-900">
             Can I use Paypal? Gumroad?
           </p>
-          <p class="text-base leading-6 text-gray-600 mt-2">
+          <p class="text-base leading-6 text-gray-650 mt-2">
             Stripe doesn't support Paypal, so we have
             <a
               class="underline hover:text-yellow-900 text-yellow-700"
@@ -328,7 +319,7 @@
           <p class="text-lg leading-6 font-medium text-gray-900">
             What format are the files?
           </p>
-          <ul class="list-inside text-gray-600 mt-4 ml-3 ">
+          <ul class="list-inside text-gray-650 mt-4 ml-3 ">
             <li class="list-disc">
               The Coding Career Handbook is available in PDF, EPUB and MOBI at
               all 3 tiers. There is no physical print version - yet.
@@ -361,7 +352,7 @@
           <p class="text-lg leading-6 font-medium text-gray-900">
             I have another question!
           </p>
-          <p class=" mt-2 text-base leading-6 text-gray-600">
+          <p class=" mt-2 text-base leading-6 text-gray-650">
             Shoot me an email at swyx@hey.com or tweet me
             <a href="https://twitter.com/swyx">@swyx!</a>
           </p>

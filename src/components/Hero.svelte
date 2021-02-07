@@ -1,6 +1,7 @@
 <script>
-  let search = "";
   import { onMount } from "svelte";
+  import Button from "./Button.svelte";
+  let search = "";
   onMount(() => {
     search = window.location.search;
   });
@@ -17,11 +18,6 @@
   }
   .underline-effect:hover {
     background-size: 100% 88%;
-  }
-  .book-cover {
-    width: 150%;
-    margin-left: -25%;
-    max-width: 150%;
   }
 </style>
 
@@ -71,22 +67,8 @@
       </h2> -->
       <!-- you can use to build an awesome, <span class="italic">sustainable</span> career! -->
       <div class="flex-col sm:flex-row flex justify-center lg:justify-start">
-        <a
-          class="shadow-md w-full sm:w-1/3 my-5 mr-5 text-center rounded-lg
-          bg-yellow-500 px-6 py-4 text-xl leading-6 font-semibold font-display
-          text-black hover:bg-yellow-600 focus:outline-none focus:ring
-          transition ease-in-out duration-150 border-black border-2"
-          href={`${search}#buy`}>
-          Buy Now
-        </a>
-        <a
-          class="shadow-md w-full sm:w-1/3 my-5 text-center rounded-lg
-          bg-transparent px-6 py-4 text-xl leading-6 font-semibold font-display
-          text-black hover:bg-yellow-500 focus:outline-none focus:ring
-          transition ease-in-out duration-150"
-          href={`${search}#learn-more`}>
-          Free Samples
-        </a>
+        <Button text="Buy Now" large cta {search} />
+        <Button text="Free Samples" large {search} />
       </div>
       <div>
         <p class="text-lg italic text-gray-900 leading-loose sm:w-5/6 w-full">
@@ -206,11 +188,8 @@
           Already bought? Log In ↗
         </a>
       </div>
-      <div class="relative mx-auto w-full lg:max-w-lg">
-        <img
-          class="w-full book-cover"
-          src="/codingcareer/book-mock-1.png"
-          alt="Book cover" />
+      <div class="relative mx-auto mt-8 lg:w-10/12">
+        <img src="/codingcareer/book.jpg" alt="Book cover" />
       </div>
     </div>
   </div>

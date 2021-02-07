@@ -9,7 +9,7 @@
     </h2>
     <div class="max-w-3xl mx-auto">
       <p
-        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600 italic">
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-650 italic">
         10 hours of audio. 40 chapters. 450+ pages. 1,400+ links to original sources curated over 3 years. 
         Priceless insights from dozens of developers at the top of their fields. 
         Proven ideas, tested by personal experience, backed by solid theoretical foundations.
@@ -20,7 +20,7 @@
         Career Guides
       </h3>
       <p
-        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-650">
         Specific advice on every career stage from
         <span class="font-bold text-black">Code Newbie</span>
         to
@@ -39,7 +39,7 @@
         Principles
       </h3>
       <p
-        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-650">
         The best investments are in things that
         <em>don't</em>
         change. We discuss timeless rules for successful default behavior. Learn
@@ -58,7 +58,7 @@
         Strategies
       </h3>
       <p
-        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600">
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-650">
         Everything to do with making big moves, from
         <span class="font-bold text-black">Betting on Technologies</span>, to
         <span class="font-bold text-black">Career Ladders</span>, to
@@ -73,7 +73,7 @@
         Tactics
       </h3>
       <p
-        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-600
+        class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-650
         pb-16">
         Important, self-contained skills that you can repeatedly call on
         throughout your career, from
