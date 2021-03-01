@@ -8,7 +8,7 @@
     let prefix = ''
     if (window.location.hostname === "localhost") prefix = "http://localhost:3333"
     fetch(prefix + '/visits' + window.location.search).then(x => x.json()).then(begindata => {
-      console.log({begindata})
+      // console.log({begindata})
       visits = begindata.visits
     })
   })
