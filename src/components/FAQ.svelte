@@ -119,49 +119,7 @@
   <div class="mt-6 pt-10">
     <div class="md:grid md:grid-cols-2 md:gap-8">
       <div>
-        <div id="community" use:highlightHash={hash}>
-          <p class="text-lg leading-6 font-medium text-gray-900">
-            Tell me more about the Coding Career Community!
-          </p>
-          <p class="text-base leading-6 text-gray-650 mt-2">
-            Ever feel like you didn’t have anyone outside work to talk to about
-            your career?
-          </p>
-          <p class="text-base leading-6 text-gray-650 mt-2">
-            <strong>The Coding Career Community</strong> has two parts:
-            a moderated Discord (realtime live chat) and Circle community (async knowledge base).
-            Membership is for life — Engage as much or as little as you need. We'll be here for you.
-          </p>
-          <p class="text-base leading-6 text-gray-650 mt-2">
-            I have extensive dev community moderation experience having served the
-            200k-strong
-            <a
-                    href="https://www.reddit.com/r/reactjs/"
-                    target="_blank"
-                    rel="noreferrer"
-                    class=" text-blue-500">
-              /r/reactjs community
-            </a> and started the
-            <a
-                    href="https://twitter.com/SvelteSociety"
-                    target="_blank"
-                    rel="noreferrer"
-                    class=" text-blue-500">
-              Svelte Society
-            </a>
-            global movement.
-
-            We are active with <strong>new topics every day</strong>.
-            Ask questions, get feedback, find jobs and collaborators, and use as a friendly
-            resource as you build your coding career!
-          </p>
-          <p class="text-base leading-6 text-gray-650 mt-2 italic">
-            Note: This is a professional community. Participation is subject to a Code of
-            Conduct. You will be removed if you repeatedly violate it.
-          </p>
-          <Button text="Buy Now" cta {search} />
-        </div>
-        <div id="workshops" use:highlightHash={hash} class="mt-12">
+        <div id="workshops" use:highlightHash={hash} class="">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Tell me more about the Creator Workshops!
           </p>
@@ -224,10 +182,8 @@
             free to get in touch to work something out.
           </p>
         </div>
-      </div>
-      <div class="mt-12 sm:mt-0">
         <div class="">
-          <p class="text-lg leading-6 font-medium text-gray-900">
+          <p class="text-lg mt-12 leading-6 font-medium text-gray-900">
             How can I get future updates?
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-650">
@@ -248,7 +204,9 @@
             and want to upgrade – just email me and you can pay the difference.
           </p>
         </div>
-        <div id="team-pricing" use:highlightHash={hash} class="mt-12">
+      </div>
+      <div class="mt-12 sm:mt-0">
+        <div id="team-pricing" use:highlightHash={hash}>
           <p class="text-lg leading-6 font-medium text-gray-900">
             Is there any DRM? Team plans?
           </p>
