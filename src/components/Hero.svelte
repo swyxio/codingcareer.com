@@ -1,10 +1,10 @@
 <script>
-  // import { onMount } from "svelte";
+  import { onMount } from "svelte";
   import Button from "./Button.svelte";
-  // let search = "";
-  // onMount(() => {
-  //   search = window.location.search;
-  // });
+  let search = "";
+  onMount(() => {
+    search = window.location.search;
+  });
   import AsSeenOn from "./_AsSeenOnImg.svelte";
 </script>
 
@@ -67,8 +67,8 @@
       </h2> -->
       <!-- you can use to build an awesome, <span class="italic">sustainable</span> career! -->
       <div class="flex-col sm:flex-row flex justify-center lg:justify-start py-8">
-        <Button text="Buy Now" large cta target="#buy" />
-        <Button text="Free Samples" large target="#buy" />
+        <Button text="Buy Now" large cta {search} target="#buy" />
+        <Button text="Free Samples" large {search} target="#buy" />
       </div>
       <div>
         <p class="text-lg italic text-gray-900 leading-loose sm:w-5/6 w-full">

@@ -1,5 +1,6 @@
 <script>
   export let text = 'Buy Now';
+  export let search = '';
   export let target = '';
   export let large = false;
   export let cta = false;
@@ -14,6 +15,6 @@
 </script>
   
 <a class={classes.base + (large ? classes.large : classes.small) + (cta ? classes.cta : classes.plain)}
-  href={target}>
+  href="{search}{target}">
   {text}
 </a>
