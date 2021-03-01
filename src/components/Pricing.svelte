@@ -191,7 +191,7 @@
               </div>
               <div
                 class="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6
-                bg-gray-100 sm:px-10 sm:py-10">
+                bg-gray-200 sm:px-10 sm:py-10">
                 <ul>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
