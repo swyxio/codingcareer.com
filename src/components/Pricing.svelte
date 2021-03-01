@@ -132,6 +132,20 @@
     </h3> -->
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="relative lg:grid lg:grid-cols-10 my-10">
+        <div class="w-11/12 h-56 my-auto p-5 rounded-lg bg-gray-100 shadow-xl max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-1 lg:col-end-4 mr-6 lg:row-start-2 lg:row-end-3">
+          <h2 class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900">
+            Sample Chapters
+          </h2>
+          <p class="mt-4 px-2 text-center">Signup to start reading four chapters for free</p>
+          <div class="relative w-full mx-auto mt-4">
+            <input placeholder="Email address" type="email" name="email" class="w-full h-14 pl-6 pr-14 py-4 mr-5 mb-6 sm:mb-0 rounded-lg bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none text-md">
+            <div class="absolute w-7 h-7 right-4 top-4 z-20 cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-yellow-500 fill-current" viewBox="0 0 32 32">
+                <path d="M13.8 17a3.5 3.5 0 004.4 0L30.8 7a1 1 0 00.4-.7 1 1 0 00-.3-.8 3.5 3.5 0 00-2.4-1h-25a3.5 3.5 0 00-2.4 1 1 1 0 00-.3.7 1 1 0 00.4.7zM31.7 25.4A3.5 3.5 0 0032 24V9.2l-10 8zM10 17.1l-10-8V24a3.5 3.5 0 00.3 1.4zM29.9 27.2l-9.8-8.5-.4.3a6 6 0 01-7.5 0l-.3-.3-9.8 8.5a3.5 3.5 0 001.4.3h25a3.5 3.5 0 001.4-.3z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
         <div
           class="max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-4
           lg:col-end-8 lg:row-start-1 lg:row-end-4">
@@ -142,21 +156,21 @@
                   <p
                     class="text-center text-lg leading-7 font-semibold
                     font-display text-yellow-600 uppercase tracking-widest">
-                    Make Money Learning in Public
+                    Most Popular
                   </p>
                   <h2
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900 sm:-mx-6">
-                    The Creator Package
+                    The Community Package
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
-                    {#if p3 !== d3}
+                    {#if p2 !== d2}
                       <span
                         class="-ml-8 text-right text-2xl leading-8 font-semibold
                       text-gray-400 tracking-wide line-through sm:text-3xl
                       sm:leading-9">
-                        ${p3}
+                        ${p2}
                       </span>
                     {/if}
                     <span
@@ -165,7 +179,7 @@
                       <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
                         $
                       </span>
-                      <span>{d3}</span>
+                      <span>{d2}</span>
                     </span>
                     <span
                       class="text-2xl leading-8 font-semibold text-gray-400
@@ -183,26 +197,8 @@
                     <div class="flex-shrink-0">
                       <GoldTick />
                     </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Everything in
-                      <span class="font-bold">
-                        The Community Package</span>!
-                      <em>
-                        Handbook + Audio Book + Bibliography +
-                        All future editions + Community Access
-                      </em>
-                    </p>
-                  </li>
-                  <li class="mt-4 flex items-start">
-                    <div class="flex-shrink-0">
-                      <GoldTick />
-                    </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black ">
-                      <span class="font-bold">Creator Workshops</span>
-                      for first time creators (<a
-                            class="text-blue-500 hover:underline"
-                            href="/#workshops">
-                      Learn more</a>)
+                    <p class="ml-3 text-base font-bold leading-6 text-black">
+                      The Coding Career Handbook
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -210,13 +206,24 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Get more out of
-                      <span class="font-bold">every</span>
-                      chapter with
-                      <span class="font-bold">
-                        3 hours of Author Commentary
-                      </span>
-                      in HQ recorded video
+                      <span class="font-bold">Audio book + Bibliography</span>
+                      (<a
+                        class="text-blue-500 hover:underline"
+                        href="/#files">
+                        Learn more</a>)
+                    </p>
+                  </li>
+                  <li class="mt-4 flex items-start">
+                    <div class="flex-shrink-0">
+                      <GoldTick />
+                    </div>
+                    <p class="ml-3 text-base leading-6 font-medium text-black">
+                      Lifetime Access to
+                      <span class="font-bold">Coding Career Community</span>
+                      (<a
+                        class="text-blue-500 hover:underline"
+                        href="/#community">
+                        Learn more</a>)
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -225,26 +232,8 @@
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
-                        Learn how to write a book like this
-                      </span>
-                      with 10 Hours of Recorded Livestreams
-                    </p>
-                  </li>
-                  <li class="mt-4 flex items-start">
-                    <div class="flex-shrink-0">
-                      <GoldTick />
-                    </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Special
-                      <span class="font-bold">Creators' Channel</span>
-                      in Community Discord,
-                      <em>
-                        a supportive mastermind group for indie hackers and side
-                        projects.
-                      </em>
-                      <span class="font-bold">
-                        You don't have to ship alone!
-                      </span>
+                        All future editions
+                      </span> (v2 coming in 3Q 2021)
                     </p>
                   </li>
                 </ul>
@@ -261,7 +250,7 @@
                         })}>
                       {#if checkingOutItem === 'creator'}
                         Checking out...
-                      {:else}Find Your Tribe{/if}
+                      {:else}Join 1000+ Developers{/if}
                     </button>
                   </div>
                   <p
@@ -280,11 +269,11 @@
           </div>
         </div>
         <div
-          class="mt-6 mx-auto max-w-md lg:m-0 lg:max-w-none lg:col-start-1
-          lg:col-end-4 lg:row-start-2 lg:row-end-3">
+          class="mt-6 mx-auto max-w-md lg:m-0 lg:max-w-none lg:col-start-8
+          lg:col-end-11 lg:row-start-2 lg:row-end-3">
           <div
             class="h-full flex flex-col rounded-lg shadow-lg overflow-hidden
-            lg:rounded-none lg:rounded-l-lg">
+            lg:rounded-none lg:rounded-r-lg">
             <div class="flex-1 flex flex-col">
               <div class="bg-white px-6 pt-12 pb-10">
                 <div>
@@ -357,136 +346,12 @@
                     text-black hover:text-yellow-600 focus:outline-none
                     focus:ring transition ease-in-out duration-150"
                       on:click={() => checkout({
-                          item: 'book',
-                          coupon: couponCode,
-                        })}>
-                      {#if checkingOutItem === 'book'}
-                        Checking out...
-                      {:else}Buy Now{/if}
-                    </button>
-                  </div>
-
-                  <p
-                    class="mt-6 text-center text-base leading-6 font-medium
-                    text-gray-900">
-                    <a
-                      class="text-black underline font-semibold hover:opacity-75"
-                      href="/#team-pricing">
-                      View team pricing
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="mt-6 mx-auto max-w-md lg:m-0 lg:max-w-none lg:col-start-8
-          lg:col-end-11 lg:row-start-2 lg:row-end-3">
-          <div
-            class="h-full flex flex-col rounded-lg shadow-lg overflow-hidden
-            lg:rounded-none lg:rounded-r-lg">
-            <div class="flex-1 flex flex-col">
-              <div class="bg-white px-6 pt-12 pb-10">
-                <div>
-                  <p
-                    class="text-center text-md leading-7 font-semibold
-                    font-display text-yellow-600 uppercase">
-                    Most Popular
-                  </p>
-                  <h2
-                    class="mt-2 text-center text-3xl leading-9 font-semibold
-                    font-display text-gray-900">
-                    The Community Package
-                  </h2>
-                  <div
-                    class="mt-4 flex items-center justify-center font-display">
-                    {#if p2 !== d2}
-                      <span
-                        class="-ml-8 text-right text-2xl leading-8 font-semibold
-                      text-gray-400 tracking-wide line-through sm:text-3xl
-                      sm:leading-9">
-                        ${p2}
-                      </span>
-                    {/if}
-                    <span
-                      class="px-3 flex items-start text-6xl leading-none
-                      tracking-tight font-medium text-gray-900 sm:text-6xl">
-                      <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">
-                        $
-                      </span>
-                      <span>{d2}</span>
-                    </span>
-                    <span
-                      class="text-2xl leading-8 font-semibold text-gray-400
-                      tracking-wide sm:text-3xl sm:leading-9">
-                      USD
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="flex-1 flex flex-col justify-between border-t-2
-                border-gray-100 p-6 bg-gray-100 sm:p-10 lg:p-6 xl:p-10">
-                <ul>
-                  <li class="flex items-start">
-                    <div class="flex-shrink-0">
-                      <GoldTick />
-                    </div>
-                    <p class="ml-3 text-base font-bold leading-6 text-black">
-                      The Coding Career Handbook
-                    </p>
-                  </li>
-                  <li class="mt-4 flex items-start">
-                    <div class="flex-shrink-0">
-                      <GoldTick />
-                    </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black">
-                      <span class="font-bold">
-                        All future editions
-                      </span> (v2 coming in 3Q 2021)
-                    </p>
-                  </li>
-                  <li class="mt-4 flex items-start">
-                    <div class="flex-shrink-0">
-                      <GoldTick />
-                    </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black">
-                      <span class="font-bold">Audio book + Bibliography</span>
-                      (<a
-                        class="text-blue-500 hover:underline"
-                        href="/#files">
-                        Learn more</a>)
-                    </p>
-                  </li>
-                  <li class="mt-4 flex items-start">
-                    <div class="flex-shrink-0">
-                      <GoldTick />
-                    </div>
-                    <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Lifetime Access to
-                      <span class="font-bold">Coding Career Community</span>
-                      (<a
-                        class="text-blue-500 hover:underline"
-                        href="/#community">
-                        Learn more</a>)
-                    </p>
-                  </li>
-                </ul>
-                <div class="mt-8">
-                  <div class="rounded-lg shadow-md">
-                    <button
-                      class="block w-full text-center rounded-lg bg-white px-6
-                    py-3 text-base leading-6 font-semibold font-display
-                    text-black hover:text-yellow-600 focus:outline-none
-                    focus:ring transition ease-in-out duration-150"
-                      on:click={() => checkout({
                           item: 'community',
                           coupon: couponCode,
                         })}>
                       {#if checkingOutItem === 'community'}
                         Checking out...
-                      {:else}Join 1000+ Developers{/if}
+                      {:else}Buy Now{/if}
                     </button>
                   </div>
                 </div>
