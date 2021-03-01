@@ -88,7 +88,7 @@
 
     {#if $reviewsIntersected}
       <h3
-        class="contents-link text-center text-base font-bold sm:mt-5 md:mt-12 text-3xl lg:text-4xl
+        class="contents-link text-center text-base font-bold mt-10 md:mt-12 text-3xl lg:text-4xl
         xl:text-5xl">
         View the 
         <a class="text-blue-500 hover:underline" href="./toc">
