@@ -161,7 +161,7 @@
                   <h2
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900 sm:-mx-6">
-                    The Community Package
+                    The Career Package
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">

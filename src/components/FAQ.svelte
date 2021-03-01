@@ -280,7 +280,7 @@
               </button>)
             </li>
             <li class="list-disc">
-              Community Package (
+              Career Package (
               <button
                 on:click={() => checkout({ item: 'community5' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
@@ -332,7 +332,7 @@
             <li class="list-disc mt-2">
               The
               <span class="font-bold">10 Hour Audiobook</span>
-              version is available with the Community Package as a zip of mp3
+              version is available with the Career Package as a zip of mp3
               files.
               <a
                 href="https://drive.google.com/drive/folders/1s1xB0Qz5GGMWktuQYsgmcZxiC2GHQccd?usp=sharing"
