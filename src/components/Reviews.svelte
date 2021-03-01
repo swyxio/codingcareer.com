@@ -1,7 +1,14 @@
 <!-- <script>
   import Tweets from "../components/Tweets.svelte";
 </script> -->
-<div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 relative">
+<script>
+  import { observeIntersection } from '../util.js';
+  import { reviewsIntersected } from '../stores.js';
+
+  let reviews;
+</script>
+
+<div bind:this={reviews} use:observeIntersection={{ callback: () => $reviewsIntersected = true }} id="reviews" class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 relative">
   <!-- <Tweets /> -->
   <h2
     class="text-4xl leading-10 font-display font-semibold text-gray-900
