@@ -5,7 +5,7 @@
   export let cta = false;
   
   const classes = {
-    base: 'block font-semibold leading-6 text-center text-black rounded-lg shadow-md sm:w-1/3 font-display hover:bg-yellow-450 transform active:scale-95 active:shadow-0',
+    base: 'block font-semibold leading-6 text-center text-black rounded-lg shadow-md sm:w-1/3 font-display hover:bg-yellow-450 transform transition-transform active:scale-95 active:shadow-0 motion-reduce:transform-none',
     small: ' px-3 py-3 m-0 mx-auto mt-10',
     large: ' w-full px-6 py-5 my-5 mr-5 text-xl',
     cta: ' bg-yellow-500 focus:bg-yellow-450',

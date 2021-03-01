@@ -66,6 +66,12 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      boxShadow: ['active'],
+      scale: ['active'],
+      transitionProperty: ['motion-reduce']
+    }
+  },
   plugins: [],
 }
