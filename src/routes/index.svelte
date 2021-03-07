@@ -3,6 +3,7 @@
   import Hero from "../components/Hero.svelte";
   import WhatsInside from "../components/WhatsInside.svelte";
   import Reviews from "../components/Reviews.svelte";
+  import Community from "../components/Community.svelte";
   import AboutAuthor from "../components/AboutAuthor.svelte";
   import Pricing from "../components/Pricing.svelte";
   import FAQ from "../components/FAQ.svelte";
@@ -45,6 +46,7 @@
       <Hero />
       <WhatsInside />
       <Reviews />
+      <Community />
       <Pricing {stripe} />
       <AboutAuthor />
       <FAQ {stripe} />

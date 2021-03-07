@@ -24,9 +24,6 @@ module.exports = {
   },
   theme: {
     extend: {
-      fontSize: {
-        '6xl': '4rem'
-      },
       colors: {
         blue: {
           100: '#ebf8ff',
@@ -64,8 +61,20 @@ module.exports = {
           900: '#744210'
         }
       },
+      fontSize: {
+        '6xl': '4rem'
+      },
+      height: {
+        '3/10': '30%'
+      },
+      width: {
+        '3/10': '30%'
+      }
     },
   },
+  plugins: [
+    require('@tailwindcss/aspect-ratio')
+  ],
   variants: {
     extend: {
       boxShadow: ['active'],
@@ -73,5 +82,4 @@ module.exports = {
       transitionProperty: ['hover', 'focus', 'motion-reduce']
     }
   },
-  plugins: [],
 }
