@@ -50,7 +50,7 @@
     </nav>
     <div class="mt-8">
       <p class="text-center text-base leading-6 text-gray-900">
-        © 2020 All rights reserved
+        © 2020-2021 All rights reserved
       </p>
     </div>
   </div>
