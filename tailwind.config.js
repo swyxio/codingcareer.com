@@ -70,7 +70,7 @@ module.exports = {
     extend: {
       boxShadow: ['active'],
       scale: ['active'],
-      transitionProperty: ['motion-reduce']
+      transitionProperty: ['hover', 'focus', 'motion-reduce']
     }
   },
   plugins: [],
