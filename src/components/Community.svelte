@@ -71,7 +71,7 @@
       Whether you're interested in book discussion, bouncing ideas, seeing early drafts of people's work (including mine!) or job postings, you'll find someone to talk about your career with.
       </p>
       <div class="flex flex-row justify-center mt-6">
-        <Button text="Join the community" large cta />
+        <Button text="Join the community" target="#buy" large cta />
       </div>
       <p class="text-base leading-6 text-gray-600 mt-6 italic">Note: This is a professional community. Participation is subject to a Code of Conduct. You will be removed if you repeatedly violate it.</p>
   </div>

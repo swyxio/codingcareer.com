@@ -68,7 +68,7 @@
       <!-- you can use to build an awesome, <span class="italic">sustainable</span> career! -->
       <div class="flex-col sm:flex-row flex justify-center lg:justify-start py-8">
         <Button text="Buy Now" large cta {search} target="#buy" />
-        <Button text="Free Samples" large {search} target="#buy" />
+        <Button text="Free Chapters" large {search} target="#buy" />
       </div>
       <div>
         <p class="text-lg italic text-gray-900 leading-loose sm:w-5/6 w-full">
