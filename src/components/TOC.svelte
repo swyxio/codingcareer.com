@@ -1,17 +1,20 @@
 <div class="relative bg-gray-100 overflow-hidden">
   <div
     class="py-16 max-w-3xl bg-white overflow-hidden lg:py-16s mx-auto mt-14
-    mb-14 my-10 shadow-lg rounded-lg">
+    mb-14 my-10 shadow-lg rounded-lg"
+  >
     <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
       <h1
         class="text-center mt-1 text-4xl tracking-tight leading-10 font-semibold
-        text-gray-900 sm:leading-none sm:text-5xl lg:text-4xl xl:text-4xl">
+        text-gray-900 sm:leading-none sm:text-5xl lg:text-4xl xl:text-4xl"
+      >
         The Coding Career
         <span class=" ">Handbook</span>
       </h1>
       <h2
         class="text-center text-2xl tracking-tight leading-10 font-semibold
-        text-gray-500 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-4">
+        text-gray-500 sm:leading-none sm:text-3xl lg:text-2xl xl:text-2xl mt-4"
+      >
         Table of Contents
       </h2>
       <ol class="mt-8">
@@ -27,7 +30,13 @@
             <li class="font-normal text-lg text-gray-600">Job Hunt</li>
             <li class="font-normal text-lg text-gray-600">Junior Dev</li>
             <li class="font-normal text-lg text-gray-600">
-              Junior Dev To Senior
+              Junior Dev To Senior (
+              <a
+                class="text-blue-500 hover:underline"
+                href="/v1-careers-junior-to-senior.pdf"
+              >
+                Free Sample
+              </a>)
             </li>
             <li class="font-normal text-lg text-gray-600">Senior Dev</li>
             <li class="font-normal text-lg text-gray-600">
@@ -38,7 +47,15 @@
         <li class="font-bold text-xl mt-4">
           Principles
           <ol class="ml-4">
-            <li class="font-normal text-lg text-gray-600">Learn in Public</li>
+            <li class="font-normal text-lg text-gray-600">
+              Learn in Public (
+              <a
+                class="text-blue-500 hover:underline"
+                href="/v1-principles-learn-in-public.pdf"
+              >
+                Free Sample
+              </a>)
+            </li>
             <li class="font-normal text-lg text-gray-600">
               Clone Open Source Apps
             </li>
@@ -81,7 +98,12 @@
               Engineering Career Ladders
             </li>
             <li class="font-normal text-lg text-gray-600">
-              Intro to Tech Strategy
+              Intro to Tech Strategy (
+              <a
+                class="text-blue-500 hover:underline"
+                href="/v1-strategy-intro-tech.pdf">Free Sample</a
+              >
+              )
             </li>
             <li class="font-normal text-lg text-gray-600">
               Strategic Awareness
@@ -112,7 +134,13 @@
               Developer's Guide to Twitter
             </li>
             <li class="font-normal text-lg text-gray-600">
-              Marketing Yourself
+              Marketing Yourself (
+              <a
+                class="text-blue-500 hover:underline"
+                href="/v1-tactics-marketing-yourself.pdf"
+              >
+                Free Sample
+              </a>)
             </li>
           </ol>
         </li>
