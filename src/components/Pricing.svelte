@@ -144,11 +144,11 @@
                     font-display text-yellow-600 uppercase tracking-widest">
                     Make Money Learning in Public
                   </p>
-                  <h2
+                  <h3
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900 sm:-mx-6">
                     The Creator Package
-                  </h2>
+                  </h3>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
                     {#if p3 !== d3}
@@ -288,11 +288,11 @@
             <div class="flex-1 flex flex-col">
               <div class="bg-white px-6 pt-12 pb-10">
                 <div>
-                  <h2
+                  <h3
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900">
                     Book Only
-                  </h2>
+                  </h3>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
                     {#if p1 !== d1}
@@ -394,11 +394,11 @@
                     font-display text-yellow-600 uppercase">
                     Most Popular
                   </p>
-                  <h2
+                  <h3
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900">
                     The Community Package
-                  </h2>
+                  </h3>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
                     {#if p2 !== d2}
