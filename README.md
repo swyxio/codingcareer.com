@@ -1,4 +1,4 @@
-# coding-career.com
+# learninpublic.org
 
 The site for [The Coding Career Handbook](https://gumroad.com/products/bAZJq/) and related community/blog notes.
 
