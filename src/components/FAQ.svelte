@@ -161,7 +161,7 @@
           </p>
           <Button text="Buy Now" cta {search} />
         </div>
-        <div id="workshops" use:highlightHash={hash} class="mt-12">
+        <div id="workshops" use:highlightHash={hash} class="mt-12 bg-gray-300">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Tell me more about the Creator Workshops!
           </p>
@@ -212,7 +212,7 @@
             Note: The Creator Package will be moving to application-only Cohorts soon. Standalone workshops are available on
             request for bootcamps and small teams.
           </p>
-          <Button text="Buy Now" cta {search} />
+          <!-- <Button text="Buy Now" cta {search} /> -->
         </div>
         <div class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
@@ -280,7 +280,7 @@
               </button>)
             </li>
             <li class="list-disc">
-              Career Package (
+              Community Package (
               <button
                 on:click={() => checkout({ item: 'community5' })}
                 class="underline hover:text-yellow-900 text-yellow-700">
@@ -332,7 +332,7 @@
             <li class="list-disc mt-2">
               The
               <span class="font-bold">10 Hour Audiobook</span>
-              version is available with the Career Package as a zip of mp3
+              version is available with the Community Package as a zip of mp3
               files.
               <a
                 href="https://drive.google.com/drive/folders/1s1xB0Qz5GGMWktuQYsgmcZxiC2GHQccd?usp=sharing"
@@ -353,7 +353,7 @@
             I have another question!
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-650">
-            Shoot me an email at swyx@hey.com or tweet me
+            Shoot me an email at swyx@swyx.io or tweet me
             <a href="https://twitter.com/swyx">@swyx!</a>
           </p>
         </div>

@@ -19,10 +19,10 @@
         rel="noreferrer"
         class=" text-blue-500">
         doing freeCodeCamp at age 30
-      </a> to working as a Senior at Netlify and AWS.
+      </a> to working as a Senior at Netlify and L6 at AWS, now Head of Developer Experience at Temporal.io.
     </p>
     <p class="ml-5 leading-6 mb-5">
-      I've helped thousands of developers via my <a
+      I've helped hundreds of thousands of developers via my <a
             href="https://swyx.io/LIP"
             target="_blank"
             rel="noreferrer"

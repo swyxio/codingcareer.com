@@ -27,7 +27,7 @@
             <li class="font-normal text-lg text-gray-600">Job Hunt</li>
             <li class="font-normal text-lg text-gray-600">Junior Dev</li>
             <li class="font-normal text-lg text-gray-600">
-              Junior Dev To Senior
+              <a class="text-blue-500 hover:underline" href="/v1-careers-junior-to-senior.pdf">Junior Dev To Senior</a>
             </li>
             <li class="font-normal text-lg text-gray-600">Senior Dev</li>
             <li class="font-normal text-lg text-gray-600">
@@ -38,7 +38,9 @@
         <li class="font-bold text-xl mt-4">
           Principles
           <ol class="ml-4">
-            <li class="font-normal text-lg text-gray-600">Learn in Public</li>
+            <li class="font-normal text-lg text-gray-600">
+              <a class="text-blue-500 hover:underline" href="/v1-principles-learn-in-public.pdf">Learn in Public</a>
+            </li>
             <li class="font-normal text-lg text-gray-600">
               Clone Open Source Apps
             </li>
@@ -81,7 +83,7 @@
               Engineering Career Ladders
             </li>
             <li class="font-normal text-lg text-gray-600">
-              Intro to Tech Strategy
+              <a class="text-blue-500 hover:underline" href="/v1-strategy-intro-tech.pdf">Intro to Tech Strategy</a>
             </li>
             <li class="font-normal text-lg text-gray-600">
               Strategic Awareness
@@ -112,7 +114,7 @@
               Developer's Guide to Twitter
             </li>
             <li class="font-normal text-lg text-gray-600">
-              Marketing Yourself
+              <a class="text-blue-500 hover:underline" href="/v1-tactics-marketing-yourself.pdf">Marketing Yourself</a>
             </li>
           </ol>
         </li>

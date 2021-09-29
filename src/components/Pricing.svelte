@@ -132,11 +132,13 @@
     </h3> -->
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="relative lg:grid lg:grid-cols-10 my-10">
-        <div class="w-11/12 h-56 my-auto p-5 rounded-lg bg-gray-100 shadow-xl max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-1 lg:col-end-4 mr-6 lg:row-start-2 lg:row-end-3">
+        <!-- <div class="w-11/12 h-56 my-auto p-5 rounded-lg bg-gray-100 shadow-xl max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3"> -->
+        <div class="w-11/12 my-auto p-5 rounded-lg bg-gray-100 shadow-xl max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3">
           <h2 class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900">
-            Sample Chapters
+            Free Chapters
           </h2>
-          <p class="mt-4 px-2 text-center">Signup to start reading four chapters for free</p>
+          <p class="mt-4 px-2 text-center"><a class="text-blue-500 hover:underline" href="./toc">Read 4 chapters for free! →</a></p>
+          <!-- <p class="mt-4 px-2 text-center">Signup to start reading four chapters for free</p>
           <div class="relative w-full mx-auto mt-4">
             <input placeholder="Email address" type="email" name="email" class="w-full h-14 pl-6 pr-14 py-4 mr-5 mb-6 sm:mb-0 rounded-lg bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none text-md">
             <div class="absolute w-7 h-7 right-4 top-4 z-20 cursor-pointer">
@@ -144,10 +146,10 @@
                 <path d="M13.8 17a3.5 3.5 0 004.4 0L30.8 7a1 1 0 00.4-.7 1 1 0 00-.3-.8 3.5 3.5 0 00-2.4-1h-25a3.5 3.5 0 00-2.4 1 1 1 0 00-.3.7 1 1 0 00.4.7zM31.7 25.4A3.5 3.5 0 0032 24V9.2l-10 8zM10 17.1l-10-8V24a3.5 3.5 0 00.3 1.4zM29.9 27.2l-9.8-8.5-.4.3a6 6 0 01-7.5 0l-.3-.3-9.8 8.5a3.5 3.5 0 001.4.3h25a3.5 3.5 0 001.4-.3z"/>
               </svg>
             </div>
-          </div>
+          </div> -->
         </div>
         <div
-          class="max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-4
+          class="mt-6 max-w-lg mx-auto lg:max-w-none lg:m-0 lg:col-start-4
           lg:col-end-8 lg:row-start-1 lg:row-end-4">
           <div class="relative z-10 rounded-lg shadow-xl">
             <div>
@@ -161,7 +163,7 @@
                   <h2
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900 sm:-mx-6">
-                    The Career Package
+                    Community Package
                   </h2>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
@@ -218,12 +220,35 @@
                       <GoldTick />
                     </div>
                     <p class="ml-3 text-base leading-6 font-medium text-black">
-                      Lifetime Access to
-                      <span class="font-bold">Coding Career Community</span>
-                      (<a
+                      <span class="font-bold">Chat with author and readers!</span>
+                      <a
                         class="text-blue-500 hover:underline"
-                        href="/#community">
-                        Learn more</a>)
+                        href="/#community">Lifetime access to Community + Discord</a>
+                    </p>
+                  </li>
+                  <li class="mt-4 flex items-start">
+                    <div class="flex-shrink-0">
+                      <GoldTick />
+                    </div>
+                    <p class="ml-3 text-base leading-6 font-medium text-black">
+                      Get more out of
+                      <span class="font-bold">every</span>
+                      chapter with
+                      <span class="font-bold">
+                        3 hours of Author Commentary
+                      </span>
+                      in HQ recorded video
+                    </p>
+                  </li>
+                  <li class="mt-4 flex items-start">
+                    <div class="flex-shrink-0">
+                      <GoldTick />
+                    </div>
+                    <p class="ml-3 text-base leading-6 font-medium text-black">
+                      <span class="font-bold">
+                        Learn how to write a book like this
+                      </span>
+                      with 10 Hours of Recorded Livestreams
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -233,7 +258,7 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
                         All future editions
-                      </span> (v2 coming in 3Q 2021)
+                      </span> (v2 coming in 4Q 2021)
                     </p>
                   </li>
                 </ul>
@@ -250,7 +275,7 @@
                         })}>
                       {#if checkingOutItem === 'creator'}
                         Checking out...
-                      {:else}Join 1000+ Developers{/if}
+                      {:else}Join 2000+ Developers{/if}
                     </button>
                   </div>
                   <p
