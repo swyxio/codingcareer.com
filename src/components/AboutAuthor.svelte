@@ -23,7 +23,7 @@
       I am now Head of Developer Experience at <a href="https://temporal.io/" class="text-blue-500">Temporal.io</a>.
     </p>
     <p class="ml-5 leading-6 mb-5">
-      I've helped thousands of developers via my <a
+      I've helped hundreds of thousands of developers via my <a
             href="https://swyx.io/LIP"
             target="_blank"
             rel="noreferrer"

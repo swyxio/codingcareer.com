@@ -15,7 +15,7 @@ let linkMap = {
   'community': process.env.LINK_COMMUNITY,
   'community5': process.env.LINK_COMMUNITY_TEAM,
   'community10': process.env.LINK_COMMUNITY_TEAM,
-  'creator': process.env.LINK_CREATOR,
+  // 'creator': process.env.LINK_CREATOR,
 }
 
 
@@ -27,7 +27,7 @@ let idMap = {
   'community': 'price_1HfukDKWe8hdGUWLBQOZ4OdZ',
   'community5': 'price_1HiMGjKWe8hdGUWL7wMuDnpw',
   'community10': 'price_1HiMGjKWe8hdGUWLuZsTBCq2',
-  'creator': 'price_1HfulVKWe8hdGUWL6lu8zjdy',
+  // 'creator': 'price_1HfulVKWe8hdGUWL6lu8zjdy',
 }
 
 exports.handler = async function http(request) {

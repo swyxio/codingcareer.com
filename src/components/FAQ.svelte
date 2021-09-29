@@ -119,7 +119,49 @@
   <div class="mt-6 pt-10">
     <div class="md:grid md:grid-cols-2 md:gap-8">
       <div>
-        <div id="workshops" use:highlightHash={hash} class="">
+        <div id="community" use:highlightHash={hash}>
+          <p class="text-lg leading-6 font-medium text-gray-900">
+            Tell me more about the Coding Career Community!
+          </p>
+          <p class="text-base leading-6 text-gray-650 mt-2">
+            Ever feel like you didn’t have anyone outside work to talk to about
+            your career?
+          </p>
+          <p class="text-base leading-6 text-gray-650 mt-2">
+            <strong>The Coding Career Community</strong> has two parts:
+            a moderated Discord (realtime live chat) and Circle community (async knowledge base).
+            Membership is for life — Engage as much or as little as you need. We'll be here for you.
+          </p>
+          <p class="text-base leading-6 text-gray-650 mt-2">
+            I have extensive dev community moderation experience having served the
+            200k-strong
+            <a
+                    href="https://www.reddit.com/r/reactjs/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class=" text-blue-500">
+              /r/reactjs community
+            </a> and started the
+            <a
+                    href="https://twitter.com/SvelteSociety"
+                    target="_blank"
+                    rel="noreferrer"
+                    class=" text-blue-500">
+              Svelte Society
+            </a>
+            global movement.
+
+            We are active with <strong>new topics every day</strong>.
+            Ask questions, get feedback, find jobs and collaborators, and use as a friendly
+            resource as you build your coding career!
+          </p>
+          <p class="text-base leading-6 text-gray-650 mt-2 italic">
+            Note: This is a professional community. Participation is subject to a Code of
+            Conduct. You will be removed if you repeatedly violate it.
+          </p>
+          <Button text="Buy Now" cta {search} />
+        </div>
+        <div id="workshops" use:highlightHash={hash} class="mt-12 bg-gray-300">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Tell me more about the Creator Workshops!
           </p>
@@ -170,7 +212,7 @@
             Note: The Creator Package will be moving to application-only Cohorts soon. Standalone workshops are available on
             request for bootcamps and small teams.
           </p>
-          <Button text="Buy Now" cta {search} />
+          <!-- <Button text="Buy Now" cta {search} /> -->
         </div>
         <div class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
@@ -311,7 +353,7 @@
             I have another question!
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-650">
-            Shoot me an email at swyx@hey.com or tweet me
+            Shoot me an email at swyx@swyx.io or tweet me
             <a href="https://twitter.com/swyx">@swyx!</a>
           </p>
         </div>
