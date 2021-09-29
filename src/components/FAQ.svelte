@@ -224,10 +224,8 @@
             free to get in touch to work something out.
           </p>
         </div>
-      </div>
-      <div class="mt-12 sm:mt-0">
         <div class="">
-          <p class="text-lg leading-6 font-medium text-gray-900">
+          <p class="text-lg mt-12 leading-6 font-medium text-gray-900">
             How can I get future updates?
           </p>
           <p class=" mt-2 text-base leading-6 text-gray-650">
@@ -248,7 +246,9 @@
             and want to upgrade – just email me and you can pay the difference.
           </p>
         </div>
-        <div id="team-pricing" use:highlightHash={hash} class="mt-12">
+      </div>
+      <div class="mt-12 sm:mt-0">
+        <div id="team-pricing" use:highlightHash={hash}>
           <p class="text-lg leading-6 font-medium text-gray-900">
             Is there any DRM? Team plans?
           </p>

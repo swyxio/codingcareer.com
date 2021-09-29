@@ -160,7 +160,7 @@
                     font-display text-yellow-600 uppercase tracking-widest">
                     Most Popular
                   </p>
-                  <h2
+                  <h3
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900 sm:-mx-6">
                     Community Package
@@ -302,11 +302,11 @@
             <div class="flex-1 flex flex-col">
               <div class="bg-white px-6 pt-12 pb-10">
                 <div>
-                  <h2
+                  <h3
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900">
                     Book Only
-                  </h2>
+                  </h3>
                   <div
                     class="mt-4 flex items-center justify-center font-display">
                     {#if p1 !== d1}

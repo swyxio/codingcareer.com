@@ -24,9 +24,6 @@ module.exports = {
   },
   theme: {
     extend: {
-      fontSize: {
-        '6xl': '4rem'
-      },
       colors: {
         blue: {
           100: '#ebf8ff',
@@ -56,6 +53,7 @@ module.exports = {
           200: '#fefcbf',
           300: '#faf089',
           400: '#f6e05e',
+          450: '#f1d555',
           500: '#ecc94b',
           600: '#d69e2e',
           700: '#b7791f',
@@ -63,8 +61,25 @@ module.exports = {
           900: '#744210'
         }
       },
+      fontSize: {
+        '6xl': '4rem'
+      },
+      height: {
+        '3/10': '30%'
+      },
+      width: {
+        '3/10': '30%'
+      }
     },
   },
-  variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio')
+  ],
+  variants: {
+    extend: {
+      boxShadow: ['active'],
+      scale: ['active'],
+      transitionProperty: ['hover', 'focus', 'motion-reduce']
+    }
+  },
 }

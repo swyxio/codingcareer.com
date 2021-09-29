@@ -1,7 +1,7 @@
 <script>
   export let href;
   export let src;
-  export let isSmall = false;
+  // export let isSmall = false;
   export let ariaLabel;
 </script>
 

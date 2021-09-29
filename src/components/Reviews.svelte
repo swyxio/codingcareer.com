@@ -1,7 +1,14 @@
 <!-- <script>
   import Tweets from "../components/Tweets.svelte";
 </script> -->
-<div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 relative">
+<script>
+  import { observeIntersection } from '../util.js';
+  import { reviewsIntersected } from '../stores.js';
+
+  let reviews;
+</script>
+
+<div bind:this={reviews} use:observeIntersection={{ callback: () => $reviewsIntersected = true }} id="reviews" class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 relative">
   <!-- <Tweets /> -->
   <h2
     class="text-4xl leading-10 font-display font-semibold text-gray-900
@@ -61,7 +68,26 @@
     <div class="md:grid md:grid-cols-2 md:gap-8">
       <div>
         <div class="m-2 md:m-0">
-          <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full ">
+          <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
+            “Wow! The immense wealth of knowledge and experience shared in “The
+            Coding Career Handbook” cannot be overstated. I love how Shawn is
+            able to take his own experience and what he's observed in the
+            careers of others and generalize it to principles that will help
+            others level up their own careers. 5 stars ⭐⭐⭐⭐⭐”
+          </p>
+          <div class="flex items-center mt-3">
+            <img
+              class="lazyload h-16 w-16 rounded-full shadow-md"
+              data-src="/profiles/kent.jpg"
+              alt="Kent C. Dodds" />
+            <div class="flex flex-col ml-2">
+              <p class="text-xl font-bold">Kent C. Dodds</p>
+              <p class="">KentCDodds.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="m-2 md:m-0">
+          <p class="text-lg text-gray-900 leading-loose mt-16 sm:w-5/6 w-full ">
             “I wish I had this book when I was switching jobs. It helps you
             understand what skills you should leverage and really encourages you
             not underlevel yourself!”
@@ -174,31 +200,48 @@
             </div>
           </div>
         </div>
+      </div>
+      <div>
         <div class="m-2 md:m-0">
           <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
-            “Wow! The immense wealth of knowledge and experience shared in “The
-            Coding Career Handbook” cannot be overstated. I love how Shawn is
-            able to take his own experience and what he's observed in the
-            careers of others and generalize it to principles that will help
-            others level up their own careers. 5 stars ⭐⭐⭐⭐⭐”
+            “I’m reading through swyx’s @Coding_Career and I’m genuinely
+            impressed. It’s very dense but reads very lightly. Lots of useful
+            context for someone coming into the industry.”
+            <a
+              href="https://twitter.com/dan_abramov/status/1265463366694440960"
+              aria-label="twitter link"
+              target="_blank"
+              rel="noreferrer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="inline w-5 h-5 ml-1">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86
+                  3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5
+                  20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+              </svg>
+            </a>
           </p>
           <div class="flex items-center mt-3">
             <img
               class="lazyload h-16 w-16 rounded-full shadow-md"
-              data-src="/profiles/kent.jpg"
-              alt="Kent C. Dodds" />
+              data-src="/profiles/dan.jpg"
+              alt="Dan Abramov" />
             <div class="flex flex-col ml-2">
-              <p class="text-xl font-bold">Kent C. Dodds</p>
-              <p class="">KentCDodds.com</p>
+              <p class="text-xl font-bold">Dan Abramov</p>
+              <p class="">JustJavaScript.com</p>
             </div>
           </div>
         </div>
-      </div>
-      <div>
         <div class="m-2 md:m-0">
           <p
-            class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16
-            md:mt-0">
+            class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
             “I love that he included information about burnout as this is one of
             the biggest hurdles new developer encounter early in their career.
             Shawn has included links to many wonderful resources and graphs from
@@ -324,44 +367,6 @@
             </div>
           </div>
         </div> -->
-
-        <div class="m-2 md:m-0">
-          <p class="text-lg text-gray-900 leading-loose sm:w-5/6 w-full mt-16">
-            “I’m reading through swyx’s @Coding_Career and I’m genuinely
-            impressed. It’s very dense but reads very lightly. Lots of useful
-            context for someone coming into the industry.”
-            <a
-              href="https://twitter.com/dan_abramov/status/1265463366694440960"
-              aria-label="twitter link"
-              target="_blank"
-              rel="noreferrer">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="inline w-5 h-5 ml-1">
-                <path
-                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86
-                  3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5
-                  20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
-              </svg>
-            </a>
-          </p>
-          <div class="flex items-center mt-3">
-            <img
-              class="lazyload h-16 w-16 rounded-full shadow-md"
-              data-src="/profiles/dan.png"
-              alt="Dan Abramov" />
-            <div class="flex flex-col ml-2">
-              <p class="text-xl font-bold">Dan Abramov</p>
-              <p class="">JustJavaScript.com</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
