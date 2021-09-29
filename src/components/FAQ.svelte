@@ -161,7 +161,7 @@
           </p>
           <Button text="Buy Now" cta {search} />
         </div>
-        <div id="workshops" use:highlightHash={hash} class="mt-12 bg-gray-300">
+        <!-- <div id="workshops" use:highlightHash={hash} class="mt-12 opacity-40">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Tell me more about the Creator Workshops!
           </p>
@@ -212,8 +212,8 @@
             Note: The Creator Package will be moving to application-only Cohorts soon. Standalone workshops are available on
             request for bootcamps and small teams.
           </p>
-          <!-- <Button text="Buy Now" cta {search} /> -->
-        </div>
+        </div> -->
+        <!-- <Button text="Buy Now" cta {search} /> -->
         <div class="mt-12">
           <p class="text-lg leading-6 font-medium text-gray-900">
             Do you do Purchasing Power Parity?

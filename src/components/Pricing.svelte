@@ -160,7 +160,7 @@
                     font-display text-yellow-600 uppercase tracking-widest">
                     Most Popular
                   </p>
-                  <h3
+                  <h2
                     class="mt-2 text-center text-3xl leading-9 font-semibold
                     font-display text-gray-900 sm:-mx-6">
                     Community Package
