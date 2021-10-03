@@ -270,10 +270,10 @@
                       text-black hover:bg-yellow-400 focus:outline-none
                       focus:ring transition ease-in-out duration-150"
                       on:click={() => checkout({
-                          item: 'creator',
+                          item: 'community',
                           coupon: couponCode,
                         })}>
-                      {#if checkingOutItem === 'creator'}
+                      {#if checkingOutItem === 'community'}
                         Checking out...
                       {:else}Join 2000+ Developers{/if}
                     </button>
@@ -371,10 +371,10 @@
                     text-black hover:text-yellow-600 focus:outline-none
                     focus:ring transition ease-in-out duration-150"
                       on:click={() => checkout({
-                          item: 'community',
+                          item: 'book',
                           coupon: couponCode,
                         })}>
-                      {#if checkingOutItem === 'community'}
+                      {#if checkingOutItem === 'book'}
                         Checking out...
                       {:else}Buy Now{/if}
                     </button>
