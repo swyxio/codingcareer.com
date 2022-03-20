@@ -1,5 +1,13 @@
 <script>
   import { reviewsIntersected } from '../stores.js';
+
+  function toggleImage({target}) {
+    if (target.src === "/codingcareer/thisbookotherbooks1.png") {
+      target.src = "/codingcareer/thisbookotherbooks2.png"
+    } else {
+      target.src = "/codingcareer/thisbookotherbooks1.png"
+    }
+  }
 </script>
 
 <section id="learn-more" class="py-16 bg-white overflow-hidden lg:py-16s">
@@ -19,7 +27,7 @@
         Proven ideas, tested by personal experience, backed by solid theoretical foundations.
       </p>
 
-      <img src="/codingcareer/unused/thisbookotherbooks3.png" alt="This book compared to other books" class="mt-8">
+      <img on:click={toggleImage} src="/codingcareer/thisbookotherbooks1.png" alt="This book compared to other books" class="mt-8">
 
       <div class="flex flex-col md:flex-row md:justify-start mt-8">
         <h3
