@@ -258,7 +258,7 @@
                     <p class="ml-3 text-base leading-6 font-medium text-black">
                       <span class="font-bold">
                         All future editions
-                      </span> (v2 coming in 4Q 2021)
+                      </span> (v2 coming in 2022)
                     </p>
                   </li>
                 </ul>
