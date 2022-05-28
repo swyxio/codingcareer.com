@@ -24,7 +24,7 @@
   // let intersected = false;
 </script>
 
-<section id="learn-more" class="py-16 bg-white overflow-hidden lg:py-16s">
+<section id="community" class="py-16 bg-white overflow-hidden lg:py-16s">
   <div
     class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
     <h2
