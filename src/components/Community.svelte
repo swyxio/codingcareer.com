@@ -64,7 +64,9 @@
       </h3>
       <p
         class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-650">
-        We are on <span class="font-bold text-black">Discord</span> for realtime live chat as well as <span class="font-bold text-black">Circle Community</span>, our async knowledge base. Every month I hold a casual virtual meetup and occasionally we even manage to catch up in person.
+        We are on <span class="font-bold text-black">Discord</span> for realtime live chat as well as <span class="font-bold text-black">Circle Community</span>, our async knowledge base. Every week we do a meetup focused on some topic (e.g. a chapter of the book) and occasionally we even manage to catch up in person.
+        <img src="/codingcareer/discord.png" alt="Discord" class="block mt-8">
+        <img src="/codingcareer/meetup.png" alt="Meetup" class="block mt-8">
       </p>
       <p
         class="text-left max-w-3xl mx-auto mt-6 text-xl leading-7 text-gray-650">
