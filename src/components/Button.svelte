@@ -15,6 +15,6 @@
 </script>
   
 <a class={classes.base + (large ? classes.large : classes.small) + (cta ? classes.cta : classes.plain)}
-  href="{target}{search}">
+  href="{search}{target}">
   {text}
 </a>
